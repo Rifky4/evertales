@@ -9,9 +9,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 20,
-      "flatMaxHp": 120,
-      "flatSpeed": 4,
+      "flatAttack": 999920,
+      "flatMaxHp": 1899920,
+      "flatSpeed": 994,
       "visible": 1
     },
     {
@@ -21,9 +21,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 30,
-      "flatMaxHp": 80,
-      "flatSpeed": 4,
+      "flatAttack": 999930,
+      "flatMaxHp": 9999980,
+      "flatSpeed": 994,
       "visible": 1
     },
     {
@@ -33,9 +33,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 50,
-      "flatMaxHp": 0,
-      "flatSpeed": 0,
+      "flatAttack": 999950,
+      "flatMaxHp": 9999990,
+      "flatSpeed": 9990,
       "visible": 1
     },
     {
@@ -45,9 +45,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 40,
-      "flatMaxHp": 40,
-      "flatSpeed": 0,
+      "flatAttack": 999940,
+      "flatMaxHp": 9999940,
+      "flatSpeed": 9990,
       "visible": 1
     },
     {
