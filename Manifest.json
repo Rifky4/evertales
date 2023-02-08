@@ -1,0 +1,34 @@
+{
+  "unity": {
+    "Monster": 1674105271,
+    "Weapon": 1674098913,
+    "Equipment": 1671729698,
+    "Ability": 1674543581,
+    "Boss": 1670403590,
+    "AIThreat": 1674070280,
+    "AttackScalor": 1659324044,
+    "AbilityConfig": 1674543645,
+    "AbilityEffect": 1674614893,
+    "MonsterRanker": 1619009244,
+    "BattleConditions": 1619009244,
+    "BattleBehavior": 1619009244,
+    "AbilityComponent": 1663644442,
+    "AbilityAISequence": 1643942404,
+    "TargetingData": 1672883749,
+    "MonsterConditions": 1674646726,
+    "AnimationData": 1674603696,
+    "AbilityAI": 1674646737,
+    "Buff": 1674646730
+  },
+  "api": {
+    "QuestReward": 1658302719,
+    "Shops": 1658302719,
+    "Package": 1667288694,
+    "GCodes": 1562001548,
+    "BundleReqs": 1598807035,
+    "ValidShards": 1675723095,
+    "LocalNotifications": 1670462342,
+    "ClientConfig": 1674520760,
+    "Clusters": 1674460766
+  }
+}

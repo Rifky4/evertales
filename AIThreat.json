@@ -1,0 +1,4161 @@
+{
+  "Version": 23,
+  "Time": 1674070280,
+  "AIThreat": [
+    {
+      "name": "AirGenie01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.1
+    },
+    {
+      "name": "AirPony01",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "AirPony02",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "AirSpider01",
+      "condition": "IsStealth",
+      "value": 1.15
+    },
+    {
+      "name": "AirSpider02",
+      "condition": "IsStealth",
+      "value": 1.15
+    },
+    {
+      "name": "AirWolf01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "AirWolf02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "AirWolf02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "Astrid01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "Astrid01",
+      "condition": "HPBelow50Percent",
+      "value": 1.15
+    },
+    {
+      "name": "AztecWarrior01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "AztecWarrior02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "BeastLadyFighter01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "BeastLadyFighter02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "BeastLadyFighter03",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "BeastLadyFighter03",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "BlackKnight01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "BlackKnight01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "BlueDinosaur01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "BlueDinosaur01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "BranchOgre01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "CancerCrab01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "CancerCrab02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "CapedOutlander01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "CrescentBladeElf01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "CrescentBladeElf02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "DragonKnight01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "DragonKnight02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "DragonKnight02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "Elmina01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "FaceMaskFrog01",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "FaceMaskFrog02",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "FighterGirl01",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "FireWolf01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "FireWolf02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "FireWolf02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "FireWolf03",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "FireWolf03",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "FlowerTurtle01",
+      "condition": "TimeInCombat200",
+      "value": 1.2
+    },
+    {
+      "name": "FlowerTurtle02",
+      "condition": "TimeInCombat200",
+      "value": 1.2
+    },
+    {
+      "name": "FlyingOtter01",
+      "condition": "TimeInCombat100",
+      "value": 1.1
+    },
+    {
+      "name": "FlyingOtter02",
+      "condition": "TimeInCombat100",
+      "value": 1.1
+    },
+    {
+      "name": "ForestBear01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ForestBear02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ForestOrc01",
+      "condition": "IsStealth",
+      "value": 1.15
+    },
+    {
+      "name": "FurCoatWolf01",
+      "condition": "HPAbove75Percent",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatWolf01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatWolf02",
+      "condition": "HPAbove75Percent",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatWolf02",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "GaLuga01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "GhostKnight01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.15
+    },
+    {
+      "name": "GoldenScorpion01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "GoldenScorpion01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "GreenFerret01",
+      "condition": "2AlliesAtHPBelow50Percent",
+      "value": 1.1
+    },
+    {
+      "name": "GreenFerret02",
+      "condition": "2AlliesAtHPBelow50Percent",
+      "value": 1.1
+    },
+    {
+      "name": "HelmetDemon01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.15
+    },
+    {
+      "name": "Hero01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "HoodedFrog01",
+      "condition": "HPAbove75Percent",
+      "value": 1.1
+    },
+    {
+      "name": "HoodedThief01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "HorseHead01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "HorseHead02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "HorseHead02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "IceSpirit01",
+      "condition": "TimeInCombat200",
+      "value": 1.2
+    },
+    {
+      "name": "IceWolf01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "JewelMermaid01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.15
+    },
+    {
+      "name": "JewelMermaid02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.15
+    },
+    {
+      "name": "MetalSpider01",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "MistDragon01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "MistDragon02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "Mysha01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "Nagi01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "Oz01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "Oz01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "PlainsMammal01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "PurpleHalfling01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "PurpleWasp01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.1
+    },
+    {
+      "name": "RedHairKnight01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "RedHairKnight02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "Rizette01",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "RockLizard01",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "RoseElf01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "RoseElf02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "SailfinLizard01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.1
+    },
+    {
+      "name": "SkeletonHelmetOrc01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.1
+    },
+    {
+      "name": "Skeletonsaurus01",
+      "condition": "HPBelow50Percent",
+      "value": 1.15
+    },
+    {
+      "name": "SlugManta01",
+      "condition": "TimeInCombat100",
+      "value": 1.2
+    },
+    {
+      "name": "SlugManta02",
+      "condition": "TimeInCombat100",
+      "value": 1.2
+    },
+    {
+      "name": "StarterDragon01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "StarterDragon02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "StarterDragon02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "StarterDragon03",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "StarterDragon03",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "TasselMage01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "TasselMage01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "TasselMage02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "TasselMage02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "TattooedShaman01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "Kirin01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "Kirin02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "Kirin01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "Kirin02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "TigerApe01",
+      "condition": "2AlliesLeftNot3",
+      "value": 1.15
+    },
+    {
+      "name": "HornedYeti01",
+      "condition": "2AlliesLeftNot3",
+      "value": 1.15
+    },
+    {
+      "name": "WaterElfWarrior01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "WaterElfWarrior02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "WaterElfWarrior02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "AirElfWarrior01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "AirElfWarrior01",
+      "condition": "TimeInCombat100",
+      "value": 1.2
+    },
+    {
+      "name": "AirElfWarrior02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "AirElfWarrior02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "AirElfWarrior02",
+      "condition": "TimeInCombat100",
+      "value": 1.2
+    },
+    {
+      "name": "BeastSoldier01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "BeastSoldier01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "BeastSoldier02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "BeastSoldier02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "MartialArtistGirl01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "MartialArtistGirl01",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.2
+    },
+    {
+      "name": "MartialArtistGirl02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "MartialArtistGirl02",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.2
+    },
+    {
+      "name": "RedScarfFrog01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "RedScarfFrog02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "ElfBattleMage01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "ElfBattleMage02",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "TwoFaceDemon01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "TwoFaceDemon01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.05
+    },
+    {
+      "name": "TwoFaceDemon01",
+      "condition": "NearDeathMonsterInBack",
+      "value": 1.05
+    },
+    {
+      "name": "TwoFaceDemon02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "TwoFaceDemon02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.05
+    },
+    {
+      "name": "TwoFaceDemon02",
+      "condition": "NearDeathMonsterInBack",
+      "value": 1.05
+    },
+    {
+      "name": "FoxDuelist01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "FoxDuelist02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "TrainerGirl01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "TrainerGirl01",
+      "condition": "TimeInCombat200",
+      "value": 1.2
+    },
+    {
+      "name": "TrainerGirl02",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "TrainerGirl02",
+      "condition": "TimeInCombat200",
+      "value": 1.2
+    },
+    {
+      "name": "ArcDemon01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "ArcDemon01",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.15
+    },
+    {
+      "name": "ArcDemon02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "ArcDemon02",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.15
+    },
+    {
+      "name": "SquidHead01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "SquidHead02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "PharaohLizard01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "PharaohLizard01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "PharaohLizard02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "PharaohLizard02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "GearLancerGirl01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "GearLancerGirl02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "MetalDragon01",
+      "condition": "Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "MetalDragon01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "MetalDragon02",
+      "condition": "Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "MetalDragon02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "SmokePipeFrog01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "SmokePipeFrog02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "CatEaredFighter01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "CatEaredFighter02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "GoldAngel01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "GoldAngel02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "FrogSorceror01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "FrogSorceror02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "MaskPurpleWitch01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "MaskPurpleWitch02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "MonsterBoy01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "MonsterBoy02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "BugWarrior01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "BugWarrior02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "AnimalFamiliar01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "AnimalFamiliar01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "AnimalFamiliar01",
+      "condition": "EnemyHas2Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "AnimalFamiliar02",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "AnimalFamiliar02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "AnimalFamiliar02",
+      "condition": "EnemyHas2Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "ElfFireSamurai01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "ElfFireSamurai01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "ElfFireSamurai01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "ElfFireSamurai02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "ElfFireSamurai02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "ElfFireSamurai02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "SilverHairBerserker01",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.4
+    },
+    {
+      "name": "SilverHairBerserker01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.4
+    },
+    {
+      "name": "SilverHairBerserker01",
+      "condition": "HasStunSkin",
+      "value": 0.8
+    },
+    {
+      "name": "SilverHairBerserker02",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.4
+    },
+    {
+      "name": "SilverHairBerserker02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.4
+    },
+    {
+      "name": "SilverHairBerserker02",
+      "condition": "HasStunSkin",
+      "value": 0.8
+    },
+    {
+      "name": "FoxMutant01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "FoxMutant01",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "FoxMutant02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "FoxMutant02",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "Taotie01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "Taotie01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "Taotie02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "Taotie02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "DemonElfBoy01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "DemonElfBoy01",
+      "condition": "NearDeathMonsterInBack",
+      "value": 1.25
+    },
+    {
+      "name": "DemonElfBoy01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.25
+    },
+    {
+      "name": "DemonElfBoy02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "DemonElfBoy02",
+      "condition": "NearDeathMonsterInBack",
+      "value": 1.25
+    },
+    {
+      "name": "DemonElfBoy02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.25
+    },
+    {
+      "name": "BlueSeaSerpent01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.25
+    },
+    {
+      "name": "BlueSeaSerpent02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.25
+    },
+    {
+      "name": "BlueSeaSerpent02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteCrestbearer01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteCrestbearer01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteCrestbearer02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteCrestbearer02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "FinnCrestbearer01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "FinnCrestbearer01",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "FinnCrestbearer01",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.25
+    },
+    {
+      "name": "FinnCrestbearer02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "FinnCrestbearer02",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.25
+    },
+    {
+      "name": "FinnCrestbearer02",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "AirDragon01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.25
+    },
+    {
+      "name": "AirDragon01",
+      "condition": "AllySpirit4OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "AirDragon02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.25
+    },
+    {
+      "name": "AirDragon02",
+      "condition": "AllySpirit4OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "AirDragon02",
+      "condition": "Kills2",
+      "value": 1.2
+    },
+    {
+      "name": "Alice01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "Alice01",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "Alice01",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "Alice02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "Alice02",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "Alice02",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "ReiRegular01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ReiRegular02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "NagiRegular01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "NagiRegular01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "NagiRegular01",
+      "condition": "Kills2",
+      "value": 1.2
+    },
+    {
+      "name": "NagiRegular02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "NagiRegular02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "NagiRegular02",
+      "condition": "Kills2",
+      "value": 1.2
+    },
+    {
+      "name": "MoonGoddess01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.1
+    },
+    {
+      "name": "MoonGoddess02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.1
+    },
+    {
+      "name": "ButterflyLady01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ButterflyLady01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "ButterflyLady02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ButterflyLady02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "AstridRegular01",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "AstridRegular02",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "GreenDragon01",
+      "condition": "TeamHasTimestriker",
+      "value": 1.1
+    },
+    {
+      "name": "GreenDragon02",
+      "condition": "TeamHasTimestriker",
+      "value": 1.1
+    },
+    {
+      "name": "GoldAppleGirl01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.25
+    },
+    {
+      "name": "GoldAppleGirl01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "GoldAppleGirl01",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.25
+    },
+    {
+      "name": "GoldAppleGirl01",
+      "condition": "HasPoisonSkin",
+      "value": 0.9
+    },
+    {
+      "name": "GoldAppleGirl02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.25
+    },
+    {
+      "name": "GoldAppleGirl02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "GoldAppleGirl02",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.25
+    },
+    {
+      "name": "GoldAppleGirl02",
+      "condition": "HasPoisonSkin",
+      "value": 0.9
+    },
+    {
+      "name": "AliceRabbit01",
+      "condition": "TeamHasDreamhunt",
+      "value": 1.2
+    },
+    {
+      "name": "FloatingMage01",
+      "condition": "AllyHasThrower",
+      "value": 1.05
+    },
+    {
+      "name": "FloatingMage02",
+      "condition": "AllyHasThrower",
+      "value": 1.05
+    },
+    {
+      "name": "CherryBlossom01",
+      "condition": "AllySpirit5OrMore",
+      "value": 0.8
+    },
+    {
+      "name": "CherryBlossom01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.25
+    },
+    {
+      "name": "CherryBlossom01",
+      "condition": "EnemySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "CherryBlossom02",
+      "condition": "AllySpirit5OrMore",
+      "value": 0.9
+    },
+    {
+      "name": "CherryBlossom02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.25
+    },
+    {
+      "name": "CherryBlossom02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.1
+    },
+    {
+      "name": "CherryBlossom02",
+      "condition": "EnemySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatLizard01",
+      "condition": "AllyHasNoReinforcements",
+      "value": 1.1
+    },
+    {
+      "name": "FurCoatLizard01",
+      "condition": "AtLeast1TokenAlly",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatLizard02",
+      "condition": "AllyHasNoReinforcements",
+      "value": 1.1
+    },
+    {
+      "name": "FurCoatLizard02",
+      "condition": "AtLeast1TokenAlly",
+      "value": 1.2
+    },
+    {
+      "name": "PurpleElfKnight01",
+      "condition": "TeamHasDreamhunt",
+      "value": 1.2
+    },
+    {
+      "name": "PurpleElfKnight02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "PurpleElfKnight02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "FireDragon01",
+      "condition": "IsBurning",
+      "value": 1.1
+    },
+    {
+      "name": "FireDragon01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "FireDragon01",
+      "condition": "NearDeathMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "FireDragon02",
+      "condition": "IsBurning",
+      "value": 1.1
+    },
+    {
+      "name": "FireDragon02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "FireDragon02",
+      "condition": "NearDeathMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "FloatingMageDojo02",
+      "condition": "AllyHasThrower",
+      "value": 1.05
+    },
+    {
+      "name": "AirGenieDojo01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.1
+    },
+    {
+      "name": "HornedYetiDojo01",
+      "condition": "2AlliesLeftNot3",
+      "value": 1.15
+    },
+    {
+      "name": "FireWolfDojo03",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "FireWolfDojo03",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "IceSpiritDojo01",
+      "condition": "TimeInCombat200",
+      "value": 1.2
+    },
+    {
+      "name": "AztecWarriorDojo02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "ElfFireSamuraiDojo02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "ElfFireSamuraiDojo02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "ElfFireSamuraiDojo02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "CrescentBladeElfDojo01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatWolfDojo01",
+      "condition": "HPAbove75Percent",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatWolfDojo01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatWolfDojo02",
+      "condition": "HPAbove75Percent",
+      "value": 1.2
+    },
+    {
+      "name": "FurCoatWolfDojo02",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "TigerApeDojo01",
+      "condition": "2AlliesLeftNot3",
+      "value": 1.15
+    },
+    {
+      "name": "AnimalFamiliarDojo02",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "AnimalFamiliarDojo02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "AnimalFamiliarDojo02",
+      "condition": "EnemyHas2Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "MetalDragonDojo02",
+      "condition": "Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "MetalDragonDojo02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "BlueSeaSerpentDojo02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.25
+    },
+    {
+      "name": "BlueSeaSerpentDojo02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "NagiDojo01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "AirWolfDojo02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "AirWolfDojo02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "PurpleWaspDojo01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.1
+    },
+    {
+      "name": "ForestBearDojo02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "IceWolfDojo01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "AstridDojo01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "AstridDojo01",
+      "condition": "HPBelow50Percent",
+      "value": 1.15
+    },
+    {
+      "name": "PlainsMammalDojo01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "FoxDuelistDojo02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "MartialArtistGirlDojo02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "MartialArtistGirlDojo02",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.2
+    },
+    {
+      "name": "BlueDinosaurDojo01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "BlueDinosaurDojo01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "FrogSorcerorDojo01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "GhostKnightDojo01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.15
+    },
+    {
+      "name": "AirSpiderDojo01",
+      "condition": "IsStealth",
+      "value": 1.15
+    },
+    {
+      "name": "MyshaDojo01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteDojo01",
+      "condition": "TimeInCombat300",
+      "value": 1.15
+    },
+    {
+      "name": "BeastLadyFighterDojo02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "BlackKnightDojo01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.15
+    },
+    {
+      "name": "BlackKnightDojo01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.15
+    },
+    {
+      "name": "DeathKnight01",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "DeathKnight01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "DeathKnight02",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "DeathKnight02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "DeathKnight02",
+      "condition": "EnemyAppliesStatusToSelf",
+      "value": 1.15
+    },
+    {
+      "name": "WhiteKnight01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.25
+    },
+    {
+      "name": "WhiteKnight01",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.25
+    },
+    {
+      "name": "WhiteKnight02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.25
+    },
+    {
+      "name": "WhiteKnight02",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.25
+    },
+    {
+      "name": "DevilLady01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "DevilLady02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "SwimsuitAstrid01",
+      "condition": "IsStealth",
+      "value": 1.25
+    },
+    {
+      "name": "SwimsuitAstrid02",
+      "condition": "IsStealth",
+      "value": 1.25
+    },
+    {
+      "name": "SwimsuitLudmilla01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "SwimsuitLudmilla01",
+      "condition": "IsProtecting",
+      "value": 0.8
+    },
+    {
+      "name": "SwimsuitLudmilla01",
+      "condition": "AtLeast2StealthedAllies",
+      "value": 0.8
+    },
+    {
+      "name": "SwimsuitLudmilla01",
+      "condition": "AtLeast2StealthedAlliesHPBelow10Percent",
+      "value": 0.05
+    },
+    {
+      "name": "SwimsuitLudmilla01",
+      "condition": "LessThan2StealthedAlliesHPBelow10Percent",
+      "value": 1.6
+    },
+    {
+      "name": "SwimsuitLudmilla01",
+      "condition": "LessThan2StealthedAllies",
+      "value": 1.4
+    },
+    {
+      "name": "SwimsuitLudmilla02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "SwimsuitLudmilla02",
+      "condition": "IsProtecting",
+      "value": 0.8
+    },
+    {
+      "name": "SwimsuitLudmilla02",
+      "condition": "AtLeast2StealthedAllies",
+      "value": 0.8
+    },
+    {
+      "name": "SwimsuitLudmilla02",
+      "condition": "AtLeast2StealthedAlliesHPBelow10Percent",
+      "value": 0.05
+    },
+    {
+      "name": "SwimsuitLudmilla02",
+      "condition": "LessThan2StealthedAlliesHPBelow10Percent",
+      "value": 1.6
+    },
+    {
+      "name": "SwimsuitLudmilla02",
+      "condition": "LessThan2StealthedAllies",
+      "value": 1.4
+    },
+    {
+      "name": "WaterLancerGirl01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "WaterLancerGirl01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "WaterLancerGirl02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "WaterLancerGirl02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "AngelFighter01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "AngelFighter02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "ElminaRegular01",
+      "condition": "IsStealth",
+      "value": 1.25
+    },
+    {
+      "name": "ElminaRegular02",
+      "condition": "IsStealth",
+      "value": 1.25
+    },
+    {
+      "name": "LegendFireDragon01",
+      "condition": "IsCharged1",
+      "value": 1.1
+    },
+    {
+      "name": "LegendFireDragon01",
+      "condition": "IsCharged2",
+      "value": 1.1
+    },
+    {
+      "name": "LegendFireDragon01",
+      "condition": "IsCharged3",
+      "value": 1.1
+    },
+    {
+      "name": "LegendFireDragon02",
+      "condition": "IsCharged1",
+      "value": 1.1
+    },
+    {
+      "name": "LegendFireDragon02",
+      "condition": "IsCharged2",
+      "value": 1.1
+    },
+    {
+      "name": "LegendFireDragon02",
+      "condition": "IsCharged3",
+      "value": 1.1
+    },
+    {
+      "name": "IceWitch01",
+      "condition": "EnemyHasFrost2",
+      "value": 1.1
+    },
+    {
+      "name": "IceWitch01",
+      "condition": "EnemyFrozen",
+      "value": 1.25
+    },
+    {
+      "name": "IceWitch02",
+      "condition": "EnemyHasFrost2",
+      "value": 1.1
+    },
+    {
+      "name": "IceWitch02",
+      "condition": "EnemyFrozen",
+      "value": 1.25
+    },
+    {
+      "name": "IceWitch02",
+      "condition": "FrozenAlly",
+      "value": 1.18
+    },
+    {
+      "name": "BabyDarkDragon01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "BabyDarkDragon01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "BabyDarkDragon02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "BabyDarkDragon02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "FireGirlWarrior01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "FireGirlWarrior01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "FireGirlWarrior02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "FireGirlWarrior02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "NorzaRegular01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "NorzaRegular01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.25
+    },
+    {
+      "name": "NorzaRegular01",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.25
+    },
+    {
+      "name": "NorzaRegular02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "NorzaRegular02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.25
+    },
+    {
+      "name": "NorzaRegular02",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.25
+    },
+    {
+      "name": "Arga01",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "Arga01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "Arga02",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "Arga02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "RibbonStudent01",
+      "condition": "TeamHasTimestriker",
+      "value": 1.1
+    },
+    {
+      "name": "RibbonStudent02",
+      "condition": "TeamHasTimestriker",
+      "value": 1.1
+    },
+    {
+      "name": "DeathLich01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "DeathLich01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "DeathLich02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "DeathLich02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "DarkRizette01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "DarkRizette01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "DarkRizette02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "DarkRizette02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "NovaBlastDragon01",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "NovaBlastDragon01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "NovaBlastDragon01",
+      "condition": "HasStunSkin",
+      "value": 0.9
+    },
+    {
+      "name": "NovaBlastDragon02",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "NovaBlastDragon02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "NovaBlastDragon02",
+      "condition": "HasStunSkin",
+      "value": 0.9
+    },
+    {
+      "name": "CapedSkeletonA01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "CapedSkeletonB01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "GhostKnightA01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "GhostKnightA01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "GhostKnightB01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "GhostKnightB01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "GhostKnightC01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "GhostKnightC01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "AirGenieA01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "PinkHairWitch01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "PinkHairWitch02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "Inanna01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "Inanna02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ChristmasElmina01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "ChristmasElmina01",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "ChristmasElmina02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "ChristmasElmina02",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "NewYearRolotia01",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.25
+    },
+    {
+      "name": "NewYearRolotia02",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.25
+    },
+    {
+      "name": "ChineseRizette01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "ChineseRizette01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "ChineseRizette01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "ChineseRizette02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "ChineseRizette02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "ChineseRizette02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "EarthKaiju01",
+      "condition": "TimeInCombat300",
+      "value": 1.35
+    },
+    {
+      "name": "EarthKaiju01",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "EarthKaiju02",
+      "condition": "TimeInCombat300",
+      "value": 1.35
+    },
+    {
+      "name": "EarthKaiju02",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "SamuraiGirl01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "SamuraiGirl01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "SamuraiGirl01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "SamuraiGirl02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "SamuraiGirl02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "SamuraiGirl02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "DancingAssassin01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "DancingAssassin01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "DancingAssassin02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "DancingAssassin02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "BatWingWarrior01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "BatWingWarrior01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "BatWingWarrior02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "BatWingWarrior02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "WindDragon01",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.2
+    },
+    {
+      "name": "WindDragon02",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.2
+    },
+    {
+      "name": "DarkLudmilla01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "DarkLudmilla01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "DarkLudmilla02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "DarkLudmilla02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "DarkAstrid01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "DarkAstrid01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "DarkAstrid01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "DarkAstrid02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "DarkAstrid02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "DarkAstrid02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteNew01",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "RizetteNew01",
+      "condition": "TimeInCombat300",
+      "value": 1.05
+    },
+    {
+      "name": "RizetteNew01",
+      "condition": "TeamHasTimestriker",
+      "value": 1.1
+    },
+    {
+      "name": "RizetteNew01",
+      "condition": "EnemyHasRizetteNewInTeam",
+      "value": 1.3
+    },
+    {
+      "name": "RizetteNew02",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "RizetteNew02",
+      "condition": "TimeInCombat300",
+      "value": 1.05
+    },
+    {
+      "name": "RizetteNew02",
+      "condition": "TeamHasTimestriker",
+      "value": 1.1
+    },
+    {
+      "name": "RizetteNew02",
+      "condition": "EnemyHasRizetteNewInTeam",
+      "value": 1.3
+    },
+    {
+      "name": "Cyrus01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "Cyrus01",
+      "condition": "AllyHasNoReinforcements",
+      "value": 1.15
+    },
+    {
+      "name": "Cyrus02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "Cyrus02",
+      "condition": "AllyHasNoReinforcements",
+      "value": 1.15
+    },
+    {
+      "name": "Gloria01",
+      "condition": "HPBelow25Percent",
+      "value": 1.2
+    },
+    {
+      "name": "Gloria02",
+      "condition": "HPBelow25Percent",
+      "value": 1.2
+    },
+    {
+      "name": "RolotiaRegular01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "RolotiaRegular02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "Crescent01",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.25
+    },
+    {
+      "name": "Crescent02",
+      "condition": "CanUseRetributionSkills",
+      "value": 1.25
+    },
+    {
+      "name": "Kisara01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "Kisara01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "Kisara02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "Kisara02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "TimeWitch01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "TimeWitch02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "Jeanne01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "Jeanne02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "Bahamut01",
+      "condition": "IsCharged1",
+      "value": 1.1
+    },
+    {
+      "name": "Bahamut01",
+      "condition": "IsCharged2",
+      "value": 1.1
+    },
+    {
+      "name": "Bahamut01",
+      "condition": "IsCharged3",
+      "value": 1.1
+    },
+    {
+      "name": "Bahamut02",
+      "condition": "IsCharged1",
+      "value": 1.1
+    },
+    {
+      "name": "Bahamut02",
+      "condition": "IsCharged2",
+      "value": 1.1
+    },
+    {
+      "name": "Bahamut02",
+      "condition": "IsCharged3",
+      "value": 1.1
+    },
+    {
+      "name": "AxeAngel01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "AxeAngel01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "AxeAngel02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "AxeAngel02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "ElminaSwimsuit01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "ElminaSwimsuit01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "ElminaSwimsuit02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "ElminaSwimsuit02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "RolotiaSwimsuit01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "RolotiaSwimsuit01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "RolotiaSwimsuit01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "RolotiaSwimsuit01",
+      "condition": "HasSleepSkin",
+      "value": 0.7
+    },
+    {
+      "name": "RolotiaSwimsuit02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "RolotiaSwimsuit02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "RolotiaSwimsuit02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "RolotiaSwimsuit02",
+      "condition": "HasSleepSkin",
+      "value": 0.7
+    },
+    {
+      "name": "AntaresSwimsuit01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "AntaresSwimsuit02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "CallenDragon01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "CallenDragon01",
+      "condition": "AllySpirit1Or0",
+      "value": 1.15
+    },
+    {
+      "name": "CallenDragon02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "CallenDragon02",
+      "condition": "AllySpirit1Or0",
+      "value": 1.15
+    },
+    {
+      "name": "Ossia01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "Ossia01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "Ossia02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "Ossia02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "Ossia02",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "IkemenSamurai01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "IkemenSamurai01",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "IkemenSamurai01",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.15
+    },
+    {
+      "name": "IkemenSamurai02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "IkemenSamurai02",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "IkemenSamurai02",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.15
+    },
+    {
+      "name": "GothGirl01",
+      "condition": "AllyHasThrower",
+      "value": 1.1
+    },
+    {
+      "name": "GothGirl01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "GothGirl02",
+      "condition": "AllyHasThrower",
+      "value": 1.1
+    },
+    {
+      "name": "GothGirl02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.15
+    },
+    {
+      "name": "BlueWingDragon01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "BlueWingDragon01",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.2
+    },
+    {
+      "name": "BlueWingDragon02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "BlueWingDragon02",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.2
+    },
+    {
+      "name": "YandereMaid01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "YandereMaid01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "YandereMaid02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "YandereMaid02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "RedElfOfficer01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "RedElfOfficer02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "SchoolGirlWarrior01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "SchoolGirlWarrior01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "SchoolGirlWarrior01",
+      "condition": "On1HP",
+      "value": 1.8
+    },
+    {
+      "name": "SchoolGirlWarrior02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "SchoolGirlWarrior02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "SchoolGirlWarrior02",
+      "condition": "On1HP",
+      "value": 1.8
+    },
+    {
+      "name": "OniSchoolGirl01",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "OniSchoolGirl01",
+      "condition": "AllySpirit1Or0",
+      "value": 1.15
+    },
+    {
+      "name": "OniSchoolGirl02",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "OniSchoolGirl02",
+      "condition": "AllySpirit1Or0",
+      "value": 1.15
+    },
+    {
+      "name": "DarkRizetteChristmas01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "DarkRizetteChristmas01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "DarkRizetteChristmas01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "DarkRizetteChristmas02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "DarkRizetteChristmas02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "DarkRizetteChristmas02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "DarkAstridNewYear01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "DarkAstridNewYear01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "DarkAstridNewYear01",
+      "condition": "Kills2",
+      "value": 1.2
+    },
+    {
+      "name": "DarkAstridNewYear02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "DarkAstridNewYear02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "DarkAstridNewYear02",
+      "condition": "Kills2",
+      "value": 1.2
+    },
+    {
+      "name": "BunnySamurai01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "BunnySamurai01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "BunnySamurai02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "BunnySamurai02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "DarkCatFighter01",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "DarkCatFighter01",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "DarkCatFighter02",
+      "condition": "HPAbove75Percent",
+      "value": 1.15
+    },
+    {
+      "name": "DarkCatFighter02",
+      "condition": "HPBelow50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "CatIdolGirl01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "CatIdolGirl02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "AntaresModern01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "AntaresModern01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "AntaresModern01",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "AntaresModern02",
+      "condition": "AlwaysTrue",
+      "value": 0.75
+    },
+    {
+      "name": "AntaresModern02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.5
+    },
+    {
+      "name": "AntaresModern02",
+      "condition": "TimeInCombat300",
+      "value": 1.6535
+    },
+    {
+      "name": "AntaresModern02",
+      "condition": "HPBelow25Percent",
+      "value": 1.76
+    },
+    {
+      "name": "MechaSister01",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "MechaSister02",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "MechaSister02",
+      "condition": "NotProtected",
+      "value": 1.05
+    },
+    {
+      "name": "DeadlyNurse01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "DeadlyNurse01",
+      "condition": "TimeInCombat150",
+      "value": 1.3
+    },
+    {
+      "name": "DeadlyNurse01",
+      "condition": "EnemyTeamHasActiveStunner",
+      "value": 1.15
+    },
+    {
+      "name": "DeadlyNurse02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "DeadlyNurse02",
+      "condition": "TimeInCombat150",
+      "value": 1.99
+    },
+    {
+      "name": "DeadlyNurse02",
+      "condition": "EnemyTeamHasActiveStunner",
+      "value": 1.15
+    },
+    {
+      "name": "ReiSwimsuit01",
+      "condition": "AtLeast1ReiSwimsuitSummonAlly",
+      "value": 1.2
+    },
+    {
+      "name": "ReiSwimsuit01",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "ReiSwimsuit02",
+      "condition": "AtLeast1ReiSwimsuitSummonAlly",
+      "value": 1.2
+    },
+    {
+      "name": "ReiSwimsuit02",
+      "condition": "HPBelow50Percent",
+      "value": 1.32
+    },
+    {
+      "name": "ReiSwimsuitSummon01",
+      "condition": "GoodForReiSwimSummonFinal",
+      "value": 1.25
+    },
+    {
+      "name": "ReiSwimsuitSummon01",
+      "condition": "AlwaysTrue",
+      "value": 0.85
+    },
+    {
+      "name": "ReiSwimsuitSummon01",
+      "condition": "IsStealth",
+      "value": 1.22
+    },
+    {
+      "name": "ReiSwimsuitSummon02",
+      "condition": "GoodForReiSwimSummonFinal",
+      "value": 1.25
+    },
+    {
+      "name": "ReiSwimsuitSummon02",
+      "condition": "IsStealth",
+      "value": 1.22
+    },
+    {
+      "name": "ReiSwimsuitSummon02",
+      "condition": "AlwaysTrue",
+      "value": 0.85
+    },
+    {
+      "name": "RizetteYoung01",
+      "condition": "IsCharged1",
+      "value": 1.075
+    },
+    {
+      "name": "RizetteYoung01",
+      "condition": "IsCharged2",
+      "value": 1.075
+    },
+    {
+      "name": "RizetteYoung01",
+      "condition": "IsCharged3",
+      "value": 1.075
+    },
+    {
+      "name": "RizetteYoung02",
+      "condition": "IsCharged1",
+      "value": 1.075
+    },
+    {
+      "name": "RizetteYoung02",
+      "condition": "IsCharged2",
+      "value": 1.075
+    },
+    {
+      "name": "RizetteYoung02",
+      "condition": "IsCharged3",
+      "value": 1.075
+    },
+    {
+      "name": "RizetteYoung02",
+      "condition": "StunSingleCoolingDown",
+      "value": 0.834
+    },
+    {
+      "name": "ShannaRidingHood01",
+      "condition": "HPAbove50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "ShannaRidingHood01",
+      "condition": "HPBelow50Percent",
+      "value": 1.15
+    },
+    {
+      "name": "ShannaRidingHood01",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "ShannaRidingHood02",
+      "condition": "HPAbove50Percent",
+      "value": 1.2
+    },
+    {
+      "name": "ShannaRidingHood02",
+      "condition": "HPBelow50Percent",
+      "value": 1.15
+    },
+    {
+      "name": "ShannaRidingHood02",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "LunaHood01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "LunaHood02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "SnowWhite01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "SnowWhite02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "SnowWhite02",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "LudmillaBride01",
+      "condition": "AlwaysTrue",
+      "value": 1.01
+    },
+    {
+      "name": "LudmillaBride02",
+      "condition": "AlwaysTrue",
+      "value": 1.01
+    },
+    {
+      "name": "YandereMaidSwimsuit01",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.25
+    },
+    {
+      "name": "YandereMaidSwimsuit01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "YandereMaidSwimsuit02",
+      "condition": "AllySpirit7OrMore",
+      "value": 1.25
+    },
+    {
+      "name": "YandereMaidSwimsuit02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteSwimsuit01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteSwimsuit01",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "RizetteSwimsuit01",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "RizetteSwimsuit02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "RizetteSwimsuit02",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "RizetteSwimsuit02",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "Imposter01",
+      "condition": "EnemyKillLockNotUnlockedActing",
+      "value": 30.1
+    },
+    {
+      "name": "Imposter01",
+      "condition": "Enemy2KillTriggerNot2KillActing",
+      "value": 30.1
+    },
+    {
+      "name": "Imposter01",
+      "condition": "Enemy1KillTriggerNot1KillActing",
+      "value": 30.1
+    },
+    {
+      "name": "Imposter01",
+      "condition": "AlwaysTrue",
+      "value": 0.1
+    },
+    {
+      "name": "CallenSwimsuit01",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "CallenSwimsuit01",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "CallenSwimsuit02",
+      "condition": "Kills1",
+      "value": 1.25
+    },
+    {
+      "name": "CallenSwimsuit02",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "JeanneDark01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "JeanneDark01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "JeanneDark01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "JeanneDark02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.15
+    },
+    {
+      "name": "JeanneDark02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "JeanneDark02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "JeanneDarkAngel01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "JeanneDarkAngel01",
+      "condition": "TimeInCombat200",
+      "value": 1.25
+    },
+    {
+      "name": "JeanneDarkAngel01",
+      "condition": "EnemyHasFought2JeanneDarkAngel",
+      "value": 1.05
+    },
+    {
+      "name": "JeanneDarkAngel01",
+      "condition": "EnemyHasFought3JeanneDarkAngel",
+      "value": 1.05
+    },
+    {
+      "name": "JeanneDarkAngel01",
+      "condition": "EnemyHasFought4JeanneDarkAngel",
+      "value": 1.1
+    },
+    {
+      "name": "JeanneDarkAngel02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "JeanneDarkAngel02",
+      "condition": "TimeInCombat200",
+      "value": 1.25
+    },
+    {
+      "name": "JeanneDarkAngel02",
+      "condition": "EnemyHasFought2JeanneDarkAngel",
+      "value": 1.05
+    },
+    {
+      "name": "JeanneDarkAngel02",
+      "condition": "EnemyHasFought3JeanneDarkAngel",
+      "value": 1.05
+    },
+    {
+      "name": "JeanneDarkAngel02",
+      "condition": "EnemyHasFought4JeanneDarkAngel",
+      "value": 1.1
+    },
+    {
+      "name": "CallenDragonDark01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "CallenDragonDark01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "CallenDragonDark02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "CallenDragonDark02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "CatIdolHalloween01",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "CatIdolHalloween01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.2
+    },
+    {
+      "name": "CatIdolHalloween01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "CatIdolHalloween01",
+      "condition": "AllySpirit1Or0",
+      "value": 1.15
+    },
+    {
+      "name": "CatIdolHalloween02",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "CatIdolHalloween02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.2
+    },
+    {
+      "name": "CatIdolHalloween02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "CatIdolHalloween02",
+      "condition": "AllySpirit1Or0",
+      "value": 1.15
+    },
+    {
+      "name": "MyshaRegular01",
+      "condition": "IsStealthOrHiding",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaRegular01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "MyshaRegular02",
+      "condition": "IsStealthOrHiding",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaRegular02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "WhiteSnakeGirl01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan100",
+      "value": 1.29
+    },
+    {
+      "name": "WhiteSnakeGirl01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.23
+    },
+    {
+      "name": "WhiteSnakeGirl01",
+      "condition": "EnemyTeamHasTimeInCombat300",
+      "value": 1.4
+    },
+    {
+      "name": "WhiteSnakeGirl02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan100",
+      "value": 1.29
+    },
+    {
+      "name": "WhiteSnakeGirl02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.23
+    },
+    {
+      "name": "WhiteSnakeGirl02",
+      "condition": "EnemyTeamHasTimeInCombat300",
+      "value": 1.4
+    },
+    {
+      "name": "OniSchoolSamurai01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "OniSchoolSamurai01",
+      "condition": "EnemyHas2Protector",
+      "value": 1.1
+    },
+    {
+      "name": "OniSchoolSamurai01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "OniSchoolSamurai01",
+      "condition": "EnemyHas2Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "OniSchoolSamurai02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "OniSchoolSamurai02",
+      "condition": "EnemyHas2Protector",
+      "value": 1.1
+    },
+    {
+      "name": "OniSchoolSamurai02",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "OniSchoolSamurai02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "OniSchoolSamurai02",
+      "condition": "EnemyHas2Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "LudmillaChristmas01",
+      "condition": "HasNotUsedDoubleTurn",
+      "value": 1.5
+    },
+    {
+      "name": "LudmillaChristmas01",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.25
+    },
+    {
+      "name": "LudmillaChristmas02",
+      "condition": "HasNotUsedDoubleTurn",
+      "value": 1.5
+    },
+    {
+      "name": "LudmillaChristmas02",
+      "condition": "3OrFewerAlliesLeft",
+      "value": 1.25
+    },
+    {
+      "name": "CallenRegular01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "CallenRegular01",
+      "condition": "HasNotUsedStunDouble",
+      "value": 1.5
+    },
+    {
+      "name": "CallenRegular01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "CallenRegular02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.2
+    },
+    {
+      "name": "CallenRegular02",
+      "condition": "HasNotUsedStunDouble",
+      "value": 1.5
+    },
+    {
+      "name": "CallenRegular02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "JeanneValentine01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "JeanneValentine01",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "JeanneValentine01",
+      "condition": "HasNotSummonedOnceOnly",
+      "value": 1.5
+    },
+    {
+      "name": "JeanneValentine02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "JeanneValentine02",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "JeanneValentine02",
+      "condition": "HasNotSummonedOnceOnly",
+      "value": 1.5
+    },
+    {
+      "name": "JeanneAngelValentine01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "JeanneAngelValentine01",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "JeanneAngelValentine01",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "JeanneAngelValentine02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "JeanneAngelValentine02",
+      "condition": "EnemyTeamTwoSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "JeanneAngelValentine02",
+      "condition": "EnemyHasSleptButNotSleeping",
+      "value": 1.1
+    },
+    {
+      "name": "HorseIdolGirl01",
+      "condition": "AllySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "HorseIdolGirl01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "HorseIdolGirl02",
+      "condition": "AllySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "HorseIdolGirl02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "AstridBride01",
+      "condition": "AlwaysTrue",
+      "value": 1.05
+    },
+    {
+      "name": "AstridBride02",
+      "condition": "AlwaysTrue",
+      "value": 1.05
+    },
+    {
+      "name": "MyshaIdolGirl01",
+      "condition": "HPAbove75Percent",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaIdolGirl01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "MyshaIdolGirl01",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "MyshaIdolGirl02",
+      "condition": "HPAbove75Percent",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaIdolGirl02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "MyshaIdolGirl02",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "MyshaIdolGirl02",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "ShutenDoji01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ShutenDoji01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "ShutenDoji02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ShutenDoji02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "ShutenDoji02",
+      "condition": "IsStealth",
+      "value": 1.05
+    },
+    {
+      "name": "EarthGoddess01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.1
+    },
+    {
+      "name": "EarthGoddess01",
+      "condition": "3EnemiesPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "EarthGoddess01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.05
+    },
+    {
+      "name": "EarthGoddess01",
+      "condition": "EnemyHas1Kills2",
+      "value": 1.15
+    },
+    {
+      "name": "EarthGoddess02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.1
+    },
+    {
+      "name": "EarthGoddess02",
+      "condition": "3EnemiesPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "EarthGoddess02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.05
+    },
+    {
+      "name": "EarthGoddess02",
+      "condition": "EnemyHas1Kills2",
+      "value": 1.15
+    },
+    {
+      "name": "AntaresRegular01",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "AntaresRegular01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "AntaresRegular01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.2
+    },
+    {
+      "name": "AntaresRegular02",
+      "condition": "IsBurning",
+      "value": 1.15
+    },
+    {
+      "name": "AntaresRegular02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "AntaresRegular02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaDark01",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaDark01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaDark02",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "MyshaDark02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "CallenBride01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "CallenBride01",
+      "condition": "EnemyTeamGuardiansNoSleepAlt",
+      "value": 1.2
+    },
+    {
+      "name": "CallenBride02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "CallenBride02",
+      "condition": "EnemyTeamGuardiansNoSleepAlt",
+      "value": 1.2
+    },
+    {
+      "name": "ReiBride01",
+      "condition": "IsBurning",
+      "value": 1.04
+    },
+    {
+      "name": "ReiBride01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.04
+    },
+    {
+      "name": "ReiBride01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "ReiBride02",
+      "condition": "IsBurning",
+      "value": 1.04
+    },
+    {
+      "name": "ReiBride02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.04
+    },
+    {
+      "name": "ReiBride02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "SnowWhiteSwimsuit01",
+      "condition": "IsStealth",
+      "value": 1.25
+    },
+    {
+      "name": "SnowWhiteSwimsuit01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "SnowWhiteSwimsuit02",
+      "condition": "IsStealth",
+      "value": 1.25
+    },
+    {
+      "name": "SnowWhiteSwimsuit02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.2
+    },
+    {
+      "name": "TheoRegular01",
+      "condition": "CanUseVicariousSkills",
+      "value": 1.15
+    },
+    {
+      "name": "TheoRegular02",
+      "condition": "CanUseVicariousSkills",
+      "value": 1.15
+    },
+    {
+      "name": "DeadlyVampire01",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.4
+    },
+    {
+      "name": "DeadlyVampire01",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "DeadlyVampire01",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "DeadlyVampire02",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.4
+    },
+    {
+      "name": "DeadlyVampire02",
+      "condition": "TimeInCombat300",
+      "value": 1.2
+    },
+    {
+      "name": "DeadlyVampire02",
+      "condition": "CrappyMonsterInBack",
+      "value": 1.2
+    },
+    {
+      "name": "MerlinRegular01",
+      "condition": "CannotUseStunAllRetreat",
+      "value": 0.83
+    },
+    {
+      "name": "MerlinRegular01",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "MerlinRegular01",
+      "condition": "AllyHasNoReinforcements",
+      "value": 1.2
+    },
+    {
+      "name": "MerlinRegular02",
+      "condition": "CannotUseStunAllRetreat",
+      "value": 0.83
+    },
+    {
+      "name": "MerlinRegular02",
+      "condition": "EnemyHas1Protector",
+      "value": 1.2
+    },
+    {
+      "name": "MerlinRegular02",
+      "condition": "AllyHasNoReinforcements",
+      "value": 1.2
+    },
+    {
+      "name": "FreyaRegular01",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "FreyaRegular01",
+      "condition": "IsBurning",
+      "value": 1.22
+    },
+    {
+      "name": "FreyaRegular01",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "FreyaRegular02",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "FreyaRegular02",
+      "condition": "IsBurning",
+      "value": 1.22
+    },
+    {
+      "name": "FreyaRegular02",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "InugamiRegular01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "InugamiRegular01",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "InugamiRegular01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "InugamiRegular02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.2
+    },
+    {
+      "name": "InugamiRegular02",
+      "condition": "2EnemiesPoisonedAlt",
+      "value": 1.05
+    },
+    {
+      "name": "InugamiRegular02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "InugamiRegular02",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "DeerGirl01",
+      "condition": "TimeInCombat300",
+      "value": 1.4
+    },
+    {
+      "name": "DeerGirl02",
+      "condition": "TimeInCombat300",
+      "value": 1.4
+    },
+    {
+      "name": "OssiaHalloween01",
+      "condition": "IsTauntingAndTauntedEnemyTurn",
+      "value": 1.5
+    },
+    {
+      "name": "OssiaHalloween01",
+      "condition": "GoodForOssiaHalloweenThrow",
+      "value": 1.3
+    },
+    {
+      "name": "OssiaHalloween02",
+      "condition": "IsTauntingAndTauntedEnemyTurn",
+      "value": 1.5
+    },
+    {
+      "name": "OssiaHalloween02",
+      "condition": "GoodForOssiaHalloweenThrow",
+      "value": 1.3
+    },
+    {
+      "name": "GokuRegular01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "GokuRegular01",
+      "condition": "IsCharged1",
+      "value": 1.2
+    },
+    {
+      "name": "GokuRegular02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "GokuRegular02",
+      "condition": "IsCharged1",
+      "value": 1.2
+    },
+    {
+      "name": "AliceDark01",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.25
+    },
+    {
+      "name": "AliceDark01",
+      "condition": "HPAbove75Percent",
+      "value": 1.25
+    },
+    {
+      "name": "AliceDark01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "AliceDark02",
+      "condition": "1EnemyPoisonedAlt",
+      "value": 1.25
+    },
+    {
+      "name": "AliceDark02",
+      "condition": "HPAbove75Percent",
+      "value": 1.25
+    },
+    {
+      "name": "AliceDark02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "ElminaBunny01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "ElminaBunny01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "ElminaBunny01",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "ElminaBunny02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "ElminaBunny02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "ElminaBunny02",
+      "condition": "IsBurning",
+      "value": 1.2
+    },
+    {
+      "name": "TiamatRegular01",
+      "condition": "AllySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "TiamatRegular01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "TiamatRegular02",
+      "condition": "AllySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "TiamatRegular02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "RoundTableKnight01",
+      "condition": "IsStealth",
+      "value": 1.15
+    },
+    {
+      "name": "RoundTableKnight01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan100",
+      "value": 1.2
+    },
+    {
+      "name": "RoundTableKnight01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.1
+    },
+    {
+      "name": "RoundTableKnight01",
+      "condition": "IsInstantCooldown",
+      "value": 0.74
+    },
+    {
+      "name": "RoundTableKnight02",
+      "condition": "IsStealth",
+      "value": 1.15
+    },
+    {
+      "name": "RoundTableKnight02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan100",
+      "value": 1.2
+    },
+    {
+      "name": "RoundTableKnight02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.1
+    },
+    {
+      "name": "RoundTableKnight02",
+      "condition": "IsInstantCooldown",
+      "value": 0.74
+    },
+    {
+      "name": "CrossSwordKnight01",
+      "condition": "Kills0AllySpirit3OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "CrossSwordKnight01",
+      "condition": "Kills1AllySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "CrossSwordKnight01",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "CrossSwordKnight01",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.25
+    },
+    {
+      "name": "CrossSwordKnight01",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "CrossSwordKnight02",
+      "condition": "Kills0AllySpirit3OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "CrossSwordKnight02",
+      "condition": "Kills1AllySpirit6OrMore",
+      "value": 1.2
+    },
+    {
+      "name": "CrossSwordKnight02",
+      "condition": "Kills1",
+      "value": 1.2
+    },
+    {
+      "name": "CrossSwordKnight02",
+      "condition": "KillsMoreThanSkillUsed",
+      "value": 1.25
+    },
+    {
+      "name": "CrossSwordKnight02",
+      "condition": "HoldGroundPlusTriggeredWaitingForTurn",
+      "value": 0.1
+    },
+    {
+      "name": "JeanneBride01",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "JeanneBride02",
+      "condition": "TimeInCombat300",
+      "value": 1.25
+    },
+    {
+      "name": "JeanneBrideAngel01",
+      "condition": "NoJeanneBrideInTeam",
+      "value": 1.3
+    },
+    {
+      "name": "JeanneBrideAngel01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.32
+    },
+    {
+      "name": "JeanneBrideAngel02",
+      "condition": "NoJeanneBrideInTeam",
+      "value": 1.3
+    },
+    {
+      "name": "JeanneBrideAngel02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan130",
+      "value": 1.32
+    },
+    {
+      "name": "LudmillaRacequeen01",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "LudmillaRacequeen01",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "LudmillaRacequeen01",
+      "condition": "EnemyHas2Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "LudmillaRacequeen02",
+      "condition": "HPBelow25Percent",
+      "value": 1.32
+    },
+    {
+      "name": "LudmillaRacequeen02",
+      "condition": "EnemyHas1Kills1",
+      "value": 1.15
+    },
+    {
+      "name": "LudmillaRacequeen02",
+      "condition": "EnemyHas2Kills1",
+      "value": 1.1
+    },
+    {
+      "name": "TwinGodRegular01",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "TwinGodRegular01",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "TwinGodRegular01",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    },
+    {
+      "name": "TwinGodRegular02",
+      "condition": "IsStealth",
+      "value": 1.2
+    },
+    {
+      "name": "TwinGodRegular02",
+      "condition": "AtLeast4BurningInBattle",
+      "value": 1.25
+    },
+    {
+      "name": "TwinGodRegular02",
+      "condition": "AtLeast6BurningInBattle",
+      "value": 1.1
+    }
+  ]
+}

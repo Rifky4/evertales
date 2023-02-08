@@ -1,0 +1,8506 @@
+{
+  "Version": 23,
+  "Time": 1670403590,
+  "Monster": [
+    {
+      "name": "Mibone01",
+      "class": "Monster",
+      "family": "Mibone",
+      "activeSkills": {
+        "0": "PoisonTouchDoubleBoss1",
+        "1": "PoisonEaterGainBoss2",
+        "2": "PoisonEaterAllBoss1"
+      },
+      "activeSkillsAI": {
+        "0": "PoisonTouchDoubleBoss1_AI",
+        "1": "PoisonEaterGainBoss1_AI",
+        "2": "PoisonEaterAllBoss1_AI"
+      },
+      "aiSequence": "Mibone01Seq",
+      "cost": 999,
+      "baseAttack": 250,
+      "baseMaxHp": 2500,
+      "speed": 150,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        13
+      ]
+    },
+    {
+      "name": "Mibone02",
+      "class": "Monster",
+      "family": "Mibone",
+      "activeSkills": {
+        "0": "PoisonTouchDoubleBoss1",
+        "1": "PoisonEaterGainBoss1",
+        "2": "ConvertPoisonToSleepBoss1",
+        "3": "DetoxBlastBoss1",
+        "4": "DreamHuntDoubleBoss1",
+        "5": "PoisonGasBoss1"
+      },
+      "passives": {
+        "0": "Stun25TUMinus"
+      },
+      "activeSkillsAI": {
+        "0": "PoisonTouchDoubleBoss1_AI",
+        "1": "PoisonEaterGainBoss1Mibone02_AI"
+      },
+      "aiSequence": "Mibone02Seq",
+      "cost": 999,
+      "baseAttack": 300,
+      "baseMaxHp": 12180,
+      "speed": 600,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          101,
+          102
+        ],
+        "1": [
+          103,
+          104
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "MiboneB02",
+      "class": "Monster",
+      "family": "MiboneB",
+      "activeSkills": {
+        "0": "PoisonTouchDoubleBoss1",
+        "1": "PoisonEaterGainBoss1",
+        "2": "ConvertPoisonToSleepBoss1",
+        "3": "DetoxBlastBoss1",
+        "4": "DreamHuntDoubleBoss1",
+        "5": "PoisonGasBoss1"
+      },
+      "passives": {
+        "0": "PoisonSkinA",
+        "1": "Stun100TUMinus",
+        "2": "Sleep50TUMinus"
+      },
+      "activeSkillsAI": {
+        "0": "PoisonTouchDoubleBoss1_AI",
+        "1": "PoisonEaterGainBoss1Mibone02_AI"
+      },
+      "aiSequence": "Mibone02Seq",
+      "cost": 999,
+      "baseAttack": 2400,
+      "baseMaxHp": 125000,
+      "speed": 600,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          101,
+          102
+        ],
+        "1": [
+          103,
+          104
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "RedMinotaur01",
+      "class": "Monster",
+      "family": "RedMinotaur",
+      "activeSkills": {
+        "0": "GainAttackSingleABoss",
+        "1": "AssistedAttackSingleBoss1",
+        "2": "LastStandDoubleBoss1",
+        "3": "LifeFlipSelfA"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "activeSkillsAI": {
+        "3": "LifeFlipSelfABossRedMinotaur_AI"
+      },
+      "cost": 999,
+      "baseAttack": 400,
+      "baseMaxHp": 5100,
+      "speed": 350,
+      "element": "Fire",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        13
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Eternal01",
+      "class": "Monster",
+      "family": "Eternal",
+      "activeSkills": {
+        "0": "SpiritDrainAttackBoss1",
+        "1": "HighSpiritAttackBoss1",
+        "2": "RegenerateBoss1",
+        "3": "LowSpiritKillerDoubleBoss1"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "ExtraTurnCycle",
+        "2": "Stun70TUMinus"
+      },
+      "aiSequence": "Eternal01Seq",
+      "cost": 999,
+      "baseAttack": 910,
+      "baseMaxHp": 47000,
+      "speed": 760,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "deathVoices": [
+        9
+      ]
+    },
+    {
+      "name": "Eternal01AT",
+      "class": "Monster",
+      "family": "Eternal",
+      "activeSkills": {
+        "0": "SpiritDrainAttackBoss1AT",
+        "1": "HighSpiritAttackBoss1AT",
+        "2": "RegenerateBoss1AT",
+        "3": "LowSpiritKillerDoubleBoss1AT"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "ExtraTurnCycle",
+        "2": "Stun25TUMinus"
+      },
+      "aiSequence": "Eternal01ATSeq",
+      "cost": 999,
+      "baseAttack": 400,
+      "baseMaxHp": 33000,
+      "speed": 600,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "deathVoices": [
+        9
+      ]
+    },
+    {
+      "name": "Eternal01ATB",
+      "class": "Monster",
+      "family": "Eternal",
+      "activeSkills": {
+        "0": "SpiritDrainAttackBoss1",
+        "1": "HighSpiritAttackBoss1AT",
+        "2": "RegenerateBoss1AT",
+        "3": "LowSpiritKillerDoubleBoss1AT"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "ExtraTurnCycle",
+        "2": "Stun25TUMinus"
+      },
+      "aiSequence": "Eternal01ATBSeq",
+      "cost": 999,
+      "baseAttack": 610,
+      "baseMaxHp": 29000,
+      "speed": 600,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "deathVoices": [
+        9
+      ]
+    },
+    {
+      "name": "Eternal02",
+      "class": "Monster",
+      "family": "Eternal",
+      "activeSkills": {
+        "0": "SpiritDrainAttackBoss2",
+        "1": "SpiritDrainAttackAllBoss1",
+        "2": "HighSpiritAttackDoubleBoss1",
+        "3": "LowSpiritKillerAllBoss1"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "SpiritLeakSkinBoss1",
+        "2": "Stun100TUMinus"
+      },
+      "aiSequence": "Eternal02Seq",
+      "cost": 999,
+      "baseAttack": 930,
+      "baseMaxHp": 60000,
+      "speed": 10,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          10,
+          11
+        ],
+        "1": [
+          12,
+          13
+        ],
+        "2": [
+          14,
+          15
+        ],
+        "3": [
+          16,
+          17
+        ]
+      },
+      "damageVoices": [
+        18,
+        19
+      ],
+      "deathVoices": [
+        20
+      ]
+    },
+    {
+      "name": "Eternal02AT",
+      "class": "Monster",
+      "family": "Eternal",
+      "activeSkills": {
+        "0": "SpiritDrainAttackBoss2AT",
+        "1": "SpiritDrainAttackAllBoss1AT",
+        "2": "HighSpiritAttackDoubleBoss1AT",
+        "3": "LowSpiritKillerAllBoss1AT"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "Stun100TUMinus"
+      },
+      "aiSequence": "Eternal02ATSeq",
+      "cost": 999,
+      "baseAttack": 500,
+      "baseMaxHp": 38000,
+      "speed": 10,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          10,
+          11
+        ],
+        "1": [
+          12,
+          13
+        ],
+        "2": [
+          14,
+          15
+        ],
+        "3": [
+          16,
+          17
+        ]
+      },
+      "damageVoices": [
+        18,
+        19
+      ],
+      "deathVoices": [
+        20
+      ]
+    },
+    {
+      "name": "Eternal02ATB",
+      "class": "Monster",
+      "family": "Eternal",
+      "activeSkills": {
+        "0": "SpiritDrainAttackBoss2AT",
+        "1": "SpiritDrainAttackAllBoss1AT",
+        "2": "HighSpiritAttackDoubleBoss1AT",
+        "3": "LowSpiritKillerAllBoss1AT"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "Stun100TUMinus"
+      },
+      "aiSequence": "Eternal02ATBSeq",
+      "cost": 999,
+      "baseAttack": 750,
+      "baseMaxHp": 39000,
+      "speed": 10,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          10,
+          11
+        ],
+        "1": [
+          12,
+          13
+        ],
+        "2": [
+          14,
+          15
+        ],
+        "3": [
+          16,
+          17
+        ]
+      },
+      "damageVoices": [
+        18,
+        19
+      ],
+      "deathVoices": [
+        20
+      ]
+    },
+    {
+      "name": "EternalB02",
+      "class": "Monster",
+      "family": "Eternal",
+      "activeSkills": {
+        "0": "SpiritDrainAttackBoss2",
+        "1": "SpiritDrainAttackAllBoss1",
+        "2": "HighSpiritAttackDoubleBoss1",
+        "3": "LowSpiritKillerAllBoss1"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "SpiritLeakSkinBoss1",
+        "2": "BurnImmunity",
+        "3": "Sleep50TUMinus",
+        "4": "StunImmunity"
+      },
+      "aiSequence": "Eternal02Seq",
+      "cost": 999,
+      "baseAttack": 2800,
+      "baseMaxHp": 170000,
+      "speed": 10,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          10,
+          11
+        ],
+        "1": [
+          12,
+          13
+        ],
+        "2": [
+          14,
+          15
+        ],
+        "3": [
+          16,
+          17
+        ]
+      },
+      "damageVoices": [
+        18,
+        19
+      ],
+      "deathVoices": [
+        20
+      ]
+    },
+    {
+      "name": "Norza01",
+      "class": "Monster",
+      "family": "Norza",
+      "activeSkills": {
+        "0": "GainAttackSingleABoss",
+        "1": "TimeStrikeDoubleANorza",
+        "2": "OverwatchBoss1",
+        "3": "KillStunDoubleBoss1",
+        "4": "HighSpiritAttackA",
+        "5": "ProtectorKillerA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "StunImmunity"
+      },
+      "activeSkillsAI": {
+        "4": "HighSpiritAttackANorza01_AI",
+        "5": "ProtectorKillerANorza_AI"
+      },
+      "aiSequence": "Norza01Seq",
+      "cost": 999,
+      "baseAttack": 810,
+      "baseMaxHp": 34000,
+      "speed": 700,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Norza01AT",
+      "class": "Monster",
+      "family": "Norza",
+      "activeSkills": {
+        "0": "GainAttackSingleABoss",
+        "1": "TimeStrikeDoubleANorza",
+        "2": "OverwatchBoss1AT",
+        "3": "KillStunDoubleBoss1AT",
+        "4": "HighSpiritAttackA",
+        "5": "ProtectorKillerA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "StunImmunity"
+      },
+      "activeSkillsAI": {
+        "4": "HighSpiritAttackANorza01_AI",
+        "5": "ProtectorKillerANorza_AI"
+      },
+      "aiSequence": "Norza01ATSeq",
+      "cost": 999,
+      "baseAttack": 810,
+      "baseMaxHp": 27000,
+      "speed": 700,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Norza01ATB",
+      "class": "Monster",
+      "family": "Norza",
+      "activeSkills": {
+        "0": "GainAttackSingleABoss",
+        "1": "TimeStrikeDoubleANorza",
+        "2": "OverwatchBoss1AT",
+        "3": "KillStunDoubleBoss1AT",
+        "4": "HighSpiritAttackA",
+        "5": "ProtectorKillerA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "StunImmunity"
+      },
+      "activeSkillsAI": {
+        "4": "HighSpiritAttackANorza01_AI",
+        "5": "ProtectorKillerANorza_AI"
+      },
+      "aiSequence": "Norza01ATBSeq",
+      "cost": 999,
+      "baseAttack": 810,
+      "baseMaxHp": 27000,
+      "speed": 700,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "NorzaB01",
+      "class": "Monster",
+      "family": "Norza",
+      "activeSkills": {
+        "0": "GainAttackSingleABoss",
+        "1": "TimeStrikeDoubleBNorza",
+        "2": "StunSingle200ANorza",
+        "3": "ProtectorKillerA",
+        "4": "SurvivorDoubleBoss1"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "BurnImmunity",
+        "2": "Stun100TUMinus"
+      },
+      "activeSkillsAI": {
+        "4": "HighSpiritAttackANorza01_AI",
+        "5": "ProtectorKillerANorza_AI"
+      },
+      "aiSequence": "Norza01Seq",
+      "cost": 999,
+      "baseAttack": 3500,
+      "baseMaxHp": 40000,
+      "speed": 700,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          9,
+          10
+        ],
+        "1": [
+          7,
+          8
+        ],
+        "2": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Norza02",
+      "class": "Monster",
+      "family": "Norza",
+      "activeSkills": {
+        "0": "GainAttackSingleBoss1Air",
+        "1": "TimeStrikeAllBoss1",
+        "2": "TimeStrikeBoss1",
+        "3": "StunAllBoss1",
+        "4": "BloodthirstDoubleBoss1",
+        "5": "KnockbackA"
+      },
+      "passives": {
+        "0": "StunSkinBoss1",
+        "1": "StunImmunity",
+        "2": "PoisonImmunity"
+      },
+      "aiSequence": "Norza02Seq",
+      "cost": 999,
+      "baseAttack": 860,
+      "baseMaxHp": 41500,
+      "speed": 730,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          101,
+          102
+        ],
+        "1": [
+          103,
+          104
+        ],
+        "2": [
+          105,
+          106
+        ],
+        "3": [
+          107,
+          108
+        ],
+        "4": [
+          109,
+          110
+        ],
+        "5": [
+          111,
+          112
+        ]
+      },
+      "damageVoices": [
+        113,
+        114
+      ],
+      "deathVoices": [
+        115
+      ]
+    },
+    {
+      "name": "Norza02AT",
+      "class": "Monster",
+      "family": "Norza",
+      "activeSkills": {
+        "0": "GainAttackSingleBoss1AirAT",
+        "1": "TimeStrikeAllBoss1AT",
+        "2": "TimeStrikeBoss1AT",
+        "3": "StunAllBoss1",
+        "4": "BloodthirstDoubleBoss1AT",
+        "5": "KnockbackA"
+      },
+      "passives": {
+        "0": "StunSkinBoss1",
+        "1": "StunImmunity",
+        "2": "PoisonImmunity"
+      },
+      "aiSequence": "Norza02ATSeq",
+      "cost": 999,
+      "baseAttack": 430,
+      "baseMaxHp": 23000,
+      "speed": 430,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          101,
+          102
+        ],
+        "1": [
+          103,
+          104
+        ],
+        "2": [
+          105,
+          106
+        ],
+        "3": [
+          107,
+          108
+        ],
+        "4": [
+          109,
+          110
+        ],
+        "5": [
+          111,
+          112
+        ]
+      },
+      "damageVoices": [
+        113,
+        114
+      ],
+      "deathVoices": [
+        115
+      ]
+    },
+    {
+      "name": "Norza02ATB",
+      "class": "Monster",
+      "family": "Norza",
+      "activeSkills": {
+        "0": "GainAttackSingleBoss1AirAT",
+        "1": "TimeStrikeAllBoss1AT",
+        "2": "TimeStrikeBoss1AT",
+        "3": "StunAllBoss1",
+        "4": "BloodthirstDoubleBoss1AT",
+        "5": "KnockbackA"
+      },
+      "passives": {
+        "0": "StunSkinBoss1",
+        "1": "StunImmunity",
+        "2": "PoisonImmunity"
+      },
+      "aiSequence": "Norza02ATBSeq",
+      "cost": 999,
+      "baseAttack": 700,
+      "baseMaxHp": 25000,
+      "speed": 630,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          101,
+          102
+        ],
+        "1": [
+          103,
+          104
+        ],
+        "2": [
+          105,
+          106
+        ],
+        "3": [
+          107,
+          108
+        ],
+        "4": [
+          109,
+          110
+        ],
+        "5": [
+          111,
+          112
+        ]
+      },
+      "damageVoices": [
+        113,
+        114
+      ],
+      "deathVoices": [
+        115
+      ]
+    },
+    {
+      "name": "Gyurelle01",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleABoss",
+        "1": "SneakAttackSingleBoss1",
+        "2": "StealthSelfBoss1",
+        "3": "DisguiseSelfBoss1"
+      },
+      "passives": {
+        "0": "StealthEntrance",
+        "1": "SleepLowestTUEntranceA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 730,
+      "baseMaxHp": 1800,
+      "speed": 700,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          101
+        ],
+        "1": [
+          2,
+          102
+        ],
+        "2": [
+          3,
+          103
+        ],
+        "3": [
+          4,
+          104
+        ]
+      },
+      "damageVoices": [
+        5,
+        105
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "Gyurelle01AT",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleABoss",
+        "1": "SneakAttackSingleBoss1",
+        "2": "StealthSelfBoss1",
+        "3": "DisguiseSelfBoss1AT"
+      },
+      "passives": {
+        "0": "StealthEntrance",
+        "1": "SleepLowestTUEntranceA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 730,
+      "baseMaxHp": 1800,
+      "speed": 400,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          101
+        ],
+        "1": [
+          2,
+          102
+        ],
+        "2": [
+          3,
+          103
+        ],
+        "3": [
+          4,
+          104
+        ]
+      },
+      "damageVoices": [
+        5,
+        105
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "Gyurelle01ATB",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleABoss",
+        "1": "SneakAttackSingleBoss1",
+        "2": "StealthSelfBoss1",
+        "3": "DisguiseSelfBoss1ATB"
+      },
+      "passives": {
+        "0": "StealthEntrance",
+        "1": "SleepLowestTUEntranceA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 730,
+      "baseMaxHp": 1800,
+      "speed": 400,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          101
+        ],
+        "1": [
+          2,
+          102
+        ],
+        "2": [
+          3,
+          103
+        ],
+        "3": [
+          4,
+          104
+        ]
+      },
+      "damageVoices": [
+        5,
+        105
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "Gyurelle01ATBNoDisguiseSelfAbility",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleABoss",
+        "1": "SneakAttackSingleBoss1",
+        "2": "StealthSelfBoss1"
+      },
+      "passives": {
+        "0": "StealthEntrance",
+        "1": "SleepLowestTUEntranceA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 830,
+      "baseMaxHp": 2800,
+      "speed": 400,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          101
+        ],
+        "1": [
+          2,
+          102
+        ],
+        "2": [
+          3,
+          103
+        ],
+        "3": [
+          4,
+          104
+        ]
+      },
+      "damageVoices": [
+        5,
+        105
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "Gyurelle02",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackSingleBoss1Gyurelle",
+        "1": "StealthAllyDoubleA",
+        "2": "SurvivorA2",
+        "3": "SummonTriad1"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "StunRevengeA",
+        "2": "PoisonImmunity"
+      },
+      "activeSkillsAI": {
+        "2": "SurvivorA2Gyurelle02_AI"
+      },
+      "cost": 999,
+      "baseAttack": 740,
+      "baseMaxHp": 3100,
+      "speed": 750,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          7,
+          106
+        ],
+        "1": [
+          8,
+          107
+        ],
+        "2": [
+          9,
+          108
+        ],
+        "3": [
+          10,
+          11
+        ]
+      },
+      "damageVoices": [
+        12,
+        109
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "Gyurelle02AT",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackSingleBoss1Gyurelle",
+        "1": "StealthAllyDoubleA",
+        "2": "SurvivorA2Gyurelle02AT",
+        "3": "SummonTriad1AT"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "StunRevengeA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 500,
+      "baseMaxHp": 2500,
+      "speed": 650,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          7,
+          106
+        ],
+        "1": [
+          8,
+          107
+        ],
+        "2": [
+          9,
+          108
+        ],
+        "3": [
+          10,
+          11
+        ]
+      },
+      "damageVoices": [
+        12,
+        109
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "Gyurelle02ATB",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackSingleBoss1Gyurelle",
+        "1": "StealthAllyDoubleA",
+        "2": "SurvivorA2Gyurelle02AT",
+        "3": "SummonTriad1ATB"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "StunRevengeA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 500,
+      "baseMaxHp": 2800,
+      "speed": 650,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          7,
+          106
+        ],
+        "1": [
+          8,
+          107
+        ],
+        "2": [
+          9,
+          108
+        ],
+        "3": [
+          10,
+          11
+        ]
+      },
+      "damageVoices": [
+        12,
+        109
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "Gyurelle02B",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleBoss1Gyurelle",
+        "1": "DesperateBiteA2",
+        "2": "ProtectTeammatesA",
+        "3": "SummonTriad2"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "StunAbsorber",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 740,
+      "baseMaxHp": 3100,
+      "speed": 749,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          18,
+          116
+        ],
+        "1": [
+          19,
+          117
+        ],
+        "2": [
+          20,
+          118
+        ],
+        "3": [
+          21,
+          119
+        ]
+      },
+      "damageVoices": [
+        22,
+        120
+      ],
+      "deathVoices": [
+        121
+      ]
+    },
+    {
+      "name": "Gyurelle02BAT",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleBoss1Gyurelle",
+        "1": "DesperateBiteA2",
+        "2": "ProtectTeammatesA",
+        "3": "SummonTriad2AT"
+      },
+      "passives": {
+        "0": "StunAbsorber",
+        "1": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 450,
+      "baseMaxHp": 1200,
+      "speed": 500,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          18,
+          116
+        ],
+        "1": [
+          19,
+          117
+        ],
+        "2": [
+          20,
+          118
+        ],
+        "3": [
+          21,
+          119
+        ]
+      },
+      "damageVoices": [
+        22,
+        120
+      ],
+      "deathVoices": [
+        121
+      ]
+    },
+    {
+      "name": "Gyurelle02BATB",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleBoss1Gyurelle",
+        "1": "DesperateBiteA2",
+        "2": "ProtectTeammatesA",
+        "3": "SummonTriad2AT"
+      },
+      "passives": {
+        "0": "StunAbsorber",
+        "1": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 450,
+      "baseMaxHp": 2100,
+      "speed": 500,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          18,
+          116
+        ],
+        "1": [
+          19,
+          117
+        ],
+        "2": [
+          20,
+          118
+        ],
+        "3": [
+          21,
+          119
+        ]
+      },
+      "damageVoices": [
+        22,
+        120
+      ],
+      "deathVoices": [
+        121
+      ]
+    },
+    {
+      "name": "Gyurelle02C",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainSpiritBoss1",
+        "1": "SneakAttackDoubleBoss1",
+        "2": "HealSingleBoss1",
+        "3": "SummonTriad3"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "SleepRevenge",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 740,
+      "baseMaxHp": 3100,
+      "speed": 748,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          110
+        ],
+        "1": [
+          14,
+          111
+        ],
+        "2": [
+          15,
+          112
+        ],
+        "3": [
+          16,
+          113
+        ]
+      },
+      "damageVoices": [
+        17,
+        114
+      ],
+      "deathVoices": [
+        115
+      ]
+    },
+    {
+      "name": "Gyurelle02CAT",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainSpiritBoss1",
+        "1": "SneakAttackDoubleBoss1",
+        "2": "HealSingleBoss1",
+        "3": "SummonTriad3AT"
+      },
+      "passives": {
+        "0": "SleepRevenge",
+        "1": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 400,
+      "baseMaxHp": 1200,
+      "speed": 499,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          110
+        ],
+        "1": [
+          14,
+          111
+        ],
+        "2": [
+          15,
+          112
+        ],
+        "3": [
+          16,
+          113
+        ]
+      },
+      "damageVoices": [
+        17,
+        114
+      ],
+      "deathVoices": [
+        115
+      ]
+    },
+    {
+      "name": "Gyurelle02CATB",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainSpiritBoss1",
+        "1": "SneakAttackDoubleBoss1",
+        "2": "HealSingleBoss1B",
+        "3": "SummonTriad3AT"
+      },
+      "passives": {
+        "0": "SleepRevenge",
+        "1": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 300,
+      "baseMaxHp": 1500,
+      "speed": 499,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          110
+        ],
+        "1": [
+          14,
+          111
+        ],
+        "2": [
+          15,
+          112
+        ],
+        "3": [
+          16,
+          113
+        ]
+      },
+      "damageVoices": [
+        17,
+        114
+      ],
+      "deathVoices": [
+        115
+      ]
+    },
+    {
+      "name": "Druke01",
+      "class": "Monster",
+      "family": "Druke",
+      "activeSkills": {
+        "0": "DrainAttackSingleBoss1",
+        "1": "AccelerateSelfBoss1",
+        "2": "TempStunImmuneBoss1",
+        "3": "TempPoisonImmuneBoss1",
+        "4": "TimeStrikeA2"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "aiSequence": "Druke01Seq",
+      "cost": 999,
+      "baseAttack": 820,
+      "baseMaxHp": 11375,
+      "speed": 650,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "Druke01AT",
+      "class": "Monster",
+      "family": "Druke",
+      "activeSkills": {
+        "0": "DrainAttackSingleBoss1",
+        "1": "AccelerateSelfBoss1AT",
+        "2": "TempStunImmuneBoss1",
+        "3": "TempPoisonImmuneBoss1",
+        "4": "TimeStrikeA2"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "aiSequence": "Druke01ATSeq",
+      "cost": 999,
+      "baseAttack": 720,
+      "baseMaxHp": 11375,
+      "speed": 150,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "Druke01ATB",
+      "class": "Monster",
+      "family": "Druke",
+      "activeSkills": {
+        "0": "DrainAttackSingleBoss1",
+        "1": "AccelerateSelfBoss1AT",
+        "2": "TempStunImmuneBoss1",
+        "3": "TempPoisonImmuneBoss1",
+        "4": "TimeStrikeA2"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "aiSequence": "Druke01ATBSeq",
+      "cost": 999,
+      "baseAttack": 720,
+      "baseMaxHp": 11375,
+      "speed": 150,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "Luther01",
+      "class": "Monster",
+      "family": "Luther",
+      "activeSkills": {
+        "0": "GainAttackDoubleAFire",
+        "1": "AssistedAttackSingleBoss2",
+        "2": "SwapSelfForFireKnight",
+        "3": "SlayerbaneDoubleA"
+      },
+      "passives": {
+        "0": "HealEntranceBoss1",
+        "1": "HoldGround"
+      },
+      "aiSequence": "Luther01Seq",
+      "cost": 999,
+      "baseAttack": 560,
+      "baseMaxHp": 6370,
+      "speed": 500,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Luther01AT",
+      "class": "Monster",
+      "family": "Luther",
+      "activeSkills": {
+        "0": "GainAttackDoubleAFire",
+        "1": "AssistedAttackSingleBoss2AT",
+        "2": "SwapSelfForFireKnightAT",
+        "3": "SlayerbaneDoubleALuther01AT"
+      },
+      "passives": {
+        "0": "HealEntranceBoss1",
+        "1": "HoldGround"
+      },
+      "aiSequence": "Luther01ATSeq",
+      "cost": 999,
+      "baseAttack": 350,
+      "baseMaxHp": 5370,
+      "speed": 400,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Luther01ATB",
+      "class": "Monster",
+      "family": "Luther",
+      "activeSkills": {
+        "0": "GainAttackDoubleAFire",
+        "1": "AssistedAttackSingleBoss2AT",
+        "2": "SwapSelfForFireKnightATB",
+        "3": "SlayerbaneDoubleALuther01AT"
+      },
+      "passives": {
+        "0": "HealEntranceBoss1",
+        "1": "HoldGround"
+      },
+      "aiSequence": "Luther01ATBSeq",
+      "cost": 999,
+      "baseAttack": 450,
+      "baseMaxHp": 5870,
+      "speed": 400,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Cetus02",
+      "class": "Monster",
+      "family": "Cetus",
+      "activeSkills": {
+        "0": "GainAttackDoubleAWater",
+        "1": "DreamHuntA3",
+        "2": "HighSpiritAttackA2",
+        "3": "LifeFlipAllyA"
+      },
+      "cost": 999,
+      "baseAttack": 643,
+      "baseMaxHp": 3423,
+      "speed": 370,
+      "element": "Water",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "FireKnightMale01",
+      "class": "Monster",
+      "family": "FireKnightMale",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "RecklessAttackA"
+      },
+      "cost": 999,
+      "baseAttack": 352,
+      "baseMaxHp": 1857,
+      "speed": 85,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "FireKnightMaleB01",
+      "class": "Monster",
+      "family": "FireKnightMaleB",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "StealthAllyA",
+        "2": "DesperateStrikeA",
+        "3": "GiveTurnA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "AutoProtect"
+      },
+      "activeSkillsAI": {
+        "1": "StealthAllyABossLuther_AI",
+        "3": "GiveTurnABossLuther_AI"
+      },
+      "cost": 999,
+      "baseAttack": 352,
+      "baseMaxHp": 1765,
+      "speed": 160,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "FireKnightMale01",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "FireKnightMaleC01",
+      "class": "Monster",
+      "family": "FireKnightMaleC",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "PurifySingleA",
+        "2": "GiveTurnA",
+        "3": "RecklessGainSpiritA",
+        "4": "SurvivorB3"
+      },
+      "passives": {
+        "0": "StunAbsorber"
+      },
+      "activeSkillsAI": {
+        "1": "PurifySingleABossLuther_AI",
+        "2": "GiveTurnABossLuther_AI",
+        "3": "RecklessGainSpiritABossLuther_AI"
+      },
+      "cost": 999,
+      "baseAttack": 373,
+      "baseMaxHp": 1689,
+      "speed": 320,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "FireKnightMale01",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          9,
+          10
+        ],
+        "2": [
+          7,
+          8
+        ],
+        "3": [
+          11,
+          12
+        ],
+        "4": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "PrimevalDemon01",
+      "class": "Monster",
+      "family": "PrimevalDemon",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "ThrowA",
+        "2": "BasicAttackAllADeath",
+        "3": "DesperateBiteA3"
+      },
+      "passives": {
+        "0": "SpiritGainRevengeA",
+        "1": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "PrimevalDemonB01",
+      "class": "Monster",
+      "family": "PrimevalDemonB",
+      "activeSkills": {
+        "0": "PoisonTouchA",
+        "1": "PoisonEaterA",
+        "2": "BasicAttackAllADeath",
+        "3": "DesperateBiteA3"
+      },
+      "passives": {
+        "0": "StunRevengeA",
+        "1": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "PrimevalDemonC01",
+      "class": "Monster",
+      "family": "PrimevalDemonC",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "SleepSingleB",
+        "2": "DreamHuntA2",
+        "3": "DesperateBiteA3"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeA",
+        "1": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "PrimevalDemonD01",
+      "class": "Monster",
+      "family": "PrimevalDemonD",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "StunSingle100B",
+        "2": "BasicAttackAllADeath",
+        "3": "TimeStrikeA"
+      },
+      "passives": {
+        "0": "PoisonRevenge",
+        "1": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "PrimevalDemonE01",
+      "class": "Monster",
+      "family": "PrimevalDemonE",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "HighSpiritAttackA",
+        "2": "RecklessGainSpiritB",
+        "3": "DesperateBiteA3"
+      },
+      "passives": {
+        "0": "SleepRevenge",
+        "1": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "GyurelleInDisguise01",
+      "class": "Monster",
+      "family": "GyurelleInDisguise",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "SleepSingleB",
+        "2": "DreamHuntA2",
+        "3": "DesperateBiteA3",
+        "4": "GainAttackDoubleBoss1Death",
+        "5": "DisguiseSelfBoss2"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeFake",
+        "1": "HoldGroundFake"
+      },
+      "activeSkillsAI": {
+        "0": "NeverUse_AI",
+        "1": "NeverUse_AI",
+        "2": "NeverUse_AI",
+        "3": "NeverUse_AI"
+      },
+      "aiSequence": "Gyurelle01DisguiseSeq",
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "4": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "5": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "GyurelleInDisguise01AT",
+      "class": "Monster",
+      "family": "GyurelleInDisguise",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "SleepSingleB",
+        "2": "DreamHuntA2",
+        "3": "DesperateBiteA3",
+        "4": "GainAttackDoubleBoss1Death",
+        "5": "DisguiseSelfBoss2AT"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeFake",
+        "1": "HoldGroundFake"
+      },
+      "activeSkillsAI": {
+        "0": "NeverUse_AI",
+        "1": "NeverUse_AI",
+        "2": "NeverUse_AI",
+        "3": "NeverUse_AI"
+      },
+      "aiSequence": "Gyurelle01DisguiseSeq",
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "4": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "5": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "GyurelleInDisguise01ATB",
+      "class": "Monster",
+      "family": "GyurelleInDisguise",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "SleepSingleB",
+        "2": "DreamHuntA2",
+        "3": "DesperateBiteA3",
+        "4": "GainAttackDoubleBoss1Death",
+        "5": "DisguiseSelfBoss2ATB"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeFake",
+        "1": "HoldGroundFake"
+      },
+      "activeSkillsAI": {
+        "0": "NeverUse_AI",
+        "1": "NeverUse_AI",
+        "2": "NeverUse_AI",
+        "3": "NeverUse_AI"
+      },
+      "aiSequence": "Gyurelle01DisguiseSeq",
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "4": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "5": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "FloatingMageBoss01",
+      "class": "Monster",
+      "family": "FloatingMageBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleADeath",
+        "1": "RecklessGainSpiritBoss1",
+        "2": "HighSpiritAttackBoss2",
+        "3": "SurvivorDoubleBoss1",
+        "4": "SummonFloatingMageBoss01"
+      },
+      "passives": {
+        "0": "StunRevengeB",
+        "1": "Stun50TUMinus",
+        "2": "Sleep50TUMinus"
+      },
+      "cost": 999,
+      "baseAttack": 950,
+      "baseMaxHp": 4000,
+      "speed": 120,
+      "element": "Death",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ]
+      },
+      "damageVoices": [
+        11,
+        12
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "MetalDragonBoss01",
+      "class": "Monster",
+      "family": "MetalDragonBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "GainSpiritBoss2",
+        "2": "LastStandDoubleBoss2",
+        "3": "PoisonTouchAllBoss1",
+        "4": "ProtectorKillerBoss1",
+        "5": "TimeStrikeBoss3"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "PoisonRevengeAll",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1000,
+      "baseMaxHp": 23000,
+      "speed": 700,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        21
+      ]
+    },
+    {
+      "name": "MaskViola01",
+      "class": "Monster",
+      "family": "MaskViola",
+      "activeSkills": {
+        "0": "PoisonTouchDoubleBoss2",
+        "1": "HealSingleBoss2",
+        "2": "PoisonEaterDoubleBoss1"
+      },
+      "passives": {
+        "0": "StunRevengeAllB",
+        "1": "StunImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 900,
+      "baseMaxHp": 10000,
+      "speed": 50,
+      "element": "Earth",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ]
+      },
+      "damageVoices": [
+        7,
+        8
+      ],
+      "deathVoices": [
+        9
+      ]
+    },
+    {
+      "name": "DrukeSmall01",
+      "class": "Monster",
+      "family": "DrukeSmall",
+      "activeSkills": {
+        "0": "PowerAttackAllBoss1",
+        "1": "DesperateBiteBoss1",
+        "2": "SneakAttackDoubleBoss2",
+        "3": "DetoxBlastDoubleBoss1",
+        "4": "StealthSelfBoss2"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "Stun70TUMinus",
+        "2": "Sleep50TUMinus"
+      },
+      "aiSequence": "DrukeSmall01Seq",
+      "cost": 999,
+      "baseAttack": 800,
+      "baseMaxHp": 28000,
+      "speed": 650,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          3,
+          4
+        ],
+        "4": [
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "ForestBearBoss01",
+      "class": "Monster",
+      "family": "ForestBearBoss",
+      "activeSkills": {
+        "0": "RecklessAttackA",
+        "1": "BasicAttackAllADeath",
+        "2": "PoisonEaterA3"
+      },
+      "passives": {
+        "0": "PoisonRevenge"
+      },
+      "cost": 999,
+      "baseAttack": 700,
+      "baseMaxHp": 2700,
+      "speed": 270,
+      "element": "Death",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          1
+        ]
+      },
+      "damageVoices": [
+        5
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "ForestBearBoss02",
+      "class": "Monster",
+      "family": "ForestBearBoss",
+      "activeSkills": {
+        "0": "RecklessAttackA",
+        "1": "DuoAttackBoss1",
+        "2": "PoisonEaterA3",
+        "3": "Summon1ForestBearBoss01"
+      },
+      "cost": 999,
+      "baseAttack": 1050,
+      "baseMaxHp": 6500,
+      "speed": 300,
+      "element": "Death",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          12,
+          14
+        ],
+        "1": [
+          12,
+          14
+        ],
+        "2": [
+          12,
+          14
+        ],
+        "3": [
+          12,
+          14
+        ]
+      },
+      "damageVoices": [
+        20
+      ],
+      "deathVoices": [
+        22
+      ]
+    },
+    {
+      "name": "FireDragonBoss01",
+      "class": "Monster",
+      "family": "FireDragonBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleAFire",
+        "1": "SurvivorBoss1",
+        "2": "ThrowDoubleBoss1",
+        "3": "HighSpiritAttackAllBoss1",
+        "4": "SummonTokenx6FireBoss1"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "Summon3MinionsEntranceFire",
+        "2": "Stun100TUMinus"
+      },
+      "cost": 999,
+      "baseAttack": 750,
+      "baseMaxHp": 15000,
+      "speed": 750,
+      "element": "Fire",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          1,
+          2
+        ],
+        "4": [
+          1,
+          2
+        ],
+        "5": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "FireLizardLancer02",
+      "class": "Monster",
+      "family": "FireLizardLancer",
+      "activeSkills": {
+        "0": "RecklessAttackA",
+        "1": "BasicAttackAllAFire",
+        "2": "DesperateStrikeA",
+        "3": "ProtectorKillerA"
+      },
+      "passives": {
+        "0": "StunRevengeC"
+      },
+      "cost": 999,
+      "baseAttack": 608,
+      "baseMaxHp": 3293,
+      "speed": 270,
+      "element": "Fire",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 1,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "Gyurelle01B",
+      "class": "Monster",
+      "family": "Gyurelle",
+      "activeSkills": {
+        "0": "GainAttackDoubleABoss",
+        "1": "SneakAttackSingleBoss1",
+        "2": "StealthSelfBoss1",
+        "3": "DisguiseSelfBoss1B"
+      },
+      "passives": {
+        "0": "StealthEntrance",
+        "1": "SleepLowestTUEntranceA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 730,
+      "baseMaxHp": 8000,
+      "speed": 900,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "Gyurelle01",
+      "skillVoices": {
+        "0": [
+          1,
+          101
+        ],
+        "1": [
+          2,
+          102
+        ],
+        "2": [
+          3,
+          103
+        ],
+        "3": [
+          4,
+          104
+        ]
+      },
+      "damageVoices": [
+        5,
+        105
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "GyurelleInDisguise01B",
+      "class": "Monster",
+      "family": "GyurelleInDisguise",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "DreamHuntA2",
+        "2": "ProtectTeammatesA",
+        "3": "DesperateBiteA3",
+        "4": "TimeStrikeA",
+        "5": "StealthAllyB",
+        "6": "GainAttackDoubleBoss1Death",
+        "7": "DisguiseSelfBoss2B"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeFakeB",
+        "1": "HoldGroundFake"
+      },
+      "aiSequence": "Gyurelle01DisguiseSeqB",
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "4": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "PrimevalDemonF01",
+      "class": "Monster",
+      "family": "PrimevalDemonF",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "DreamHuntA2",
+        "2": "ProtectTeammatesA",
+        "3": "DesperateBiteA3",
+        "4": "TimeStrikeA",
+        "5": "StealthAllyB"
+      },
+      "passives": {
+        "0": "StunAbsorber",
+        "1": "HoldGround"
+      },
+      "activeSkillsAI": {
+        "1": "DreamHuntA2Gyurelle_AI",
+        "2": "ProtectTeammatesAGyurelle_AI",
+        "5": "StealthAllyBGyurelle_AI"
+      },
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "4": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "5": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "Gyurelle01C",
+      "class": "Monster",
+      "family": "Gyurelle0",
+      "activeSkills": {
+        "0": "GainAttackDoubleABoss",
+        "1": "SneakAttackSingleBoss1",
+        "2": "StealthSelfBoss1",
+        "3": "DisguiseSelfBoss1C"
+      },
+      "passives": {
+        "0": "StealthEntrance",
+        "1": "SleepLowestTUEntranceA",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 730,
+      "baseMaxHp": 8000,
+      "speed": 900,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "Gyurelle01",
+      "skillVoices": {
+        "0": [
+          1,
+          101
+        ],
+        "1": [
+          2,
+          102
+        ],
+        "2": [
+          3,
+          103
+        ],
+        "3": [
+          4,
+          104
+        ]
+      },
+      "damageVoices": [
+        5,
+        105
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "GyurelleInDisguise01C",
+      "class": "Monster",
+      "family": "GyurelleInDisguise0",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "DreamHuntA2",
+        "2": "ProtectTeammatesA",
+        "3": "DesperateBiteA3",
+        "4": "TimeStrikeA",
+        "5": "StealthAllyB",
+        "6": "GainAttackDoubleBoss1Death",
+        "7": "DisguiseSelfBoss2C"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeFakeC",
+        "1": "HoldGroundFake"
+      },
+      "aiSequence": "Gyurelle01DisguiseSeqB",
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 3000,
+      "speed": 225,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "PrimevalDemon01",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "4": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "5": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "Luther01B",
+      "class": "Monster",
+      "family": "Luther",
+      "activeSkills": {
+        "0": "GainAttackDoubleAFire",
+        "1": "AssistedAttackSingleBoss2",
+        "2": "AccelerateTeamA",
+        "3": "SlayerbaneDoubleA",
+        "4": "BloodthirstA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "PoisonImmunity",
+        "2": "BurnImmunity"
+      },
+      "activeSkillsAI": {
+        "2": "AccelerateTeamALuther2_AI",
+        "3": "SlayerbaneDoubleALuther2_AI"
+      },
+      "cost": 999,
+      "baseAttack": 760,
+      "baseMaxHp": 9140,
+      "speed": 700,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "Luther01",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Astrid01B",
+      "class": "Monster",
+      "family": "Astrid",
+      "activeSkills": {
+        "0": "RecklessAttackA",
+        "1": "ProtectorKillerAAstridBoss",
+        "2": "DesperateStrikeB2Boss",
+        "3": "DesperateBiteDoubleA",
+        "4": "RecklessHealA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "PoisonImmunity",
+        "2": "BurnImmunity"
+      },
+      "activeSkillsAI": {
+        "3": "DesperateBiteDoubleAAstridBoss_AI",
+        "4": "RecklessHealAAstridBoss_AI"
+      },
+      "cost": 999,
+      "baseAttack": 823,
+      "baseMaxHp": 8580,
+      "speed": 500,
+      "element": "Fire",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "Luther01",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ]
+      },
+      "damageVoices": [
+        11,
+        12
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "FireKnightMaleD01",
+      "class": "Monster",
+      "family": "FireKnightMaleD",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "PurifySingleA",
+        "2": "GiveTurnA",
+        "3": "RecklessGainSpiritA",
+        "4": "LifeFlipAllyA"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeA"
+      },
+      "activeSkillsAI": {
+        "1": "PurifySingleABossLuther2_AI",
+        "2": "GiveTurnABossLuther2_AI",
+        "3": "RecklessGainSpiritABossLuther2_AI",
+        "4": "LifeFlipAllyALuther2_AI"
+      },
+      "cost": 999,
+      "baseAttack": 373,
+      "baseMaxHp": 1689,
+      "speed": 320,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "FireKnightMale01",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          9,
+          10
+        ],
+        "2": [
+          7,
+          8
+        ],
+        "3": [
+          11,
+          12
+        ],
+        "4": [
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "FloatingMageBoss02",
+      "class": "Monster",
+      "family": "FloatingMageBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleADeath",
+        "1": "RecklessGainSpiritBoss1",
+        "2": "HighSpiritAttackBoss2",
+        "3": "SurvivorDoubleBoss1",
+        "4": "SummonFloatingMageBoss02"
+      },
+      "passives": {
+        "0": "StunRevengeB",
+        "1": "Stun50TUMinus",
+        "2": "Sleep50TUMinus"
+      },
+      "cost": 999,
+      "baseAttack": 950,
+      "baseMaxHp": 4000,
+      "speed": 120,
+      "element": "Death",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ]
+      },
+      "damageVoices": [
+        11,
+        12
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "RedMinotaurDojo01",
+      "class": "Monster",
+      "family": "RedMinotaurDojo",
+      "activeSkills": {
+        "0": "GainAttackSingleABossDojo",
+        "1": "AssistedAttackSingleBoss1Dojo",
+        "2": "LastStandDoubleBoss1Dojo",
+        "3": "LifeFlipSelfADojo"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "activeSkillsAI": {
+        "3": "LifeFlipSelfABossRedMinotaur_AI"
+      },
+      "cost": 999,
+      "baseAttack": 400,
+      "baseMaxHp": 5100,
+      "speed": 350,
+      "element": "Fire",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        13
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "DeathKnightBoss01",
+      "class": "Monster",
+      "family": "DeathKnightBoss",
+      "activeSkills": {
+        "0": "PowerAttackSingleBoss1DeathKnight",
+        "1": "BurnAllBoss1",
+        "2": "PoisonTouchAllBoss2",
+        "3": "StunAllButSelfBoss1",
+        "4": "BurnForceBoss1",
+        "5": "PoisonEaterDoubleBoss2",
+        "6": "TimeStrikeDoubleBoss1",
+        "7": "DesperateBiteBoss2"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "Stun70TUMinus",
+        "2": "Sleep50TUMinus",
+        "3": "AttackUpIfBurningIconShowing",
+        "4": "DamageReduceIfPoisoned"
+      },
+      "aiSequence": "DeathKnightBoss01Seq",
+      "cost": 999,
+      "baseAttack": 1700,
+      "baseMaxHp": 95000,
+      "speed": 750,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ],
+        "6": [
+          13,
+          14
+        ],
+        "7": [
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "TaotieBoss01",
+      "class": "Monster",
+      "family": "TaotieBoss",
+      "activeSkills": {
+        "0": "LethalAttackTaotieBossA",
+        "1": "StunDoubleT200TaotieBoss",
+        "2": "SleepDoubleTaotieBoss",
+        "3": "ConsumeAllyBuffSelfBossA",
+        "4": "SummonTaotieBoss01",
+        "5": "SuperFuryTaotieBoss",
+        "6": "TimeStrikeTaotieBoss",
+        "7": "DreamHuntTaotieBoss",
+        "8": "ConsumeAllyBuffSelfBossB",
+        "9": "ConsumeAllyBuffSelfBossC",
+        "10": "GainAttackSingleA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "KnockbackImmunity",
+        "2": "StunImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1700,
+      "baseMaxHp": 125000,
+      "speed": 1,
+      "element": "Water",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "1": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "2": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "3": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "4": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "5": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "6": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "7": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "8": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "9": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "10": [
+          1,
+          5,
+          9,
+          13
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        21
+      ],
+      "victoryVoices": [
+        25
+      ]
+    },
+    {
+      "name": "GreenDragonBoss01",
+      "class": "Monster",
+      "family": "GreenDragonBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleALife"
+      },
+      "cost": 999,
+      "baseAttack": 642,
+      "baseMaxHp": 1000,
+      "speed": 131,
+      "element": "Life",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "deathVoices": [
+        25,
+        26
+      ]
+    },
+    {
+      "name": "MistDragonBoss01",
+      "class": "Monster",
+      "family": "MistDragonBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleA"
+      },
+      "cost": 999,
+      "baseAttack": 767,
+      "baseMaxHp": 1000,
+      "speed": 212,
+      "element": "Water",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "name": "AnimalFamiliarBoss01",
+      "class": "Monster",
+      "family": "AnimalFamiliarBoss",
+      "activeSkills": {
+        "0": "RecklessAttackA2"
+      },
+      "cost": 999,
+      "baseAttack": 640,
+      "baseMaxHp": 1000,
+      "speed": 294,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        10
+      ]
+    },
+    {
+      "name": "FireBirdTest01",
+      "class": "Monster",
+      "family": "FireBirdTest",
+      "activeSkills": {
+        "0": "PowerAttackAllBoss1"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "PoisonImmunity",
+        "2": "BurnImmunity",
+        "3": "StunImmunity",
+        "4": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1000,
+      "baseMaxHp": 50000,
+      "speed": 800,
+      "element": "Fire",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0
+    },
+    {
+      "name": "AirCloakKnight03",
+      "class": "Monster",
+      "family": "AirCloakKnight",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "PoisonForceArgento",
+        "2": "TimeStrikeArgento",
+        "3": "LastStandA2",
+        "4": "DesperateGainSpiritA"
+      },
+      "passives": {
+        "0": "BurnImmunity",
+        "1": "HoldGround",
+        "2": "Stun70TUMinus"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 34000,
+      "speed": 20,
+      "element": "Death",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ]
+      },
+      "damageVoices": [
+        11,
+        12
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "AirGenieBoss01",
+      "class": "Monster",
+      "family": "AirGenieBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleAAir",
+        "1": "PoisonTouchDoubleA"
+      },
+      "passives": {
+        "0": "StunRevengeD"
+      },
+      "cost": 999,
+      "baseAttack": 422,
+      "baseMaxHp": 3800,
+      "speed": 267,
+      "element": "Air",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          3
+        ]
+      },
+      "damageVoices": [
+        7
+      ],
+      "deathVoices": [
+        8
+      ],
+      "victoryVoices": [
+        9
+      ]
+    },
+    {
+      "name": "CapedSkeletonA01",
+      "class": "Monster",
+      "family": "CapedSkeletonA",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "StealthAllyA",
+        "2": "SneakAttackA0"
+      },
+      "passives": {
+        "0": "SummonSkeletonRevenge"
+      },
+      "cost": 999,
+      "baseAttack": 517,
+      "baseMaxHp": 3845,
+      "speed": 327,
+      "element": "Death",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          3
+        ],
+        "2": [
+          5
+        ]
+      },
+      "damageVoices": [
+        7
+      ],
+      "deathVoices": [
+        9
+      ],
+      "victoryVoices": [
+        10
+      ]
+    },
+    {
+      "name": "CapedSkeletonB01",
+      "class": "Monster",
+      "family": "CapedSkeletonB",
+      "activeSkills": {
+        "0": "PoisonAttackA",
+        "1": "PoisonEaterA",
+        "2": "LifeFlipAllyA"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "activeSkillsAI": {
+        "2": "LifeFlipAllyANPC_AI"
+      },
+      "cost": 999,
+      "baseAttack": 580,
+      "baseMaxHp": 3530,
+      "speed": 411,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          3
+        ],
+        "2": [
+          5
+        ]
+      },
+      "damageVoices": [
+        7
+      ],
+      "deathVoices": [
+        9
+      ],
+      "victoryVoices": [
+        10
+      ]
+    },
+    {
+      "name": "CapedSkeletonC01",
+      "class": "Monster",
+      "family": "CapedSkeletonC",
+      "activeSkills": {
+        "0": "RecklessAttackA",
+        "1": "RecklessSummonSkeletonA",
+        "2": "GiveTurnSacA"
+      },
+      "passives": {
+        "0": "PoisonRevenge"
+      },
+      "activeSkillsAI": {
+        "2": "GiveTurnSacANPC_AI"
+      },
+      "cost": 999,
+      "baseAttack": 576,
+      "baseMaxHp": 3550,
+      "speed": 123,
+      "element": "Death",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          3
+        ],
+        "2": [
+          5
+        ]
+      },
+      "damageVoices": [
+        7
+      ],
+      "deathVoices": [
+        9
+      ],
+      "victoryVoices": [
+        10
+      ]
+    },
+    {
+      "name": "GhostKnightA01",
+      "class": "Monster",
+      "family": "GhostKnightA",
+      "activeSkills": {
+        "0": "PoisonAttackA",
+        "1": "PoisonEaterDoubleA",
+        "2": "ProtectorKillerA0",
+        "3": "BloodfuryA0"
+      },
+      "passives": {
+        "0": "SummonSkeletonRevenge"
+      },
+      "cost": 999,
+      "baseAttack": 652,
+      "baseMaxHp": 3170,
+      "speed": 247,
+      "element": "Death",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          2
+        ],
+        "2": [
+          3
+        ],
+        "3": [
+          4
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        10
+      ],
+      "victoryVoices": [
+        11
+      ]
+    },
+    {
+      "name": "GhostKnightB01",
+      "class": "Monster",
+      "family": "GhostKnightB",
+      "activeSkills": {
+        "0": "PoisonAttackA",
+        "1": "DesperateStrikeA2",
+        "2": "StealthAllyA",
+        "3": "TimeStrikeA2"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 579,
+      "baseMaxHp": 3535,
+      "speed": 392,
+      "element": "Death",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          2
+        ],
+        "2": [
+          3
+        ],
+        "3": [
+          4
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        10
+      ],
+      "victoryVoices": [
+        11
+      ]
+    },
+    {
+      "name": "GhostKnightC01",
+      "class": "Monster",
+      "family": "GhostKnightC",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "ThrowA",
+        "2": "SurvivorDoubleA2",
+        "3": "GiveTurnA"
+      },
+      "passives": {
+        "0": "Summon1SkeletonEntrance"
+      },
+      "cost": 999,
+      "baseAttack": 546,
+      "baseMaxHp": 3700,
+      "speed": 94,
+      "element": "Death",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          2
+        ],
+        "2": [
+          3
+        ],
+        "3": [
+          4
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        10
+      ],
+      "victoryVoices": [
+        11
+      ]
+    },
+    {
+      "name": "AirGenieA01",
+      "class": "Monster",
+      "family": "AirGenieA",
+      "activeSkills": {
+        "0": "RecklessAttackC2",
+        "1": "StunGrenade200A",
+        "2": "RecklessGainSpiritA"
+      },
+      "passives": {
+        "0": "SpiritLossRevengeA"
+      },
+      "activeSkillsAI": {
+        "1": "StunGrenade200ANPC_AI"
+      },
+      "cost": 999,
+      "baseAttack": 573,
+      "baseMaxHp": 3475,
+      "speed": 112,
+      "element": "Death",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          3
+        ],
+        "2": [
+          5
+        ]
+      },
+      "damageVoices": [
+        7
+      ],
+      "deathVoices": [
+        8
+      ]
+    },
+    {
+      "name": "UndeadMinotaur01",
+      "class": "Monster",
+      "family": "UndeadMinotaur",
+      "activeSkills": {
+        "0": "PoisonAttackA",
+        "1": "LimitBrokenAttackDoubleA",
+        "2": "PoisonEaterA2Boss",
+        "3": "DesperateBiteDoubleBoss01",
+        "4": "KnockbackABoss",
+        "5": "PoisonTouchAllBoss3"
+      },
+      "passives": {
+        "0": "DamageReduceWhenAtAllySpiritAt0",
+        "1": "HoldGround",
+        "2": "BurnImmunity",
+        "3": "Stun100TUMinus"
+      },
+      "activeSkillsAI": {
+        "4": "KnockbackABoss_AI"
+      },
+      "cost": 999,
+      "baseAttack": 900,
+      "baseMaxHp": 20100,
+      "speed": 350,
+      "element": "Death",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          1,
+          2
+        ],
+        "4": [
+          1,
+          2
+        ],
+        "5": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        13
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "Darna03",
+      "class": "Monster",
+      "family": "Darna",
+      "activeSkills": {
+        "0": "MaxSpiritAttackDoubleDarna",
+        "1": "ZeroSpiritAttackAllDarna",
+        "2": "PurifySingleDarna",
+        "3": "CostAttackSingleDarna",
+        "4": "SpiritLossAllDarna",
+        "5": "SpiritGainMaxDarna",
+        "6": "NeverKillDoubleDarna",
+        "7": "GainAttackSingleADarna"
+      },
+      "passives": {
+        "0": "SpiritAdjustmentDarna",
+        "1": "HoldGround",
+        "2": "Stun100TUMinus",
+        "3": "ExtraTurnCycle",
+        "4": "SleepImmunity"
+      },
+      "activeSkillsAI": {
+        "0": "MaxSpiritAttackDoubleDarna_AI",
+        "1": "ZeroSpiritAttackAllDarna_AI",
+        "2": "PurifySingleDarna_AI",
+        "3": "CostAttackSingleDarna_AI",
+        "4": "SpiritLossAllDarna_AI",
+        "5": "SpiritGainMaxDarna_AI",
+        "6": "NeverKillDoubleDarna_AI"
+      },
+      "aiSequence": "Darna01Seq",
+      "cost": 999,
+      "baseAttack": 910,
+      "baseMaxHp": 50000,
+      "speed": 1000,
+      "element": "Death",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ],
+        "6": [
+          13,
+          14
+        ],
+        "7": [
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "DarnaB03",
+      "class": "Monster",
+      "family": "Darna",
+      "activeSkills": {
+        "0": "MaxSpiritAttackDoubleDarna",
+        "1": "ZeroSpiritAttackAllDarna",
+        "2": "PurifySingleDarna",
+        "3": "CostAttackSingleDarna",
+        "4": "SpiritLossAllDarna",
+        "5": "SpiritGainMaxDarna",
+        "6": "NeverKillDoubleDarna",
+        "7": "GainAttackSingleADarna"
+      },
+      "passives": {
+        "0": "SpiritAdjustmentDarna",
+        "1": "HoldGround",
+        "2": "StunImmunity",
+        "3": "ExtraTurnCycle",
+        "4": "SleepImmunity"
+      },
+      "activeSkillsAI": {
+        "0": "MaxSpiritAttackDoubleDarna_AI",
+        "1": "ZeroSpiritAttackAllDarna_AI",
+        "2": "PurifySingleDarna_AI",
+        "3": "CostAttackSingleDarna_AI",
+        "4": "SpiritLossAllDarna_AI",
+        "5": "SpiritGainMaxDarna_AI",
+        "6": "NeverKillDoubleDarna_AI"
+      },
+      "aiSequence": "Darna01Seq",
+      "cost": 999,
+      "baseAttack": 3300,
+      "baseMaxHp": 300000,
+      "speed": 1000,
+      "element": "Death",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ],
+        "6": [
+          13,
+          14
+        ],
+        "7": [
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "NorzaRegularBoss01",
+      "class": "Monster",
+      "family": "NorzaRegularBoss",
+      "activeSkills": {
+        "0": "TimeAnnihilatorANorzaMagnifo",
+        "1": "OddsStunANorzaMagnifo",
+        "2": "EvensAttackANorzaMagnifo",
+        "3": "TimeStrikeANorzaMagnifo",
+        "4": "NullifyAllANorzaMagnifo",
+        "5": "SpiritAbsorbANorzaMagnifo",
+        "6": "GainAttackDoubleANorzaMagnifo",
+        "7": "OverBiteANorzaMagnifo"
+      },
+      "passives": {
+        "0": "PermanentOverwatch",
+        "1": "HoldGround",
+        "2": "BurnImmunity",
+        "3": "Sleep50TUMinus"
+      },
+      "aiSequence": "NorzaRegularBoss01Seq",
+      "cost": 999,
+      "baseAttack": 1000,
+      "baseMaxHp": 50000,
+      "speed": 1,
+      "element": "Death",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ],
+        "6": [
+          13,
+          14
+        ],
+        "7": [
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "NorzaRegularBossB01",
+      "class": "Monster",
+      "family": "NorzaRegularBoss",
+      "activeSkills": {
+        "0": "TimeAnnihilatorANorzaMagnifo",
+        "1": "OddsStunANorzaMagnifo",
+        "2": "EvensAttackANorzaMagnifo",
+        "3": "TimeStrikeANorzaMagnifo",
+        "4": "NullifyAllANorzaMagnifo",
+        "5": "SpiritAbsorbANorzaMagnifo",
+        "6": "GainAttackDoubleANorzaMagnifo",
+        "7": "OverBiteANorzaMagnifo"
+      },
+      "passives": {
+        "0": "PermanentOverwatch",
+        "1": "HoldGround",
+        "2": "BurnImmunity",
+        "3": "Sleep50TUMinus"
+      },
+      "aiSequence": "NorzaRegularBoss01Seq",
+      "cost": 999,
+      "baseAttack": 3300,
+      "baseMaxHp": 350000,
+      "speed": 1,
+      "element": "Death",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ],
+        "6": [
+          13,
+          14
+        ],
+        "7": [
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        19
+      ]
+    },
+    {
+      "name": "GolemBoss01",
+      "class": "Monster",
+      "family": "GolemBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleAGolemBoss",
+        "1": "ProtectorKillerAGolemBoss",
+        "2": "HighSpiritAttackAGolemBoss",
+        "3": "BloodfuryAGolemBoss",
+        "4": "TimeBombAllA",
+        "5": "DesperateGainSpiritA"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "PoisonImmunity",
+        "2": "BurnImmunity",
+        "3": "Stun100TUMinus"
+      },
+      "activeSkillsAI": {
+        "4": "TimeBombBoss_AI"
+      },
+      "cost": 999,
+      "baseAttack": 900,
+      "baseMaxHp": 40000,
+      "speed": 399,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ],
+        "4": [
+          1,
+          3
+        ],
+        "5": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "MechanicalTitan02",
+      "class": "Monster",
+      "family": "MechanicalTitan",
+      "activeSkills": {
+        "0": "GainAttackSingleAKnockback",
+        "1": "DesperateBiteAllBoss",
+        "2": "ArmorStrikeAInstant",
+        "3": "BlockDeathA"
+      },
+      "passives": {
+        "0": "ArmorSkinA",
+        "1": "GiveTurnTrapAlliesA",
+        "2": "PoisonImmunity",
+        "3": "KnockbackImmunity",
+        "4": "BurnImmunity"
+      },
+      "aiSequence": "MechanicalTitan02Seq",
+      "cost": 999,
+      "baseAttack": 1050,
+      "baseMaxHp": 35000,
+      "speed": 500,
+      "element": "Death",
+      "weaponPref": "Hammer",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        19
+      ],
+      "deathVoices": [
+        22
+      ]
+    },
+    {
+      "name": "DarkRizetteBoss03",
+      "class": "Monster",
+      "family": "DarkRizetteBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleADarkRizetteBoss",
+        "1": "DrainBurningSingleADarkRizetteBoss",
+        "2": "InstantBurnTouchRandomADarkRizetteBoss",
+        "3": "ProtectorKillerADarkRizetteBoss"
+      },
+      "passives": {
+        "0": "PurpleBurnPassive",
+        "1": "PoisonImmunity",
+        "2": "Sleep50TUMinus",
+        "3": "StunImmunity"
+      },
+      "aiSequence": "DarkRizetteBoss03Seq",
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 45000,
+      "speed": 369,
+      "element": "Death",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "FireLich02",
+      "class": "Monster",
+      "family": "FireLich",
+      "activeSkills": {
+        "0": "GainAttackDoubleAFireLich",
+        "1": "ConfidentStrikeAFireLich",
+        "2": "BurnBlastAllAFireLich",
+        "3": "BurnForceAFireLich",
+        "4": "ThrowABurnFireLich",
+        "5": "SurvivorAFireLich"
+      },
+      "passives": {
+        "0": "HoldGroundIfAnyBurning",
+        "1": "MinionSummonSkinAFireLich",
+        "2": "StunImmunity",
+        "3": "KnockbackImmunity"
+      },
+      "aiSequence": "FireLich02Seq",
+      "cost": 999,
+      "baseAttack": 900,
+      "baseMaxHp": 50000,
+      "speed": 240,
+      "element": "Fire",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 1,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "FireSpirit01",
+      "class": "Monster",
+      "family": "FireSpirit",
+      "activeSkills": {
+        "0": "BurnAllyABoss",
+        "1": "SummonFlameSpawnIfBurningA"
+      },
+      "passives": {
+        "0": "BurnRevengeA"
+      },
+      "cost": 999,
+      "baseAttack": 208,
+      "baseMaxHp": 1099,
+      "speed": 155,
+      "element": "Fire",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 0,
+      "evolvedStars": 0,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          1
+        ]
+      },
+      "damageVoices": [
+        5
+      ],
+      "deathVoices": [
+        6
+      ],
+      "victoryVoices": [
+        7
+      ]
+    },
+    {
+      "name": "NovaBlastDragonBoss01",
+      "class": "Monster",
+      "family": "NovaBlastDragonBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleAAirBoss1",
+        "1": "LifeFlipSelfABoss1",
+        "2": "TimeStrikeDoubleANovaBlastBoss",
+        "3": "ConfidentStrikeA2NovaBlastBoss"
+      },
+      "passives": {
+        "0": "StunAbsorber",
+        "1": "StunSkinBoss1"
+      },
+      "cost": 999,
+      "baseAttack": 1050,
+      "baseMaxHp": 25000,
+      "speed": 100,
+      "element": "Air",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          101,
+          102,
+          103
+        ],
+        "1": [
+          101,
+          102,
+          103
+        ],
+        "2": [
+          101,
+          102,
+          103
+        ],
+        "3": [
+          101,
+          102,
+          103
+        ]
+      },
+      "damageVoices": [
+        108
+      ],
+      "deathVoices": [
+        109
+      ],
+      "victoryVoices": [
+        110
+      ]
+    },
+    {
+      "name": "EarthKaijuBoss01",
+      "class": "Monster",
+      "family": "EarthKaijuBoss",
+      "activeSkills": {
+        "0": "GainAttackAllBoss1Earth",
+        "1": "LifeFlipSelfABoss1",
+        "2": "SurvivorDoubleAEarthKaijuBoss",
+        "3": "GiveTurnABoss1"
+      },
+      "passives": {
+        "0": "PoisonImmunity",
+        "1": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 1050,
+      "baseMaxHp": 25000,
+      "speed": 200,
+      "element": "Earth",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3
+        ],
+        "1": [
+          1,
+          2,
+          3
+        ],
+        "2": [
+          1,
+          2,
+          3
+        ],
+        "3": [
+          1,
+          2,
+          3
+        ]
+      },
+      "damageVoices": [
+        5
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "WindDragonBoss01",
+      "class": "Monster",
+      "family": "WindDragonBoss",
+      "activeSkills": {
+        "0": "PoisonTouchDoubleBoss2",
+        "1": "LifeFlipSelfABoss1",
+        "2": "HighSpiritAttackDoubleAWindDragonBoss",
+        "3": "PurifyDoubleABoss1"
+      },
+      "passives": {
+        "0": "PoisonSkinA",
+        "1": "AutoProtect"
+      },
+      "cost": 999,
+      "baseAttack": 800,
+      "baseMaxHp": 30000,
+      "speed": 400,
+      "element": "Earth",
+      "weaponPref": "Katana",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          1
+        ],
+        "3": [
+          1
+        ]
+      },
+      "damageVoices": [
+        5
+      ],
+      "deathVoices": [
+        7
+      ]
+    },
+    {
+      "name": "BabyDarkDragonBoss01",
+      "class": "Monster",
+      "family": "BabyDarkDragonBoss",
+      "activeSkills": {
+        "0": "PoisonAttackABoss1",
+        "1": "LifeFlipSelfABoss1",
+        "2": "PoisonEaterDoubleABabyDarkDragonBoss",
+        "3": "GiveTurnABoss1"
+      },
+      "passives": {
+        "0": "SleepImmunity",
+        "1": "HealPurifyAllRevengeA"
+      },
+      "cost": 999,
+      "baseAttack": 1000,
+      "baseMaxHp": 20000,
+      "speed": 300,
+      "element": "Death",
+      "weaponPref": "Katana",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        17
+      ],
+      "deathVoices": [
+        19
+      ],
+      "victoryVoices": [
+        21
+      ]
+    },
+    {
+      "name": "MetalDragonDemon01",
+      "class": "Monster",
+      "family": "MetalDragonDemon",
+      "activeSkills": {
+        "0": "SpitfireA",
+        "1": "DecayTouchA",
+        "2": "DecayDrainA",
+        "3": "SurvivorDoubleAMDDemon"
+      },
+      "passives": {
+        "0": "SleepImmunity",
+        "1": "StunImmunity",
+        "2": "HoldGround"
+      },
+      "aiSequence": "MetalDemon01Seq",
+      "cost": 999,
+      "baseAttack": 1000,
+      "baseMaxHp": 30000,
+      "speed": 144,
+      "element": "Death",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        19
+      ],
+      "deathVoices": [
+        22
+      ]
+    },
+    {
+      "name": "MaskElfWarrior01",
+      "class": "Monster",
+      "family": "MaskElfWarrior",
+      "activeSkills": {
+        "0": "GainAttackSingleAFastBoss",
+        "1": "PushbackABossInstant",
+        "2": "KnockbackNextAttackerA",
+        "3": "TimeSniperAMaskElf",
+        "4": "StunAllAMaskElf",
+        "5": "FinalHuntABoss"
+      },
+      "passives": {
+        "0": "DamageStunTrapABoss",
+        "1": "HoldGround",
+        "2": "StunImmunity",
+        "3": "Sleep50TUMinus"
+      },
+      "aiSequence": "MaskElfWarrior01Seq",
+      "cost": 999,
+      "baseAttack": 1050,
+      "baseMaxHp": 30000,
+      "speed": 500,
+      "element": "Earth",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "MiboneEX01",
+      "class": "Monster",
+      "family": "MiboneEX",
+      "activeSkills": {
+        "0": "GainAttackAllMiboneEX",
+        "1": "PoisonEaterDoubleAMiboneEX",
+        "2": "ChargeAnnihilatorAMiboneEX",
+        "3": "PoisonAllAMiboneEX"
+      },
+      "passives": {
+        "0": "ExtraTurnChargeConverter",
+        "1": "PainCharge",
+        "2": "PurifySelfOnMyTurn"
+      },
+      "cost": 999,
+      "baseAttack": 4500,
+      "baseMaxHp": 270000,
+      "speed": 1,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          7,
+          8
+        ],
+        "3": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "LavaDragon01",
+      "class": "Monster",
+      "family": "LavaDragon",
+      "activeSkills": {
+        "0": "GainAttackAllAFire",
+        "1": "BurnSelfSpiritChargeB"
+      },
+      "passives": {
+        "0": "StunImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 380,
+      "baseMaxHp": 2600,
+      "speed": 225,
+      "element": "Fire",
+      "weaponPref": "Hammer",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 3,
+      "evolvedStars": 3,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "LavaDragon02",
+      "class": "Monster",
+      "family": "LavaDragon",
+      "activeSkills": {
+        "0": "AssistedAttackSingleLavaDragon",
+        "1": "HighSpiritAttackDoubleALavaDragon",
+        "2": "BurnDevourHealSelfAInstantBoss",
+        "3": "LastStandA"
+      },
+      "passives": {
+        "0": "SummonLavaDragonWhenEnemiesDie",
+        "1": "DamageReducWhileBurning",
+        "2": "StunImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 860,
+      "baseMaxHp": 22000,
+      "speed": 100,
+      "element": "Fire",
+      "weaponPref": "Hammer",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          1,
+          2
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "DarkLudmillaBoss02",
+      "class": "Monster",
+      "family": "DarkLudmillaBoss",
+      "activeSkills": {
+        "0": "GainAttackDoubleAFireLich",
+        "1": "VanguardReinforcementsA",
+        "2": "ConsumeAllyChargeBossA",
+        "3": "EnergyGuardedbaneSingleADarkLudmillaBoss",
+        "4": "EnergyTranquilizeADarkLudmillaBoss",
+        "5": "EnergyGroundBusterSingleADarkLudmillaBoss",
+        "6": "EnergySweepAllADarkLudmillaBoss"
+      },
+      "passives": {
+        "0": "LastShieldBoss",
+        "1": "LastStanceBoss",
+        "2": "SleepImmunity",
+        "3": "HoldGround"
+      },
+      "aiSequence": "DarkLudmillaBoss02Seq",
+      "cost": 999,
+      "baseAttack": 950,
+      "baseMaxHp": 40000,
+      "speed": 200,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7
+        ],
+        "4": [
+          8
+        ],
+        "5": [
+          9
+        ],
+        "6": [
+          10
+        ]
+      },
+      "damageVoices": [
+        11,
+        12
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "VanguardSoldier01",
+      "class": "Monster",
+      "family": "VanguardSoldier",
+      "activeSkills": {
+        "0": "RecklessAttackC",
+        "1": "GainStunAbsorbA",
+        "2": "ProtectTeammatesA",
+        "3": "ConfidentStrikeA",
+        "4": "DesperateStrikeA",
+        "5": "OverwatchA"
+      },
+      "passives": {
+        "0": "RandomImmunityA",
+        "1": "HoldGround"
+      },
+      "activeSkillsAI": {
+        "1": "TryToUseWhenNoStunAbsorb_AI",
+        "2": "TryToUseWhenNotProtected_AI",
+        "5": "TryToUseWhenNotConfidentOrDesperate_AI"
+      },
+      "cost": 999,
+      "baseAttack": 400,
+      "baseMaxHp": 3500,
+      "speed": 530,
+      "element": "Fire",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 4,
+      "evolvedStars": 4,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "LifeEyeballEX01",
+      "class": "Monster",
+      "family": "LifeEyeballEX",
+      "activeSkills": {
+        "0": "GainAttackAllALifeEyeballEX",
+        "1": "TeamTurnA",
+        "2": "ProtectorKillerALifeEyeballEX",
+        "3": "TimeStrikeALifeEyeballEX"
+      },
+      "passives": {
+        "0": "HoldGroundIfNotAloneLifeEyeballEX",
+        "1": "StunImmunity",
+        "2": "SpiritEngineB"
+      },
+      "aiSequence": "LifeEyeballEXSeq",
+      "cost": 999,
+      "baseAttack": 1050,
+      "baseMaxHp": 30000,
+      "speed": 560,
+      "element": "Life",
+      "weaponPref": "Hammer",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          1
+        ],
+        "3": [
+          1
+        ]
+      },
+      "damageVoices": [
+        5
+      ],
+      "deathVoices": [
+        7
+      ]
+    },
+    {
+      "name": "GoldAngelEX02",
+      "class": "Monster",
+      "family": "GoldAngelEX",
+      "activeSkills": {
+        "0": "StunDouble50AGoldAngelEX",
+        "1": "HighSpiritAttackLiteAGoldAngelEX",
+        "2": "SurvivorAGoldAngelEX",
+        "3": "LifeFlipSelfAGoldAngelEX"
+      },
+      "passives": {
+        "0": "GainSpiritEntranceMax",
+        "1": "4ElementShieldGoldAngelEX",
+        "2": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 35000,
+      "speed": 150,
+      "element": "Life",
+      "weaponPref": "Hammer",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "GoldAngelEX01",
+      "class": "Monster",
+      "family": "GoldAngelEX",
+      "activeSkills": {
+        "0": "GainAttackSingleA",
+        "1": "StunDouble50A",
+        "2": "SurvivorA",
+        "3": "LastStandDoubleAGoldAngelEX"
+      },
+      "passives": {
+        "0": "HoldGround",
+        "1": "LastStanceBoss",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1200,
+      "baseMaxHp": 7000,
+      "speed": 150,
+      "element": "Life",
+      "weaponPref": "Hammer",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "DarkRizetteBossB03",
+      "class": "Monster",
+      "family": "DarkRizetteBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleADarkRizetteBoss",
+        "1": "DrainBurningSingleADarkRizetteBoss",
+        "2": "InstantBurnTouchRandomADarkRizetteBoss",
+        "3": "ProtectorKillerADarkRizetteBoss",
+        "4": "GainAttackDoubleADarkRizetteBoss",
+        "5": "DrainBurningDoubleADarkRizetteBoss",
+        "6": "InstantBurnTouchRandomDoubleADarkRizetteBoss"
+      },
+      "passives": {
+        "0": "PurpleBurnPassiveDarkRizetteBossB",
+        "1": "PoisonImmunity",
+        "2": "Sleep50TUMinus",
+        "3": "StunImmunity"
+      },
+      "aiSequence": "DarkRizetteBoss03BSeq",
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 45000,
+      "speed": 369,
+      "element": "Death",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          3,
+          4
+        ],
+        "5": [
+          5,
+          6
+        ],
+        "6": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "DarkAstridBoss01",
+      "class": "Monster",
+      "family": "DarkAstridBoss",
+      "activeSkills": {
+        "0": "PoisonTouchADarkAstridBoss",
+        "1": "KnockbackADarkAstridBoss",
+        "2": "PoisonEaterDoubleADarkAstridBoss",
+        "3": "BloodfuryADarkAstridBoss",
+        "4": "PoisonAttackADarkAstridBoss"
+      },
+      "passives": {
+        "0": "PoisonTrapEnemies",
+        "1": "DoubleTurn",
+        "2": "HoldGround",
+        "3": "StunImmunity",
+        "4": "SleepImmunity"
+      },
+      "aiSequence": "DarkAstridBoss01Seq",
+      "cost": 999,
+      "baseAttack": 1300,
+      "baseMaxHp": 50000,
+      "speed": 260,
+      "element": "Earth",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "deathVoices": [
+        27
+      ]
+    },
+    {
+      "name": "LudmillaRegularBoss02",
+      "class": "Monster",
+      "family": "LudmillaRegularBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleALifeLudmillaBoss",
+        "1": "StealthAllyDoubleALudmillaBoss",
+        "2": "GiveTurnALudmillaBoss",
+        "3": "LastStandAllALudmillaBoss"
+      },
+      "passives": {
+        "0": "MaidSkinLudmillaBoss",
+        "1": "HoldGround",
+        "2": "StunImmunity",
+        "3": "SleepImmunity",
+        "4": "KnockbackImmunity"
+      },
+      "aiSequence": "Ludmilla01Seq",
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 100000,
+      "speed": 170,
+      "element": "Life",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "YandereMaidBoss02",
+      "class": "Monster",
+      "family": "YandereMaidBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthAYandereBoss",
+        "1": "SleepDoubleAYandereBoss",
+        "2": "SneakAttackCYandereBoss",
+        "3": "DreamBusterAYandere"
+      },
+      "passives": {
+        "0": "StealthEntrance",
+        "1": "BurnImmunity"
+      },
+      "aiSequence": "Yandere01Seq",
+      "cost": 999,
+      "baseAttack": 2000,
+      "baseMaxHp": 50,
+      "speed": 700,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "BunnySamuraiBoss02",
+      "class": "Monster",
+      "family": "BunnySamuraiBoss",
+      "leaderBuff": "BunnySamuraiBossLeaderSkill",
+      "leaderBuffCondition": "AlwaysTrue",
+      "activeSkills": {
+        "0": "StealthDrillABunnySamuraiBoss",
+        "1": "CounterDrillABunnySamuraiBoss",
+        "2": "BurnDrillABunnySamuraiBoss",
+        "3": "TimeSniperABunnySamuraiBoss",
+        "4": "LastStandDoubleABunnySamuraiBoss"
+      },
+      "passives": {
+        "0": "StunSkinBoss1"
+      },
+      "cost": 999,
+      "baseAttack": 950,
+      "baseMaxHp": 80000,
+      "speed": 500,
+      "element": "Life",
+      "weaponPref": "Katana",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ]
+      },
+      "damageVoices": [
+        11,
+        12
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "SchoolGirlWarriorBoss02",
+      "class": "Monster",
+      "family": "SchoolGirlWarriorBoss",
+      "activeSkills": {
+        "0": "MaxAnnihilatorSGWarriorBoss",
+        "1": "RecklessAttackASGWarriorBoss",
+        "2": "StealthStunSingleASGWarriorBoss",
+        "3": "CounterStrikeAllASGWarriorBoss",
+        "4": "BurnBlastDoubleASGWarriorBoss",
+        "5": "SurvivorASGWarriorBoss"
+      },
+      "passives": {
+        "0": "DamageReduceWhenAllySpiritHighLife"
+      },
+      "aiSequence": "SchoolGirlWarriorBoss02Seq",
+      "cost": 999,
+      "baseAttack": 1050,
+      "baseMaxHp": 55000,
+      "speed": 300,
+      "element": "Life",
+      "weaponPref": "Katana",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "OniSchoolGirlBoss02",
+      "class": "Monster",
+      "family": "OniSchoolGirlBoss",
+      "activeSkills": {
+        "0": "ZeroAnnihilatorOniSGBoss",
+        "1": "CostAttackSingleAOniSGBoss",
+        "2": "SneakAttackCOniSGBoss",
+        "3": "CounterStrikeSingleAOniSGBoss",
+        "4": "BurnBlastAOniSGBoss",
+        "5": "BloodfuryAOniSGBoss"
+      },
+      "passives": {
+        "0": "DamageReduceWhenAtAllySpiritAt0"
+      },
+      "aiSequence": "OniSchoolGirlBoss02Seq",
+      "cost": 999,
+      "baseAttack": 1150,
+      "baseMaxHp": 45000,
+      "speed": 150,
+      "element": "Fire",
+      "weaponPref": "Katana",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ],
+        "5": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        13,
+        14
+      ],
+      "deathVoices": [
+        15
+      ]
+    },
+    {
+      "name": "DarkAstridBoss02",
+      "class": "Monster",
+      "family": "DarkAstridBoss",
+      "activeSkills": {
+        "0": "PoisonTouchADarkAstridBoss",
+        "1": "KnockbackADarkAstridBoss",
+        "2": "PoisonEaterDoubleADarkAstridBoss",
+        "3": "BloodfuryADarkAstridBoss",
+        "4": "PoisonAttackADarkAstridBoss",
+        "5": "DarkAstridBossTransform"
+      },
+      "passives": {
+        "0": "PoisonTrapEnemies",
+        "1": "DoubleTurn",
+        "2": "HoldGroundBlockDeathHiddenDarkAstridBoss",
+        "3": "StunImmunity",
+        "4": "SleepImmunity"
+      },
+      "aiSequence": "DarkAstridBoss02Seq",
+      "cost": 999,
+      "baseAttack": 1200,
+      "baseMaxHp": 35000,
+      "speed": 260,
+      "element": "Earth",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          11,
+          12
+        ],
+        "5": [
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "name": "DarkAstridBoss03",
+      "class": "Monster",
+      "family": "DarkAstridBoss",
+      "activeSkills": {
+        "0": "PoisonTouchADarkAstridBoss",
+        "1": "SwapEnemyForSkeletonADarkAstridBoss",
+        "2": "PoisonDrainSniperADarkAstridBoss",
+        "3": "SurvivorDoubleADarkAstridBoss",
+        "4": "PoisonAttackADarkAstridBoss"
+      },
+      "passives": {
+        "0": "DoubleTurn",
+        "1": "HoldGround",
+        "2": "PoisonImmunity",
+        "3": "BurnImmunity",
+        "4": "Stun50TUMinus"
+      },
+      "aiSequence": "DarkAstridBoss03Seq",
+      "cost": 999,
+      "baseAttack": 1450,
+      "baseMaxHp": 50000,
+      "speed": 520,
+      "element": "Earth",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          17,
+          18
+        ],
+        "2": [
+          19,
+          20
+        ],
+        "3": [
+          21,
+          22
+        ],
+        "4": [
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "deathVoices": [
+        27
+      ]
+    },
+    {
+      "name": "Orcanix01",
+      "class": "Monster",
+      "family": "Orcanix",
+      "leaderBuff": "OrcanixLeaderSkill",
+      "leaderBuffCondition": "IsNotLeader",
+      "activeSkills": {
+        "0": "GainAttackSingleAOrcanix",
+        "1": "GrantProtectOnceOtherAlliesA",
+        "2": "RefreshEndlessOrcanixA",
+        "3": "PowerUpAlliesSacAOrcanix",
+        "4": "DesperateStrikeDoubleAOrcanix"
+      },
+      "passives": {
+        "0": "SummonDefeatedEnemies",
+        "1": "PurifySelfOnMyTurnOrcanix",
+        "2": "StunImmunity",
+        "3": "KnockbackImmunity"
+      },
+      "aiSequence": "Orcanix01Seq",
+      "cost": 999,
+      "baseAttack": 650,
+      "baseMaxHp": 115000,
+      "speed": 900,
+      "element": "Death",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          5,
+          6
+        ],
+        "3": [
+          7,
+          8
+        ],
+        "4": [
+          9,
+          10
+        ]
+      },
+      "damageVoices": [
+        11,
+        12
+      ],
+      "deathVoices": [
+        13
+      ]
+    },
+    {
+      "name": "DarkFinnBoss01",
+      "class": "Monster",
+      "family": "DarkFinnBoss",
+      "activeSkills": {
+        "0": "BerserkAttackSingleADarkFinn",
+        "1": "ConsumeAllySummonADarkFinn",
+        "2": "ThrowAllADarkFinn",
+        "3": "LastStandDoubleADarkFinn"
+      },
+      "passives": {
+        "0": "ThrottleMinions",
+        "1": "HoldGroundSacHeal",
+        "2": "StunImmunity",
+        "3": "KnockbackImmunity"
+      },
+      "aiSequence": "DarkFinn01Seq",
+      "cost": 999,
+      "baseAttack": 1200,
+      "baseMaxHp": 50000,
+      "speed": 500,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          2,
+          3
+        ],
+        "2": [
+          2,
+          5
+        ],
+        "3": [
+          2,
+          7
+        ]
+      },
+      "damageVoices": [
+        9,
+        10
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "CyrusBoss02",
+      "class": "Monster",
+      "family": "CyrusBoss",
+      "activeSkills": {
+        "0": "BraveRecklessAttackACyrus",
+        "1": "DespairTouchACyrusBoss",
+        "2": "BraveSlayerbaneDoubleACyrus",
+        "3": "GrantProtectTeammatesACyrusBoss"
+      },
+      "passives": {
+        "0": "DamageReduceAllNotProtected",
+        "1": "BurnImmunity",
+        "2": "Stun100TUMinus"
+      },
+      "cost": 999,
+      "baseAttack": 3000,
+      "baseMaxHp": 50000,
+      "speed": 500,
+      "element": "Death",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        22,
+        24
+      ]
+    },
+    {
+      "name": "BahamutBoss01",
+      "class": "Monster",
+      "family": "BahamutBoss",
+      "activeSkills": {
+        "0": "PoisonAttackABahamutBoss",
+        "1": "PoisonEaterDoubleABahamutBoss",
+        "2": "NullifyDrainSingleABahamutBoss",
+        "3": "MaxAnnihilatorBahamutBoss",
+        "4": "ZeroAnnihilatorBahamutBoss"
+      },
+      "passives": {
+        "0": "FudgeSuperPoisonIsAPassive",
+        "1": "SuperPoisonSkinA",
+        "2": "StunImmunity",
+        "3": "SleepImmunity"
+      },
+      "aiSequence": "BahamutBoss01Seq",
+      "cost": 999,
+      "baseAttack": 1300,
+      "baseMaxHp": 75000,
+      "speed": 150,
+      "element": "Earth",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          3,
+          4
+        ],
+        "2": [
+          7,
+          8
+        ],
+        "3": [
+          9,
+          10
+        ],
+        "4": [
+          11
+        ]
+      },
+      "damageVoices": [
+        5
+      ],
+      "deathVoices": [
+        6
+      ]
+    },
+    {
+      "name": "EarthConstruct01",
+      "class": "Monster",
+      "family": "EarthConstruct",
+      "activeSkills": {
+        "0": "PoisonAttackAGolem",
+        "1": "PoisonTouchDoubleA",
+        "2": "PoisonEaterAllA",
+        "3": "DesperateMegaPoisonBombDoubleA"
+      },
+      "passives": {
+        "0": "PoisonToSuperConverter",
+        "1": "HoldGround",
+        "2": "KnockbackImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 20000,
+      "speed": 250,
+      "element": "Earth",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "AirConstruct01",
+      "class": "Monster",
+      "family": "AirConstruct",
+      "activeSkills": {
+        "0": "GainAttackSingleAGolem",
+        "1": "Stun100TUCooldownABoss",
+        "2": "TimeStrikeAllA",
+        "3": "DesperateStunBombDoubleA"
+      },
+      "passives": {
+        "0": "StunBoost50Source",
+        "1": "HoldGround",
+        "2": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 20000,
+      "speed": 250,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "FireConstruct01",
+      "class": "Monster",
+      "family": "FireConstruct",
+      "activeSkills": {
+        "0": "GainAttackDoubleAGolem",
+        "1": "BurnSelfA",
+        "2": "BurnBlastAllA",
+        "3": "DesperateBombDoubleA"
+      },
+      "passives": {
+        "0": "StatusImmunityWhileBurningSource",
+        "1": "HoldGround",
+        "2": "StunImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 20000,
+      "speed": 250,
+      "element": "Fire",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "WaterConstruct01",
+      "class": "Monster",
+      "family": "WaterConstruct",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthA",
+        "1": "SleepSingleA",
+        "2": "DreamHuntAllA",
+        "3": "DesperateSleepBombDoubleA"
+      },
+      "passives": {
+        "0": "VulnerableWhileSleepingSource",
+        "1": "HoldGround",
+        "2": "PoisonImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 20000,
+      "speed": 250,
+      "element": "Water",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "DeathConstruct01",
+      "class": "Monster",
+      "family": "DeathConstruct",
+      "activeSkills": {
+        "0": "RecklessAttackAGolem",
+        "1": "SummonTokenx2ADeathCooldown",
+        "2": "ThrowDrainA",
+        "3": "DesperateAssassinBombSingleA"
+      },
+      "passives": {
+        "0": "AutoEnrageDeath",
+        "1": "HoldGround",
+        "2": "DamageReduceWhenAtAllySpiritAt0"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 20000,
+      "speed": 250,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "LifeConstruct01",
+      "class": "Monster",
+      "family": "LifeConstruct",
+      "activeSkills": {
+        "0": "ArmorAttackAGolem",
+        "1": "ProtectTeammatesA",
+        "2": "PurifyAllA",
+        "3": "DesperateTeamTurnBombA"
+      },
+      "passives": {
+        "0": "AutoHealLife",
+        "1": "HoldGround",
+        "2": "DamageReduceWhenAllySpiritHighLife"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 20000,
+      "speed": 250,
+      "element": "Life",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "EarthConstruct01B",
+      "class": "Monster",
+      "family": "EarthConstruct",
+      "activeSkills": {
+        "0": "PoisonTouchA",
+        "1": "PoisonEaterAFast",
+        "2": "PurifyDoubleA",
+        "3": "RecklessGainSpiritA"
+      },
+      "passives": {
+        "0": "PoisonRevenge"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 10000,
+      "speed": 400,
+      "element": "Earth",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "AirConstruct01B",
+      "class": "Monster",
+      "family": "AirConstruct",
+      "activeSkills": {
+        "0": "RecklessAttackAGolem",
+        "1": "TimeStrikeAGolem",
+        "2": "PurifySingleA",
+        "3": "GainStunAbsorbA"
+      },
+      "passives": {
+        "0": "StunRevengeA"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 10000,
+      "speed": 400,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "FireConstruct01B",
+      "class": "Monster",
+      "family": "FireConstruct",
+      "activeSkills": {
+        "0": "GainAttackSingleAGolem",
+        "1": "BurnForceA",
+        "2": "GiveTurnA",
+        "3": "SlayerbaneA"
+      },
+      "passives": {
+        "0": "BurnSelfEntrance"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 10000,
+      "speed": 400,
+      "element": "Fire",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "WaterConstruct01B",
+      "class": "Monster",
+      "family": "WaterConstruct",
+      "activeSkills": {
+        "0": "GainAttackDoubleAGolem",
+        "1": "SleepSingleA",
+        "2": "RecklessHealA",
+        "3": "HasSleptEaterAGolem"
+      },
+      "passives": {
+        "0": "SleepRevenge"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 10000,
+      "speed": 400,
+      "element": "Water",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "DeathConstruct01B",
+      "class": "Monster",
+      "family": "DeathConstruct",
+      "activeSkills": {
+        "0": "PoisonAttackAGolem",
+        "1": "ProtectorKillerA",
+        "2": "ThrowA",
+        "3": "LifeFlipAllyA"
+      },
+      "passives": {
+        "0": "Summon1MinionEntranceDeath"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 10000,
+      "speed": 400,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "LifeConstruct01B",
+      "class": "Monster",
+      "family": "LifeConstruct",
+      "activeSkills": {
+        "0": "GainAttackSingleAGolem",
+        "1": "HighSpiritAttackA",
+        "2": "SurvivorA",
+        "3": "AccelerateAllyA"
+      },
+      "passives": {
+        "0": "SpiritGainRevengeA"
+      },
+      "cost": 999,
+      "baseAttack": 1100,
+      "baseMaxHp": 10000,
+      "speed": 400,
+      "element": "Life",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "EarthConstruct01C",
+      "class": "Monster",
+      "family": "EarthConstruct",
+      "activeSkills": {
+        "0": "PoisonTouchDoubleA",
+        "1": "PoisonDrainSingleAGolem",
+        "2": "TimeBombSingleA"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 3000,
+      "speed": 600,
+      "element": "Earth",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "AirConstruct01C",
+      "class": "Monster",
+      "family": "AirConstruct",
+      "activeSkills": {
+        "0": "GainAttackSingleAFastGolem",
+        "1": "MomentumStrikeDoubleA",
+        "2": "TimeBombSingleA"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 3000,
+      "speed": 600,
+      "element": "Air",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "FireConstruct01C",
+      "class": "Monster",
+      "family": "FireConstruct",
+      "activeSkills": {
+        "0": "IgnitionAttackAGolem",
+        "1": "SuperBurnBlastA",
+        "2": "TimeBombSingleA"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 3000,
+      "speed": 600,
+      "element": "Fire",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "WaterConstruct01C",
+      "class": "Monster",
+      "family": "WaterConstruct",
+      "activeSkills": {
+        "0": "SleepAttackA",
+        "1": "DreamHuntDrainBGolem",
+        "2": "TimeBombSingleA"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 3000,
+      "speed": 600,
+      "element": "Water",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "DeathConstruct01C",
+      "class": "Monster",
+      "family": "DeathConstruct",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthAGolem",
+        "1": "RetributionAttackAGolem",
+        "2": "TimeBombSingleA"
+      },
+      "passives": {
+        "0": "HoldGroundForRetribution"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 3000,
+      "speed": 600,
+      "element": "Death",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "LifeConstruct01C",
+      "class": "Monster",
+      "family": "LifeConstruct",
+      "activeSkills": {
+        "0": "ArmorAttackAGolem",
+        "1": "SurvivorBaneAGolem",
+        "2": "TimeBombSingleA"
+      },
+      "passives": {
+        "0": "HoldGround"
+      },
+      "cost": 999,
+      "baseAttack": 1350,
+      "baseMaxHp": 3000,
+      "speed": 600,
+      "element": "Life",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 5,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          3
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          1,
+          3
+        ],
+        "3": [
+          1,
+          3
+        ]
+      },
+      "damageVoices": [
+        9
+      ],
+      "deathVoices": [
+        11
+      ]
+    },
+    {
+      "name": "RoundTableKnightBoss01",
+      "class": "Monster",
+      "family": "RoundTableKnightBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthARoundTableKnightBoss",
+        "1": "TimeBusterPlusStealthARoundTableKnightBoss",
+        "2": "SneakAttackFastARoundTableKnightBoss",
+        "3": "InstantStun200ARoundTableKnightBoss"
+      },
+      "passives": {
+        "0": "DoubleTurnOnKillABoss",
+        "1": "GetTurnSkinAPlus"
+      },
+      "cost": 999,
+      "baseAttack": 1572,
+      "baseMaxHp": 46000,
+      "speed": 150,
+      "element": "Air",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21
+      ]
+    },
+    {
+      "name": "RoundTableKnightBoss02",
+      "class": "Monster",
+      "family": "RoundTableKnightBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthARoundTableKnightBoss",
+        "1": "TimeBusterPlusStealthARoundTableKnightBoss",
+        "2": "SneakAttackFastARoundTableKnightBoss",
+        "3": "InstantStun200ARoundTableKnightBoss"
+      },
+      "passives": {
+        "0": "DoubleTurnOnKillABossSummonMerlinBossHidden",
+        "1": "GetTurnSkinAPlus"
+      },
+      "cost": 999,
+      "baseAttack": 1572,
+      "baseMaxHp": 46000,
+      "speed": 150,
+      "element": "Air",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        23
+      ]
+    },
+    {
+      "name": "CrossSwordKnightBoss01",
+      "class": "Monster",
+      "family": "CrossSwordKnightBoss",
+      "activeSkills": {
+        "0": "GainAttackDoubleACrossSwordKnightBoss",
+        "1": "BloodfuryBusterACrossSwordKnightBoss",
+        "2": "HighSpiritAttackDoubleSCrossSwordKnightBoss",
+        "3": "KillRageArmorAllHealAllACrossSwordKnightBoss"
+      },
+      "passives": {
+        "0": "IgnoreHoldGroundShowAsPassive",
+        "1": "SpiritGainOnMyTurn"
+      },
+      "cost": 999,
+      "baseAttack": 1708,
+      "baseMaxHp": 41000,
+      "speed": 100,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21
+      ]
+    },
+    {
+      "name": "CrossSwordKnightBoss02",
+      "class": "Monster",
+      "family": "CrossSwordKnightBoss",
+      "activeSkills": {
+        "0": "GainAttackDoubleACrossSwordKnightBoss",
+        "1": "BloodfuryBusterACrossSwordKnightBoss",
+        "2": "HighSpiritAttackDoubleSCrossSwordKnightBoss",
+        "3": "KillRageArmorAllHealAllACrossSwordKnightBoss"
+      },
+      "passives": {
+        "0": "IgnoreHoldGroundShowAsPassiveSummonMerlinBossHidden",
+        "1": "SpiritGainOnMyTurn"
+      },
+      "cost": 999,
+      "baseAttack": 1708,
+      "baseMaxHp": 41000,
+      "speed": 100,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        22
+      ]
+    },
+    {
+      "name": "MerlinRegularBoss01",
+      "class": "Monster",
+      "family": "MerlinRegularBoss",
+      "activeSkills": {
+        "0": "DrainAttackSingleAMerlinBoss",
+        "1": "SummonAlliesMerlinBossA",
+        "2": "GiveTurnAMerlinBoss",
+        "3": "ProtectorKillerDoubleAMerlinBoss",
+        "4": "BraveLastStandLethalAMerlinBoss"
+      },
+      "passives": {
+        "0": "DamageReducWhileBrave",
+        "1": "TUStealEntranceBoss1"
+      },
+      "activeSkillsAI": {
+        "0": "DrainAttackSingleAMerlinBoss_AI",
+        "2": "GiveTurnAMerlinBoss_AI",
+        "4": "BraveLastStandLethalAMerlinBoss_AI"
+      },
+      "cost": 999,
+      "baseAttack": 1553,
+      "baseMaxHp": 6655,
+      "speed": 489,
+      "element": "Air",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          11
+        ],
+        "2": [
+          14
+        ],
+        "3": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "4": [
+          13,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        22
+      ]
+    }
+  ]
+}

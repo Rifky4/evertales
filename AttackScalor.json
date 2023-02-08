@@ -1,0 +1,330 @@
+{
+	"Version": 23,
+	"Time": 1659324044,
+	"AttackScalor": {
+		"TimeInCombat400":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"TimeInCombat400"
+		},
+		"TimeInCombat300":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"TimeInCombat300"
+		},
+		"TimeInCombat200":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"TimeInCombat200"
+		},
+		"HPBelow50Percent":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"HPBelow50Percent"
+		},
+		"HPBelow25Percent":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"HPBelow25Percent"
+		},
+		"GoodVs250Tu":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"CurrentTUGreaterThan250"
+		},
+		"GoodVs200Tu":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"CurrentTUGreaterThan200"
+		},
+		"GoodVs150Tu":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"CurrentTUGreaterThan150"
+		},
+		"GoodVs130Tu":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"CurrentTUGreaterThan130"
+		},
+		"GoodVs100Tu":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"CurrentTUGreaterThan100"
+		},
+		"GoodVsProtector":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsProtecting"
+		},
+		"GoodVsSleeper":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsSleeper"
+		},
+		"GoodForKiller2":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"Kills2"
+		},
+		"GoodForKiller1":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"Kills1"
+		},
+		"GoodVsKiller1":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"Kills1"
+		},
+		"GoodVsKiller2":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"Kills2"
+		},
+		"GoodVsPoisoned":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsPoisoned"
+		},
+		"GreatVsPoisoned":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsPoisoned"
+		},
+		"GoodVsPoisonedNotSlept":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsPoisonedNotSlept"
+		},
+		"GoodVsSleeping":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsSleeping"
+		},
+		"FairWithSameElement":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"OneMatchingMyElement"
+		},
+		"GoodWithSameElement":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"TwoMatchingMyElement"
+		},
+		"GoodWithAtLeast4Burning":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"AtLeast4BurningInBattle"
+		},
+		"GoodWithAtLeast6Burning":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"AtLeast6BurningInBattle"
+		},
+		"GreatWithSameElement":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"ThreeMatchingMyElement"
+		},
+		"GoodVsLowSpirit1":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "AllySpirit0"
+		},
+		"GoodVsBurn":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsBurning"
+		},
+		"GoodVsHasSlept":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"HasSleptButNotSleeping"
+		},
+		"GoodWith1Spirit":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"AllySpirit1OrMore"
+		},
+		"GoodWith2Spirit":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"AllySpirit2OrMore"
+		},
+		"GoodWith3Spirit":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"AllySpirit3OrMore"
+		},
+		"GoodVsStealth":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsStealth"
+		},
+		"GoodVsCondemn":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsCondemned"
+		},
+		"GoodVsKiller1NotCondemned":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"Kills1NotCondemned"
+		},
+		"GoodVsNotSlowed":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsNotSlowed"
+		},
+		"GoodIfCharged1":
+		{	
+			"class":"AttackScalor",		
+			"sourceCondition":"IsCharged1"
+		},
+		"GoodIfCharged2":
+		{	
+			"class":"AttackScalor",		
+			"sourceCondition":"IsCharged2"
+		},
+		"GoodIfCharged3":
+		{	
+			"class":"AttackScalor",		
+			"sourceCondition":"IsCharged3"
+		},
+		"EnemyHPBelow50Percent":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"HPBelow50Percent"
+		},
+		"GoodVsFrozen":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsFrozen"
+		},
+		"GoodOn1Spirit":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "AllySpirit1Or0"
+		},
+		"GoodIfEscalate1":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "OneEscalate"
+		},
+		"GreatIfEscalate2":{
+			"class": "AttackScalor",
+			"sourceCondition": "TwoEscalate"
+		},
+		"GoodVSWater":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "IsWater"
+		},
+		"GoodVSFire":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "IsFire"
+		},
+		"GoodVSDeath":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "IsDeath"
+		},
+		"GoodVSLife":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "IsLife"
+		},
+		"GoodVSEarth":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "IsEarth"
+		},
+		"GoodVSAir":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "IsAir"
+		},
+		"GoodForIcyTouch":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "NotFrozen"
+		},
+		"GoodForIceProjectile":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "FrozenAlly"
+		},
+		"GoodForFreezeAlly":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "IsWaterNotFrozen"
+		},
+		"GoodIf2KillerAlly":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "2KillerAlly"
+		},
+		"GoodIf3KillerAlly":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "3KillerAlly"
+		},
+		"GoodIf4KillerAlly":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "4KillerAlly"
+		},
+		"GoodVsStatusEffect":
+		{
+			"class": "AttackScalor",
+			"targetCondition": "HasStatusEffect"
+		},
+		"BraveVsKiller1":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"Kills1EnemyHasNoReinforcements"
+		},
+		"GoodIfBrave":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "AllyHasNoReinforcements"
+		},
+		"GoodIfAlone":
+		{
+			"class": "AttackScalor",
+			"sourceCondition": "IsAlone"
+		},
+		"GoodVsNotKnockbackImmune":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"NotKnockbackImmune"
+		},
+		"GoodVsProtected":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"IsProtected"
+		},
+		"GoodIfReiSwimsuitSummonKiller1":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"ReiSwimsuitSummonKiller1InTeam"
+		},
+		"GoodVsTimeInCombat200":
+		{
+			"class":"AttackScalor",
+			"targetCondition": "TimeInCombat200"
+		},
+		"GoodVsTimeInCombat300":
+		{
+			"class":"AttackScalor",
+			"targetCondition": "TimeInCombat300"
+		},
+		"GoodIfBurning":
+		{	
+			"class":"AttackScalor",		
+			"sourceCondition":"IsBurning"
+		}
+	}
+}
