@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1674070280,
+  "Time": 1675288158,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -4156,6 +4156,16 @@
       "name": "TwinGodRegular02",
       "condition": "AtLeast6BurningInBattle",
       "value": 1.1
+    },
+    {
+      "name": "MechaSisterSwimsuit01",
+      "condition": "AlwaysTrue",
+      "value": 1.03
+    },
+    {
+      "name": "MechaSisterSwimsuit02",
+      "condition": "AlwaysTrue",
+      "value": 1.03
     }
   ]
 }

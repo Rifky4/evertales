@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1674543581,
+  "Time": 1675316295,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -3033,9 +3033,9 @@
       "class": "Ability",
       "abilityScalor": 0,
       "config": "BasicAttackAllA2Air",
-      "tuCost": 1,
+      "tuCost": 250,
       "useLimit": 0,
-      "spiritCost": 0,
+      "spiritCost": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     },
@@ -17291,6 +17291,100 @@
       "tuCost": 50,
       "useLimit": 2,
       "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "GiveTurnInstantA",
+      "class": "Ability",
+      "config": "GiveTurnInstantA",
+      "tuCost": 1,
+      "useLimit": 0,
+      "nameKey": "GiveTurnInstantA",
+      "descriptionKey": "GiveTurnInstantA",
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "LifeFlipAttackA",
+      "class": "Ability",
+      "abilityScalor": 0,
+      "config": "LifeFlipAttackA",
+      "tuCost": 130,
+      "useLimit": 0,
+      "nameKey": "LifeFlipAttackA",
+      "descriptionKey": "LifeFlipAttackA",
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SlayerbaneSendbackA",
+      "class": "Ability",
+      "abilityScalor": -2,
+      "conditionalAbilityScalors": [
+        6.5
+      ],
+      "config": "SlayerbaneSendbackA",
+      "tuCost": 100,
+      "useLimit": 0,
+      "nameKey": "SlayerbaneSendbackA",
+      "descriptionKey": "SlayerbaneSendbackA",
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "GiveTurnInstantAMechSisSwim",
+      "class": "Ability",
+      "config": "GiveTurnInstantAMechSisSwim",
+      "tuCost": 1,
+      "useLimit": 0,
+      "nameKey": "GiveTurnInstantA",
+      "descriptionKey": "GiveTurnInstantA",
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "LifeFlipAttackAMechSisSwim",
+      "class": "Ability",
+      "abilityScalor": 0,
+      "config": "LifeFlipAttackAMechSisSwim",
+      "tuCost": 130,
+      "useLimit": 0,
+      "nameKey": "LifeFlipAttackA",
+      "descriptionKey": "LifeFlipAttackA",
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "PurifyHealAllyAMechSisSwim",
+      "class": "Ability",
+      "config": "PurifyHealAllyAMechSisSwim",
+      "tuCost": 50,
+      "useLimit": 0,
+      "nameKey": "PurifyHealAllyA",
+      "descriptionKey": "PurifyHealAllyA",
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SlayerbaneSendbackAMechSisSwim",
+      "class": "Ability",
+      "abilityScalor": -2,
+      "conditionalAbilityScalors": [
+        6.5
+      ],
+      "config": "SlayerbaneSendbackAMechSisSwim",
+      "tuCost": 100,
+      "useLimit": 0,
+      "nameKey": "SlayerbaneSendbackA",
+      "descriptionKey": "SlayerbaneSendbackA",
+      "spiritCost": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

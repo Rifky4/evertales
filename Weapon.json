@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1674098913,
+  "Time": 1675316295,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -10136,7 +10136,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 0,
       "superEvolve1": "HermesStaff02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "HermesStaff02",
@@ -10156,7 +10157,8 @@
       "consolationMultiplier": 0,
       "superEvolve1": "HermesStaff03",
       "evolveFrom": "HermesStaff01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "HermesStaff03",
@@ -10175,6 +10177,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 0,
       "evolveFrom": "HermesStaff02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "RamMace01",
+      "family": "RamMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc4UserHighHP"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 433,
+      "baseMaxHp": 3210,
+      "bundleNumber": 8,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "superEvolve1": "RamMace02",
+      "cost": 11
+    },
+    {
+      "name": "RamMace02",
+      "family": "RamMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc5UserHighHP"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 517,
+      "baseMaxHp": 3915,
+      "bundleNumber": 8,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "superEvolve1": "RamMace03",
+      "evolveFrom": "RamMace01",
+      "cost": 17
+    },
+    {
+      "name": "RamMace03",
+      "family": "RamMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc6UserHighHP"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 574,
+      "baseMaxHp": 4130,
+      "bundleNumber": 8,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "evolveFrom": "RamMace02",
       "cost": 23
     }
   ]

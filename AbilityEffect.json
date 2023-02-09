@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1674614893,
+	"Time": 1675847433,
 	"AbilityEffect": {
 		"DamageReaction": {
 			"class": "AbilityEffect",
@@ -1069,6 +1069,17 @@
 			"prefabs": ["batsfx_prefab/batsfx_casting1", "batfx_ripplebluelow/batfx_ripplebluelow", "batfx_castinggreen1/batfx_castinggreen1", "batfx_castinggreen2/batfx_castinggreen2", "batfx_ripplebluelow/batfx_ripplebluelow", "batsfx_prefab/batsfx_heal1", "batfx_healbottom1/batfx_healbottom1", "batfx_healtop1/batfx_healtop1"],
 			"sortOrderOffset": [2, 2, -2, 2, -2, -2, -2, 2],
 			"assetBundles": ["audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle1", "BattleEffectsBundle1", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 1],
+			"forceHitReactions": [false, false, false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, true, false, true, false, false]
+		},
+		"LageHealPassive1": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0, 0, 0.3, 0, 0, 0],
+			"prefabs": ["batsfx_prefab/batsfx_casting1", "batfx_common/batfx_greenbase1", "batfx_castinggreen1/batfx_castinggreen1", "batfx_castinggreen2/batfx_castinggreen2", "batfx_ripplebluelow/batfx_ripplebluelow", "batsfx_prefab/batsfx_heal1", "batfx_healbottom1/batfx_healbottom1", "batfx_healtop1/batfx_healtop1"],
+			"sortOrderOffset": [2, 2, -2, 2, -2, -2, -2, 2],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle1", "BattleEffectsBundle1", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle1"],
 			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 1],
 			"forceHitReactions": [false, false, false, false, false, false, false, false],
 			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true],
@@ -10462,6 +10473,79 @@
 			"isAbilityUserEffect": [true, true, true, true, true, true, false, true],
 			"boneToAttachTo": ["", "", "", "", "", "effectbone_apollo", "", ""],
 			"positionInBattlefieldCenter": [false, true, true, false, false, false, false, false]
+		},
+		"MechaSisSwimFishslap1": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0, 0.6, 1.4, 0, 0, 0.6, 0.4, 0, 0, 0],
+			"prefabs": ["batsfx_prefab/batsfx_timestrike1","batfx_mechasisswim1/batfx_beach1","batfx_mechasisswim1/batfx_sunlight1", "batsfx_prefab/batsfx_seashell1","batfx_mechasisswim1/batfx_fishslap1", "batsfx_prefab/batsfx_slash1","batfx_mechasisswim1/batfx_fish2", "batfx_mechasisswim1/batfx_anchor2", "batfx_mechasisswim1/batfx_anchor1","batfx_mechasisswim1/batfx_impactstars1", "batfx_bluntimpact4/batfx_bluntimpact4", "batsfx_prefab/batsfx_bluntimpact1"],
+			"sortOrderOffset": [0, -50, -2, 0, 2, 0, 2, 2, 2 ,2, -2, 0], 
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle2", "audiobundle1","BattleEffectsBundle2", "audiobundle1","BattleEffectsBundle2", "BattleEffectsBundle2", "BattleEffectsBundle2", "BattleEffectsBundle2", "BattleEffectsBundle1", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+			"forceHitReactions": [false, false, false, false, false, false, true, false, false, true, false, false],
+			"damageHitReactions": [false, false, false, false, false, false, true, false, false, true, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true ,true, true],
+			"isAbilityUserEffect": [true, true, true, true, true, true, false, true, true, false, false, true],
+			"positionInBattlefieldCenter": [false, true, false, false, false, false, false, false, false, false, false, false]
+		},
+		"MechaSisSwimFlip1": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0.55, 0, 0.1, 0],
+			"prefabs": ["batsfx_prefab/batsfx_casting1", "batfx_toonstars4/batfx_toonstars4", "batsfx_prefab/batsfx_bluntimpact1", "batfx_mechasisswim1/batfx_beachball1", "batfx_bluntimpact4/batfx_bluntimpact4", "batsfx_prefab/batsfx_bomb1"],
+			"sortOrderOffset": [-2, 4, 0, 1, 1, 2],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle1", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 1, 0],
+			"damageHitReactions": [false, false, false, false, true, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, false, false, false, true],
+			"positionInBattlefieldCenter": [false, false, false, false, false, false]
+		},
+		"MechaSisSwimGiveTurn1": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0, 0, 1, 0.5, 1.2, 0],
+			"prefabs": ["batsfx_prefab/batsfx_casting1", "batfx_mechasisswim1/batfx_castbase1","batfx_mechasisswim1/batfx_icecreambg1","batfx_mechasisswim1/batfx_icecreams1", "batfx_mechasisswim1/batfx_icecreams2", "batfx_mechasisswim1/batfx_icecreams3","batfx_bluehelix1/batfx_bluehelix1","batsfx_prefab/batsfx_knockback1" ],
+			"sortOrderOffset": [0, -2, -50, 5, 2, 10, 2, 0],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle2","BattleEffectsBundle2",  "BattleEffectsBundle2",  "BattleEffectsBundle2", "BattleEffectsBundle2", "BattleEffectsBundle1", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0,  0, 0],
+			"damageHitReactions": [false, false, false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, false],
+			"isAbilityUserEffect": [false, true, true, true, true, true, false, true],
+			"positionInBattlefieldCenter": [false, false, false, false, false, false, false, false]
+		},
+		"SwapSelfForChristmasDarkRizette2": {
+			"class": "AbilityEffect",
+			"delays": [0, 0.2, 0, 0, 0.2, 0],
+			"prefabs": ["batsfx_prefab/batsfx_casting1", "_fix/batfx_christmasswap2", "_fix/batfx_christmasswap1", "batsfx_prefab/batsfx_knockback1", "batfx_christmasswap2/batfx_christmasswap2", "batfx_ripplebluelow/batfx_ripplebluelow"],
+			"sortOrderOffset": [-2, 2, 4, -2, 2, -2],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle1"],
+			"damagePercents": [0, 0, 1, 0, 0, 0],
+			"damageHitReactions": [false, false, true, false, false, false],
+			"forceHitReactions": [false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, true, true, true]
+		},
+		"PoisonCDR2": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0.2, 0.2, 0],
+			"prefabs": ["batsfx_prefab/batsfx_casting1", "batfx_castinggreen1/batfx_castinggreen1", "_fix/batfx_christmaspoison1", "batfx_poisondamage/batfx_poisondamage", "batsfx_prefab/batsfx_poison1"],
+			"sortOrderOffset": [-2, 2, 4, 2, -2],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle2", "BattleEffectsBundle1", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 1, 0],
+			"damageHitReactions": [false, false, false, true, false],
+			"forceHitReactions": [false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, false, true]
+		},
+		"MechSisSwimKnockbackEffect": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0],
+			"prefabs": ["batfx_bluehelix1/batfx_bluehelix1", "batsfx_prefab/batsfx_knockback1", "batfx_ripplebluelow/batfx_ripplebluelow"],
+			"sortOrderOffset": [1, -2, -2],
+			"assetBundles": ["BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle1"],
+			"damagePercents": [1, 0, 0],
+			"damageHitReactions": [true, false, false],
+			"forceHitReactions": [false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true],
+			"isAbilityUserEffect": [false, false, false]
 		}
 	}
 }

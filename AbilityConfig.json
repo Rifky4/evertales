@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1674543645,
+	"Time": 1675847433,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -15988,7 +15988,7 @@
 				"buffs": ["Add1ChristmasMinionToFront", "SendToFrontOfReinforcements", "RemoveBuffs"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SwapSelfForChristmasDarkRizette1",
+			"abilityEffect": "SwapSelfForChristmasDarkRizette2",
 			"useCondition": "ChristmasTokenNotInBattleAnd4AlliesLeft"
 		},
 		"SlayerbaneDoubleADarkRizetteChristmas": {
@@ -16103,7 +16103,7 @@
 			}],
 			"immuneSuggestionCondition": "AnyPoisonImmunity",
 			"enemyEventType": "Hit",
-			"abilityEffect": "PoisonCDR1",
+			"abilityEffect": "PoisonCDR2",
 			"flags": ["Poisoner", "NoDamage"]
 		},
 		"PoisonDrainDoubleADarkRizetteChristmas": {
@@ -23139,6 +23139,126 @@
 			"sourceEventType": "Hit",
 			"abilityEffect": "TwinGodEclipse1",
 			"flags": ["Stealth","ApplyStatusToSelf"]
+		},
+		"GiveTurnInstantA": {
+			"class": "AbilityConfig",
+			"targetingData": "oneAllyNotMe",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["InstantTurnCooldown"],
+				"applyToSourceOnly": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "GiveTurn",
+			"useCondition": "GiveTurnCooledDown",
+			"flags": ["StealthWorthy", "GiveTurn"]
+		},
+		"LifeFlipAttackA": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["DesperateDamageBoost"]
+			},{
+				"buffs": ["LifeFlip"],
+				"applyConditions": "HPBelow50Percent",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "AstridBride2"
+		},
+		"SlayerbaneSendbackA": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["SendToBackOfReinforcementsIfAny"],
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "Kills1"
+			}],
+			"attackScalors": ["GoodVsKiller1"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallHitRanged1",
+			"conditionedAbilityEffects": ["MyshaIdolVigor1"],
+			"flags": ["Slayerbane", "StealthWorthy"],
+			"recommendEffectWhenUsable": 1
+		},
+		"GiveTurnInstantAMechSisSwim": {
+			"class": "AbilityConfig",
+			"targetingData": "oneAllyNotMe",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["InstantTurnCooldown"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "MechaSisSwimGiveTurn1",
+			"useCondition": "GiveTurnCooledDown",
+			"flags": ["StealthWorthy", "GiveTurn"]
+		},
+		"LifeFlipAttackAMechSisSwim": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["DesperateDamageBoost"]
+			},{
+				"buffs": ["LifeFlip"],
+				"applyConditions": "HPBelow50Percent",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "MechaSisSwimFlip1"
+		},
+		"PurifyHealAllyAMechSisSwim": {
+			"class": "AbilityConfig",
+			"targetingData": "1Ally",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["RemoveBuffs","QuarterHealNoFx"]
+			}],
+			"flags": ["Purify", "Healer"],
+			"friendlyEventType": "Finish",
+			"abilityEffect": "Purify1"
+		},
+		"SlayerbaneSendbackAMechSisSwim": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["SendToBackOfReinforcementsIfAny"],
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "Kills1",
+				"skipAbilityEffect": true,
+				"buffAppliedEffects": ["MechSisSwimKnockbackEffect"]
+			}],
+			"attackScalors": ["GoodVsKiller1"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallHitRanged1",
+			"conditionedAbilityEffects": ["MechaSisSwimFishslap1"],
+			"flags": ["Slayerbane", "StealthWorthy"]
 		}
 	}
 }

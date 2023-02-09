@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1674646730,
+	"Time": 1675847433,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -2155,6 +2155,226 @@
 		"iconSpriteName": "IconYellowAttackUpSword01",
 		"showAsTimer": false
 	},
+	"RelationshipPercentAttack101": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.01
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack102": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.02
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack103": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.03
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack104": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.04
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack105": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.05
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack106": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.06
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack107": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.07
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack108": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.08
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack109": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.09
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack110": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.1
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack111": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.11
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack112": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.12
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack113": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.13
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack114": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.14
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack115": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.15
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack116": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.16
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack117": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.17
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack118": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.18
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack119": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.19
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
+	"RelationshipPercentAttack120": {
+		"class": "Buff",
+		"behaviors": ["ExtraAttackScalor"],
+		"behaviorOverrides": [{
+			"scalor": 1.2
+		}],
+		"duration": -1,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconYellowAttackUpSword01",
+		"showAsTimer": false
+	},
 	"RelationshipPercentHp1": {
 		"class": "Buff",
 		"behaviors": ["StatOnly"],
@@ -3448,6 +3668,266 @@
 		"behaviorOverrides": [{
 			"scalorStatBonuses": {
 				"MaxHP": 1
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp101": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.01
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp102": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.02
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp103": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.03
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp104": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.04
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp105": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.05
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp106": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.06
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp107": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.07
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp108": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.08
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp109": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.09
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp110": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.1
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp111": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.11
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp112": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.12
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp113": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.13
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp114": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.14
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp115": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.15
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp116": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.16
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp117": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.17
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp118": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.18
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp119": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.19
+			}
+		}],
+		"duration": -1,
+		"showAsTimer": false,
+		"noIconShownOnBattleStatus": true,
+		"iconSpriteName": "IconPinkLifeUpHeart01"
+	},
+	"RelationshipPercentHp120": {
+		"class": "Buff",
+		"behaviors": ["StatOnly"],
+		"behaviorOverrides": [{
+			"scalorStatBonuses": {
+				"MaxHP": 1.2
 			}
 		}],
 		"duration": -1,
@@ -34757,6 +35237,202 @@
 			"showAsTimer": false,
 			"isWeaponBuff": true,
 			"hideActivatedIcon": true
+		},
+		"InstantTurnCooldown": {
+			"class": "Buff",
+			"stackName": "GiveTurnCooldown",
+			"duration": 200,
+			"isHiddenFromPlayers": false,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"StunAbsorberBlockDeathOnceWhenHurtArmorStart": {
+			"class": "Buff",
+				"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffWhenMonsterHurt", "BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["Armor"],
+				"spreadCondition": "NotBattleTimeOver1"
+			},{
+				"selfBuffs": ["StunAbsorberHidden"]
+			},{
+				"selfBuffs": ["EndureOnHurtOK"],
+				"cancelFromDamageTypes": ["BuffDamage"],
+				"spreadCondition": "NotBlockDeathOnce"
+				}, {
+				"selfBuffs": ["BlockDeathOnce","RemoveEndureOnHurtOK"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "EndureOnHurtReady"
+			}],
+			"stackName": "BlockDeathOnceWhenHurt",
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconWhiteTargetStunLightning01"
+		},
+		"StunAbsorberHidden": {
+			"class": "Buff",
+			"stackName": "StunAbsorber",
+			"behaviors": ["ManipulateTargeting", "ModifyBuffTarget", "RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"abilityFlags": ["Stun"],
+				"redirectAlways": true,
+				"redirectToMe": true,
+				"consumeRedirectCountEvenOnSelf": true,
+				"allowMultipleRedirects": true,
+				"chanceToBlock": 1.0,
+				"ignoreProtectorMultiAttackRule": true
+			}, {
+				"tags": ["Stun"]
+			}, {}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"EndureOnHurtOK": {
+			"class": "Buff",
+			"stackName": "EndureOnHurtOK",
+			"duration": -1,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveEndureOnHurtOK": {
+			"class": "Buff",
+				"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "EndureOnHurtOK"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SendToBackOfReinforcementsIfAny": {
+			"class": "Buff",
+			"stackName": "Knockback",
+			"behaviors": ["SendToReinforcements"],
+			"applyConditions": "AllyHasReinforcements",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AutoProtectSourcePlusWithHeal3TimesBoosted": {
+			"class": "Buff",
+				"behaviors": ["EnterBattleBuff", "ManipulateTargeting", "RemoveOnSourceDeath", "BuffWhenMonsterHurt", "BuffOnMonsterTurn", "BuffOnMonsterTurn","Immunity"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["BigHealStack","BigHealStack","BigHealStack","BigHeal1Icon","BigHeal2Icon","BigHeal3Icon"]
+			},{
+				"redirectToMe": true,
+				"redirectAlways": true,
+				"chanceToBlock": 1.0,
+				"consumeRedirectCountEvenOnSelf": true,
+				"failOnAllSkills": true,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage"]
+				}, {}, {
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+				}, {
+				"selfBuffs": ["BrideHealSuperRemoveBigHealCount1"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "IsBigHealAtAllBrideHealOK"
+			}, {
+				"selfBuffs": ["BrideHealSuperExpired"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{
+				"stackNamesToBlock": ["Empty"],
+				"activateCondition": "NotBigHealAtAll"
+			}],
+			"stackName": "Protector",
+			"duration": -1,
+			"hideFromPlayerCondition": "IsBigHealAtAll",
+			"showAsTimer": true,
+			"iconSpriteName": "IconBlueDefenseRegenShield01"
+		},
+		"BigHealStack": {
+			"class": "Buff",
+			"stackLimit": 3,
+			"duration": -1,
+			"showAsTimer": false,
+			"stackName": "BigHealStack",
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true
+		},
+		"BigHeal1Icon": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["BigHeal1Icon"],
+				"activateCondition": "IsBigHeal1Exact"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"hideFromPlayerCondition": "NotBigHeal1Exact",
+			"iconSpriteName": "IconBlueDefenseRegenShieldNumbered01",
+			"showNameInRotation": false
+		},
+		"BigHeal2Icon": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["BigHeal2Icon"],
+				"activateCondition": "IsBigHeal2Exact"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"hideFromPlayerCondition": "NotBigHeal2Exact",
+			"iconSpriteName": "IconBlueDefenseRegenShieldNumbered02",
+			"showNameInRotation": false
+		},
+		"BigHeal3Icon": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["BigHeal3Icon"],
+				"activateCondition": "IsBigHeal3"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"hideFromPlayerCondition": "NotBigHeal3",
+			"iconSpriteName": "IconBlueDefenseRegenShieldNumbered03",
+			"showNameInRotation": false
+		},
+		"BrideHealSuperRemoveBigHealCount1": {
+			"class": "Buff",
+				"behaviors": ["AdjustHp", "RemoveBuffs", "RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.75,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+				}, {
+				"name": "BrideHealOK"
+			},{
+				"name": "BigHealStack",
+				"decreaseCount": 1
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LageHealPassive1",
+			"textKeyToShowWhenApplied": "AutoProtectSourcePlusWithHeal3TimesBoostedNameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"BrideHealSuperExpired": {
+			"class": "Buff",
+				"behaviors": ["AdjustHp", "RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.1,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+				}, {
+				"name": "BrideHealOK"
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "SmallHeal1",
+			"textKeyToShowWhenApplied": "AutoProtectSourcePlusWithHeal3TimesBoostedNameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
 		}
 	}
 }

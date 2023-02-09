@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1674646726,
+	"Time": 1675847433,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -6227,8 +6227,8 @@
 				"class": "MonsterConditions",
 				"monsterTags": ["StunImmuneIfBurn"],
 				"buffStackNames": ["Burn"]
+				}
 			}
-		}
 	},
 	"StunImmuneIfSpiritLowFireActive": {
 		"class": "MonsterConditions",
@@ -11693,6 +11693,92 @@
 	"IsTwinGodRegular":{
 		"class": "MonsterConditions",
 		"families": ["TwinGodRegular"]
+	},
+	"EndureOnHurtReady":{
+		"class": "MonsterConditions",
+		"buffStackNames": ["EndureOnHurtOK"]
+	},
+	"NotBigHeal1Exact": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BigHealStack"],
+			"buffStackCounts": [1],
+			"not":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["BigHealStack"],
+				"buffStackCounts": [2]
+			}
+		}
+	},
+	"NotBigHeal2Exact": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BigHealStack"],
+			"buffStackCounts": [2],
+			"not":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["BigHealStack"],
+				"buffStackCounts": [3]
+			}
+		}	
+	},
+	"NotBigHeal3": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BigHealStack"],
+			"buffStackCounts": [3]
+		}
+	},
+	"IsBigHeal1Exact": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["BigHealStack"],
+		"buffStackCounts": [1],
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BigHealStack"],
+			"buffStackCounts": [2]
+		}
+	},
+	"IsBigHeal2Exact": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["BigHealStack"],
+		"buffStackCounts": [2],
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BigHealStack"],
+			"buffStackCounts": [3]
+		}
+	},
+	"IsBigHeal3": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["BigHealStack"],
+		"buffStackCounts": [3]
+	},
+	"IsBigHealAtAllBrideHealOK": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["BigHealStack"],
+		"and":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BrideHealOK"]
+		}
+	},
+	"NotBigHealAtAll": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BigHealStack"]
+		}
+	},
+	"IsBigHealAtAll": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["BigHealStack"]
+	},
+	"HPBelow37point5Percent":{
+		"class": "MonsterConditions",
+		"hpLessThanPercent": 0.3750001
 	}
 }
 }

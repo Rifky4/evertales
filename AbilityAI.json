@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1674646737,
+  "Time": 1675847433,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -16351,6 +16351,153 @@
 	},
 	"StealthEndureEnrageSelfATwinGod_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 2
+  },
+  "GiveTurnInstantA_AI": {
+	    "class": "AbilityAI","baseAITargetingWeight": 8,
+	    "globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+	    "aiTargetingMonsterConditions": {
+	        "IsAlone": 0.0,
+	        "CurrentTUGreaterThan10AndEnemyCurrentTULessThan9": 1.02,
+	        "CurrentTUGreaterThan20AndEnemyCurrentTULessThan19": 1.02,
+		"CurrentTUGreaterThan30AndEnemyCurrentTULessThan29": 1.02,			"CurrentTUGreaterThan40AndEnemyCurrentTULessThan39": 1.02,
+	        "CurrentTUGreaterThan50AndEnemyCurrentTULessThan49": 1.02,
+		"CurrentTUGreaterThan60AndEnemyCurrentTULessThan59": 1.03,			"CurrentTUGreaterThan70AndEnemyCurrentTULessThan69": 1.03,
+	        "CurrentTUGreaterThan80AndEnemyCurrentTULessThan79": 1.03,
+		"CurrentTUGreaterThan90AndEnemyCurrentTULessThan89": 1.03,			"CurrentTUGreaterThan100AndEnemyCurrentTULessThan99": 1.03,
+	        "CurrentTUGreaterThan110AndEnemyCurrentTULessThan109": 1.03,
+		"CurrentTUGreaterThan120AndEnemyCurrentTULessThan119": 1.03,			"CurrentTUGreaterThan130AndEnemyCurrentTULessThan129": 1.03,
+	        "CurrentTUGreaterThan140AndEnemyCurrentTULessThan139": 1.03,
+		"CurrentTUGreaterThan150AndEnemyCurrentTULessThan149": 1.03,			"CurrentTUGreaterThan160AndEnemyCurrentTULessThan159": 1.03,
+	        "CurrentTUGreaterThan170AndEnemyCurrentTULessThan169": 1.03,
+		"CurrentTUGreaterThan180AndEnemyCurrentTULessThan179": 1.03,			"CurrentTUGreaterThan190AndEnemyCurrentTULessThan189": 1.03,
+	        "CurrentTUGreaterThan200": 1.3,
+	        "CurrentTUGreaterThan300": 1.3,
+	        "RarityGreaterThan3": 1.1,
+	        "RarityGreaterThan4": 1.1,
+	        "RarityGreaterThan5": 1.1,
+	        "JustGrantedTurn": 0.0,
+	        "IsGiveTurner": 0.2,
+	        "On1HPIsDesperate": 1.1,
+	        "IsGiveTurnerOver300TU": 5,
+	        "ShouldGiveTurnTo": 1.1,
+	        "IsSleeping": 0,
+	        "IsFrozen": 0,
+	        "IsCapedSkeleton": 0.3,
+	        "AllySpirit0AndNoRegenerateAllSpiritGain": 0.2,
+		"AllySpirit0IsLimitBreakerAndNoRegenerateAllSpiritGain": 5,
+		"IsProtectorBlockDeathUntilNextTurn": 0
+        }
+	},
+  "GiveTurnInstantAMechSisSwim_AI": {
+	    "class": "AbilityAI","baseAITargetingWeight": 8,
+	    "globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+	    "aiTargetingMonsterConditions": {
+	        "IsAlone": 0.0,
+	        "CurrentTUGreaterThan10AndEnemyCurrentTULessThan9": 1.02,
+	        "CurrentTUGreaterThan20AndEnemyCurrentTULessThan19": 1.02,
+		"CurrentTUGreaterThan30AndEnemyCurrentTULessThan29": 1.02,			"CurrentTUGreaterThan40AndEnemyCurrentTULessThan39": 1.02,
+	        "CurrentTUGreaterThan50AndEnemyCurrentTULessThan49": 1.02,
+		"CurrentTUGreaterThan60AndEnemyCurrentTULessThan59": 1.03,			"CurrentTUGreaterThan70AndEnemyCurrentTULessThan69": 1.03,
+	        "CurrentTUGreaterThan80AndEnemyCurrentTULessThan79": 1.03,
+		"CurrentTUGreaterThan90AndEnemyCurrentTULessThan89": 1.03,			"CurrentTUGreaterThan100AndEnemyCurrentTULessThan99": 1.03,
+	        "CurrentTUGreaterThan110AndEnemyCurrentTULessThan109": 1.03,
+		"CurrentTUGreaterThan120AndEnemyCurrentTULessThan119": 1.03,			"CurrentTUGreaterThan130AndEnemyCurrentTULessThan129": 1.03,
+	        "CurrentTUGreaterThan140AndEnemyCurrentTULessThan139": 1.03,
+		"CurrentTUGreaterThan150AndEnemyCurrentTULessThan149": 1.03,			"CurrentTUGreaterThan160AndEnemyCurrentTULessThan159": 1.03,
+	        "CurrentTUGreaterThan170AndEnemyCurrentTULessThan169": 1.03,
+		"CurrentTUGreaterThan180AndEnemyCurrentTULessThan179": 1.03,			"CurrentTUGreaterThan190AndEnemyCurrentTULessThan189": 1.03,
+	        "CurrentTUGreaterThan200": 1.3,
+	        "CurrentTUGreaterThan300": 1.3,
+	        "RarityGreaterThan3": 1.1,
+	        "RarityGreaterThan4": 1.1,
+	        "RarityGreaterThan5": 1.1,
+	        "JustGrantedTurn": 0.0,
+	        "IsGiveTurner": 0.2,
+	        "On1HPIsDesperate": 1.1,
+	        "IsGiveTurnerOver300TU": 5,
+	        "ShouldGiveTurnTo": 1.1,
+	        "IsSleeping": 0,
+	        "IsFrozen": 0,
+	        "IsCapedSkeleton": 0.3,
+	        "AllySpirit0AndNoRegenerateAllSpiritGain": 0.2,
+		"AllySpirit0IsLimitBreakerAndNoRegenerateAllSpiritGain": 5,
+		"IsProtectorBlockDeathUntilNextTurn": 0
+        }
+	},
+	"LifeFlipAttackA_AI": {
+		"class": "AbilityAI","baseAITargetingWeight": 0.3,
+		"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+		"aiTargetingSourceMonsterConditions": {
+			"HPBelow37point5Percent": 6.0,
+			"HPBelow25Percent": 5.0
+		}
+	},
+	"LifeFlipAttackAMechSisSwim_AI": {
+		"class": "AbilityAI","baseAITargetingWeight": 0.3,
+		"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+		"aiTargetingSourceMonsterConditions": {
+			"HPBelow37point5Percent": 6.0,
+			"HPBelow25Percent": 5.0
+		}
+	},
+	"PurifyHealAllyAMechSisSwim_AI": {
+		"class": "AbilityAI","baseAITargetingWeight": 0.25,
+		"globalScalorsToIgnore": ["CurrentTULessThan200","IsSleeping","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","0SpiritDamageReducerAt0Spirit"],
+		"aiTargetingMonsterConditions": {
+			"IsPoisonedNotDetox": 5,
+			"IsSleeping": 5.5,
+			"IsBurningNotSilent": 3,
+			"IsSleepingBadFriend": 20,
+			"RarityGreaterThan3": 1.1,
+			"RarityGreaterThan4": 1.1,
+			"RarityGreaterThan5": 1.1,
+			"IsBurnBlasterAndBurning": 0.2,
+			"IsProtecting": 1.5,
+			"IsDuration": 1.4,
+			"HPBelow50Percent": 3,
+			"OtherAllyAlsoLimitBreaker": 4,
+			"HPBelow10Percent": 1.5,
+			"IsOrcanix": 0,
+			"HPHighNoBadStatus": 0.5
+		}
+	},
+	"SlayerbaneSendbackA_AI": {
+		"class": "AbilityAI","baseAITargetingWeight": 0.4,
+		"globalScalorsToIgnore": ["0SpiritDamageReducerAt0Spirit"],
+		"aiTargetingSourceMonsterConditions":{
+			"EnemyHasNoReinforcements": 0.8
+		},
+		"aiTargetingMonsterConditions": {
+			"1KillTriggerAndHas1Kill": 2.0,
+			"2KillTriggerAndHas2Kill": 2.0,
+			"DurationAnd270TU": 2.0,
+			"IsBadFriend": 0,
+			"IsSleeping": 0,
+			"IsBurnForcerWithin100TUAndReady": 2.0,
+			"HasAnyEnterEffect": 0.25,
+			"IsKnockbackImmune": 0.75,
+			"LessHPThanActiveMonsterAttack": 0.1,
+			"HasProtectorNoKills": 0.0
+		}
+	},
+	"SlayerbaneSendbackAMechSisSwim_AI": {
+		"class": "AbilityAI","baseAITargetingWeight": 0.4,
+		"globalScalorsToIgnore": ["0SpiritDamageReducerAt0Spirit"],
+		"aiTargetingSourceMonsterConditions":{
+			"EnemyHasNoReinforcements": 0.8
+		},
+		"aiTargetingMonsterConditions": {
+			"1KillTriggerAndHas1Kill": 2.0,
+			"2KillTriggerAndHas2Kill": 2.0,
+			"DurationAnd270TU": 2.0,
+			"IsBadFriend": 0,
+			"IsSleeping": 0,
+			"IsBurnForcerWithin100TUAndReady": 2.0,
+			"HasAnyEnterEffect": 0.25,
+			"IsKnockbackImmune": 0.75,
+			"LessHPThanActiveMonsterAttack": 0.1,
+			"HasProtectorNoKills": 0.0
+		}
 	}
 }
 }
