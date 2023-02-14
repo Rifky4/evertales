@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1676247736,
+  "Time": 1676338640,
   "ValidShards": {
     "1": {
       "start": 1603076400,
@@ -2488,7 +2488,7 @@
       "cluster": "Pending"
     },
     "234": {
-      "start": 1621890000,
+      "start": 1676338444,
       "name": "EC-13",
       "lambdaIndex": 234,
       "region": "GMT",
@@ -2496,7 +2496,6 @@
       "dailyActivityTimeOffset": 1,
       "declareTimeOffset": 1,
       "migrate": false,
-      "dev": true,
       "cluster": "Pending"
     },
     "235": {
@@ -3945,6 +3944,42 @@
       "lang": "en",
       "dailyActivityTimeOffset": -6,
       "declareTimeOffset": 3,
+      "migrate": false,
+      "dev": true,
+      "cluster": "Pending"
+    },
+    "368": {
+      "start": 1621890000,
+      "name": "EC-15",
+      "lambdaIndex": 236,
+      "region": "GMT",
+      "lang": "en",
+      "dailyActivityTimeOffset": 1,
+      "declareTimeOffset": 1,
+      "migrate": false,
+      "dev": true,
+      "cluster": "Pending"
+    },
+    "369": {
+      "start": 1621890000,
+      "name": "EC-16",
+      "lambdaIndex": 237,
+      "region": "GMT",
+      "lang": "en",
+      "dailyActivityTimeOffset": 1,
+      "declareTimeOffset": 1,
+      "migrate": false,
+      "dev": true,
+      "cluster": "Pending"
+    },
+    "370": {
+      "start": 1621890000,
+      "name": "EC-17",
+      "lambdaIndex": 238,
+      "region": "GMT",
+      "lang": "en",
+      "dailyActivityTimeOffset": 1,
+      "declareTimeOffset": 1,
       "migrate": false,
       "dev": true,
       "cluster": "Pending"
