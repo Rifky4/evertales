@@ -9907,16 +9907,16 @@
       "leaderBuff": "HPUpAirC",
       "leaderBuffCondition": "IsAir",
       "activeSkills": {
-        "0": "BasicAttackAllA2Air",
+        "0": "GainAttackSingleA",
         "1": "BasicAttackAllA2Air",
-        "2": "BasicAttackAllA2Air"
+        "2": "SurvivorDoubleA"
       },
       "passives": {
-        "0": "StunImmunity",
-        "1": "SleepImmunity",
-        "2": "AutoProtectSourcePlusWithHeal3TimesBoosted",
-        "3": "StunAbsorberBlockDeathOnceWhenHurtArmorStart",
-        "4": "AddWeaponPrefGreatSword"
+        "0": "HoldGround",
+        "2": "WaterMinusDamageLv2",
+        "3": "PlusHPBoostLv2",
+        "4": "PlusAttackBoostLv2",
+        "5": "AddWeaponPrefGreatSword"
       },
       "cost": 23,
       "baseAttack": 667,
@@ -10012,17 +10012,17 @@
       "leaderBuff": "HPUpAirC",
       "leaderBuffCondition": "IsAir",
       "activeSkills": {
-        "0": "BasicAttackAllA2Air",
+        "0": "GainAttackSingleA",
         "1": "BasicAttackAllA2Air",
-        "2": "BasicAttackAllA2Air",
-        "3": "BasicAttackAllA2Air"
+        "2": "SurvivorDoubleA",
+        "3": "LifeFlipSelfA"
       },
       "passives": {
-        "0": "StunImmunity",
-        "1": "SleepImmunity",
-        "2": "AutoProtectSourcePlusWithHeal3TimesBoosted",
-        "3": "StunAbsorberBlockDeathOnceWhenHurtArmorStart",
-        "4": "AddWeaponPrefGreatSword"
+        "0": "HoldGround",
+        "2": "WaterMinusDamageLv2",
+        "3": "PlusHPBoostLv2",
+        "4": "PlusAttackBoostLv2",
+        "5": "AddWeaponPrefGreatSword"
       },
       "cost": 28,
       "baseAttack": 793,

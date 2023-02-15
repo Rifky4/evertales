@@ -3033,9 +3033,9 @@
       "class": "Ability",
       "abilityScalor": 0,
       "config": "BasicAttackAllA2Air",
-      "tuCost": 1,
+      "tuCost": 250,
       "useLimit": 0,
-      "spiritCost": 0,
+      "spiritCost": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     },
