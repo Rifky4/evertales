@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1676338640,
+  "Time": 1676848935,
   "ValidShards": {
     "1": {
       "start": 1603076400,
@@ -3498,14 +3498,13 @@
       "cluster": "Pending"
     },
     "328": {
-      "start": 1621890000,
+      "start": 1676848921,
       "name": "J-103",
       "lambdaIndex": 23,
       "region": "JST",
       "lang": "ja",
       "dailyActivityTimeOffset": 9,
       "migrate": false,
-      "dev": true,
       "cluster": "Pending"
     },
     "329": {

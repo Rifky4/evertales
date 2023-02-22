@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1670403590,
+  "Time": 1677042085,
   "Monster": [
     {
       "name": "Mibone01",
@@ -8500,6 +8500,797 @@
       ],
       "deathVoices": [
         22
+      ]
+    },
+    {
+      "name": "GyurelleRegularBoss01ForDisguise",
+      "class": "Monster",
+      "family": "GyurelleRegularBoss",
+      "activeSkills": {
+        "0": "SurvivorBoostAttackAGyurelleBoss",
+        "1": "EnrageArmorHealAllyAGyurelleBoss",
+        "2": "DoppelBusterAGyurelleBoss",
+        "3": "GiveTurnAllClonesGyurelleBoss",
+        "4": "DisguiseSelfToGyurelleABCGyurelleBoss"
+      },
+      "passives": {
+        "0": "AutoLifeFlipClonesOnMyTurnGyurelleBossB",
+        "1": "BlockDeathByBuffDamage"
+      },
+      "cost": 999,
+      "baseAttack": 1680,
+      "baseMaxHp": 12000,
+      "speed": 966,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "4": [
+          15
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "name": "GyurelleRegularBoss01A",
+      "class": "Monster",
+      "family": "GyurelleRegularBoss",
+      "activeSkills": {
+        "0": "SurvivorBoostAttackAGyurelleBoss",
+        "1": "EnrageArmorHealAllyAGyurelleBoss",
+        "2": "PoisonTouchDoubleAGyurelleBoss",
+        "3": "PoisonEaterDoubleAGyurelleBoss",
+        "4": "SummonTriadAGyurelleBoss"
+      },
+      "passives": {
+        "0": "AutoLifeFlipClonesOnMyTurnGyurelleBossB",
+        "1": "BlockDeathByBuffDamage",
+        "2": "TUMinusRevengeC"
+      },
+      "cost": 999,
+      "baseAttack": 1680,
+      "baseMaxHp": 12000,
+      "speed": 666,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          9,
+          10
+        ],
+        "4": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        23
+      ]
+    },
+    {
+      "name": "GyurelleRegularBoss01B",
+      "class": "Monster",
+      "family": "GyurelleRegularBoss",
+      "activeSkills": {
+        "0": "SurvivorBoostAttackAGyurelleBoss",
+        "1": "EnrageArmorHealAllyAGyurelleBoss",
+        "2": "StunDouble200AGyurelleBoss",
+        "3": "TimeStrikeDoubleAGyurelleBoss",
+        "4": "SummonTriadBGyurelleBoss"
+      },
+      "passives": {
+        "0": "AutoLifeFlipClonesOnMyTurnGyurelleBossB",
+        "1": "BlockDeathByBuffDamage",
+        "2": "TUMinusRevengeC"
+      },
+      "cost": 999,
+      "baseAttack": 1680,
+      "baseMaxHp": 12000,
+      "speed": 665,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          9,
+          10
+        ],
+        "4": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        23
+      ]
+    },
+    {
+      "name": "GyurelleRegularBoss01C",
+      "class": "Monster",
+      "family": "GyurelleRegularBoss",
+      "activeSkills": {
+        "0": "SurvivorBoostAttackAGyurelleBoss",
+        "1": "EnrageArmorHealAllyAGyurelleBoss",
+        "2": "SleepDoubleAGyurelleBoss",
+        "3": "DreamHuntDoubleAGyurelleBoss",
+        "4": "SummonTriadCGyurelleBoss"
+      },
+      "passives": {
+        "0": "AutoLifeFlipClonesOnMyTurnGyurelleBossB",
+        "1": "BlockDeathByBuffDamage",
+        "2": "TUMinusRevengeC"
+      },
+      "cost": 999,
+      "baseAttack": 1680,
+      "baseMaxHp": 12000,
+      "speed": 664,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "3": [
+          9,
+          10
+        ],
+        "4": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        23
+      ]
+    },
+    {
+      "name": "GyurelleRegularBoss02ForDisguise",
+      "class": "Monster",
+      "family": "GyurelleRegularBoss",
+      "activeSkills": {
+        "0": "SurvivorBoostAttackAGyurelleBoss",
+        "1": "EnrageArmorHealAllyAGyurelleBoss",
+        "2": "DoppelBusterAGyurelleBoss",
+        "3": "GiveTurnAllClonesGyurelleBoss",
+        "4": "DisguiseSelfToOssiaGyurelleBoss"
+      },
+      "passives": {
+        "0": "AutoLifeFlipClonesOnMyTurnGyurelleBoss",
+        "1": "BlockDeathByBuffDamage",
+        "2": "KnockbackImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1680,
+      "baseMaxHp": 19000,
+      "speed": 966,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "4": [
+          25
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "name": "GyurelleRegularBoss02",
+      "class": "Monster",
+      "family": "GyurelleRegularBoss",
+      "activeSkills": {
+        "0": "SurvivorBoostAttackAGyurelleBoss",
+        "1": "EnrageArmorHealAllyAGyurelleBoss",
+        "2": "DoppelBusterAGyurelleBoss",
+        "3": "GiveTurnAllClonesGyurelleBoss"
+      },
+      "passives": {
+        "0": "AutoLifeFlipClonesOnMyTurnGyurelleBoss",
+        "1": "BlockDeathByBuffDamageSummonGyurelleRegularBoss03RevengeHidden",
+        "2": "KnockbackImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1680,
+      "baseMaxHp": 19000,
+      "speed": 666,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        22,
+        24
+      ]
+    },
+    {
+      "name": "GyurelleRegularBoss03",
+      "class": "Monster",
+      "family": "GyurelleRegularBoss",
+      "activeSkills": {
+        "0": "SurvivorBoostAttackSGyurelleBoss",
+        "1": "EnrageArmorHealAllyAGyurelleBoss",
+        "2": "HasSleptEaterAGyurelleBoss",
+        "3": "LastDrainDoubleAGyurelleBoss",
+        "4": "DoubleTurnAGyurelleBoss"
+      },
+      "passives": {
+        "0": "AutoLifeFlipClonesOnMyTurnGyurelleBoss",
+        "1": "BlockDeathByBuffDamage",
+        "2": "GetTurnOnEnterBoss",
+        "3": "KnockbackImmunity",
+        "4": "StunImmunity",
+        "5": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1680,
+      "baseMaxHp": 66000,
+      "speed": 666,
+      "element": "Earth",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          30
+        ],
+        "1": [
+          30
+        ],
+        "2": [
+          31
+        ],
+        "3": [
+          31
+        ],
+        "4": [
+          32
+        ]
+      },
+      "damageVoices": [
+        35
+      ],
+      "deathVoices": [
+        36
+      ]
+    },
+    {
+      "name": "OssiaDarkBoss01",
+      "class": "Monster",
+      "family": "OssiaDarkBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthAOssiaDarkBoss",
+        "1": "MomentumBusterSingleBOssiaDarkBoss",
+        "2": "SneakAttackDrainSingleAOssiaDarkBoss",
+        "3": "SurvivorSleepAllAOssiaDarkBoss",
+        "4": "DreamHuntSingleOssiaDarkBoss",
+        "5": "PoisonAllAOssiaDarkBoss",
+        "6": "GrantProtectOtherAlliesA",
+        "7": "LastStandAllAOssiaDarkBoss"
+      },
+      "passives": {
+        "0": "RageStealthSpiritPoisonChanceOnHP50Percent",
+        "1": "BlockDeathByBuffDamage",
+        "2": "TUMinusRevengeC"
+      },
+      "activeSkillsAI": {
+        "6": "GrantProtectOtherAlliesAOssiaDarkBoss01_AI"
+      },
+      "cost": 999,
+      "baseAttack": 1850,
+      "baseMaxHp": 10000,
+      "speed": 956,
+      "element": "Earth",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "4": [
+          26,
+          27,
+          28
+        ],
+        "5": [
+          25
+        ],
+        "6": [
+          2
+        ],
+        "7": [
+          7,
+          8,
+          11,
+          12
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        22,
+        24
+      ]
+    },
+    {
+      "name": "OssiaDarkBoss02",
+      "class": "Monster",
+      "family": "OssiaDarkBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthAOssiaDarkBoss",
+        "1": "MomentumBusterSingleAOssiaDarkBoss",
+        "2": "SneakAttackDrainSingleAOssiaDarkBoss",
+        "3": "SurvivorSleepAllAOssiaDarkBoss",
+        "4": "DreamHuntSingleOssiaDarkBoss",
+        "5": "PoisonAllAOssiaDarkBoss"
+      },
+      "passives": {
+        "0": "RageStealthSpiritPoisonChanceOnHP50Percent",
+        "1": "BlockDeathByBuffDamageSummonOssiaDarkBoss03RevengeHidden",
+        "2": "KnockbackImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1850,
+      "baseMaxHp": 16000,
+      "speed": 656,
+      "element": "Earth",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "4": [
+          26,
+          27,
+          28
+        ],
+        "5": [
+          25
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        23
+      ]
+    },
+    {
+      "name": "OssiaDarkBoss03",
+      "class": "Monster",
+      "family": "OssiaDarkBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthAOssiaDarkBoss",
+        "1": "MomentumBusterDoubleAOssiaDarkBoss",
+        "2": "SneakAttackDrainDoubleAOssiaDarkBoss",
+        "3": "SleepAllAOssiaDarkBoss",
+        "4": "DreamHuntDoubleOssiaDarkBoss",
+        "5": "PoisonAllAOssiaDarkBoss",
+        "6": "GrantProtectOtherAlliesA"
+      },
+      "passives": {
+        "0": "RageStealthSpiritPoisonChanceOnHP50Percent",
+        "1": "BlockDeathByBuffDamage",
+        "2": "GetTurnOnEnterBoss",
+        "3": "KnockbackImmunity",
+        "4": "StunImmunity",
+        "5": "SleepImmunity"
+      },
+      "activeSkillsAI": {
+        "6": "GrantProtectOtherAlliesAOssiaDarkBoss_AI"
+      },
+      "cost": 999,
+      "baseAttack": 1850,
+      "baseMaxHp": 60000,
+      "speed": 956,
+      "element": "Earth",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          29,
+          30
+        ],
+        "1": [
+          31,
+          32
+        ],
+        "2": [
+          34
+        ],
+        "3": [
+          35,
+          36
+        ],
+        "4": [
+          37,
+          38
+        ],
+        "5": [
+          39,
+          40
+        ],
+        "6": [
+          33
+        ]
+      },
+      "damageVoices": [
+        41,
+        42
+      ],
+      "deathVoices": [
+        43
+      ]
+    },
+    {
+      "name": "OssiaDarkBoss02Fake",
+      "class": "Monster",
+      "family": "OssiaDarkBoss",
+      "activeSkills": {
+        "0": "GainAttackSingleStealthAOssiaDarkBoss",
+        "1": "MomentumBusterSingleAOssiaDarkBoss",
+        "2": "SneakAttackDrainSingleAOssiaDarkBoss",
+        "3": "SurvivorSleepAllAOssiaDarkBoss",
+        "4": "DreamHuntSingleOssiaDarkBoss",
+        "5": "PoisonAllAOssiaDarkBoss"
+      },
+      "passives": {
+        "0": "RageStealthSpiritPoisonChanceOnHP50Percent",
+        "1": "BlockDeathByBuffDamageSummonGyurelleRegularBoss02RevengeHidden",
+        "2": "KnockbackImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1850,
+      "baseMaxHp": 16000,
+      "speed": 656,
+      "element": "Earth",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "treatAsDuplicateOf": "OssiaDarkBoss02",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "4": [
+          26,
+          27,
+          28
+        ],
+        "5": [
+          25
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        44,
+        45,
+        46,
+        47
       ]
     }
   ]

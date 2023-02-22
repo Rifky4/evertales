@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1674520760,
+	"Time": 1676874386,
 	"Config": {
 		"UseBeanstalk": false, 
 		"hudChatPollSecs": 10,
@@ -22,12 +22,12 @@
 				"startUTX": 1678233600
 			},
 			{
-				"startUTX": 1673395200,
+				"startUTX": 1679443200,
 				"length": 13
 			},
 			{
 				"length": 13,
-				"startUTX": 1674604800
+				"startUTX": 1680652800
 			}
 		],
 		"clusterGwarSchedule": [{
@@ -36,19 +36,19 @@
 			},
 			{
 				"length": 6,
-				"startUTX": 1674000000
+				"startUTX": 1677024000
 			},
 			{
 				"length": 6,
-				"startUTX": 1674604800
+				"startUTX": 1677628800
 			},
 			{
 				"length": 6,
-				"startUTX": 1675209600
+				"startUTX": 1678233600
 			},
 			{
 				"length": 6,
-				"startUTX": 1675814400
+				"startUTX": 1678838400
 			}
 		],
 		"itemRarities": {

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1675847433,
+	"Time": 1677043087,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -2004,7 +2004,7 @@
 				"damageBoosts": ["RegularAttackDamageBoost"]
 			}],
 			"enemyEventType": "Hit",
-			"abilityEffect": "LargeSlash1"
+			"abilityEffect": "RangedMagic2"
 		},
 		"GainAttackDoubleBoss1Gyurelle": {
 			"class": "AbilityConfig",
@@ -2014,7 +2014,7 @@
 				"damageBoosts": ["RegularAttackDamageBoost"]
 			}],
 			"enemyEventType": "Hit",
-			"abilityEffect": "GainAttackBoss1Gyurelle"
+			"abilityEffect": "GyurelleAttack1"
 		},
 		"GainAttackSingleBoss1Gyurelle": {
 			"class": "AbilityConfig",
@@ -2024,7 +2024,7 @@
 				"damageBoosts": ["RegularAttackDamageBoost"]
 			}],
 			"enemyEventType": "Hit",
-			"abilityEffect": "GainAttackBoss1Gyurelle"
+			"abilityEffect": "GyurelleAttack1"
 		},
 		"GainAttackSingleABoss": {
 			"class": "AbilityConfig",
@@ -3155,7 +3155,7 @@
 			"bombSkillIconDescriptionKey": "SurvivorA2CountdownKey",
 			"flags": ["Survivor", "Duration"],
 			"enemyEventType": "Hit",
-			"abilityEffect": "SurvivorAbility2",
+			"abilityEffect": "GyurelleSpecial11",
 			"recommendEffectWhenUsable": 1
 		},
 		"SurvivorA2Gyurelle02AT": {
@@ -3170,7 +3170,7 @@
 			"bombSkillIconDescriptionKey": "SurvivorA2CountdownKey",
 			"flags": ["Survivor", "Duration"],
 			"enemyEventType": "Hit",
-			"abilityEffect": "SurvivorAbility2",
+			"abilityEffect": "GyurelleSpecial11",
 			"recommendEffectWhenUsable": 1
 		},
 		"SurvivorA2Kirin": {
@@ -4610,7 +4610,7 @@
 			"flags": ["Desperate"],
 			"enemyEventType": "Hit",
 			"sourceEventType": "Hit",
-			"abilityEffect": "DesperateBiteAbility2",
+			"abilityEffect": "GyurelleSpecial11",
 			"recommendEffectWhenUsable": 1,
 			"ignoreEffectForSourceEvent": true
 		},
@@ -4951,7 +4951,7 @@
 			"enemyEventType": "Hit",
 			"friendlyEventType": "Hit",
 			"sourceEventType": "Hit",
-			"abilityEffect": "SmallPoison1",
+			"abilityEffect": "OssiaDarkSyringe2",
 			"flags": ["Poisoner"]
 		},
 		"PoisonGasB": {
@@ -5525,7 +5525,7 @@
 			"flags": ["Detox"],
 			"enemyEventType": "Hit",
 			"sourceEventType": "Finish",
-			"abilityEffect": "DetoxBlastBoss",
+			"abilityEffect": "OssiaDarkBall2",
 			"recommendEffectWhenUsable": 1,
 			"ignoreEffectForSourceEvent": true
 		},
@@ -5596,7 +5596,7 @@
 			"attackScalors": ["GoodVsPoisoned"],
 			"enemyEventType": "Hit",
 			"abilityEffect": "SmallMiss1",
-			"conditionedAbilityEffects": ["PoisonEaterAbility2SSR", "PoisonEaterAbility2SSR"],
+			"conditionedAbilityEffects": ["OssiaDarkBubble2", "OssiaDarkBubble2"],
 			"flags": ["PoisonEater", "PoisonEaterDouble"]
 		},
 		"DesperateStrikeDoubleBoss1": {
@@ -5647,7 +5647,7 @@
 				"applyConditions": "IsPoisoned"
 			}],
 			"enemyEventType": "Hit",
-			"abilityEffect": "MidSleep1",
+			"abilityEffect": "OssiaDarkBigShot1",
 			"flags": ["Sleep"]
 		},
 		"DreamHuntAllBoss1": {
@@ -5685,7 +5685,7 @@
 			"attackScalors": ["GoodVsSleeping"],
 			"enemyEventType": "Hit",
 			"abilityEffect": "SmallMiss1",
-			"conditionedAbilityEffects": ["DreamHuntAbility2Boss", "DreamHuntAbility2Boss"],
+			"conditionedAbilityEffects": ["OssiaDarkBall1", "OssiaDarkBall1"],
 			"flags": ["Dreamhunt"]
 		},
 		"PoisonConsumerBoss1": {
@@ -5738,7 +5738,7 @@
 			"attackScalors": ["GoodVsPoisoned"],
 			"enemyEventType": "Hit",
 			"abilityEffect": "SmallHit1",
-			"conditionedAbilityEffects": ["PoisonEaterSpecial1SSR", "PoisonEaterSpecial1SSR"],
+			"conditionedAbilityEffects": ["OssiaDarkBubble2", "OssiaDarkBubble2"],
 			"flags": ["PoisonEater", "StealthWorthy"]
 		},
 		"SneakAttackA": {
@@ -5960,7 +5960,7 @@
 				"damageFlags": ["Sneak"]
 			}],
 			"enemyEventType": "Hit",
-			"abilityEffect": "SneakAttackSpecial1Boss",
+			"abilityEffect": "GyurelleAbility1-a",
 			"useCondition": "IsStealth",
 			"flags": ["Sneak"],
 			"recommendEffectWhenUsable": 1
@@ -5974,7 +5974,7 @@
 				"damageFlags": ["Sneak"]
 			}],
 			"enemyEventType": "Hit",
-			"abilityEffect": "SneakAttackAbility2",
+			"abilityEffect": "GyurelleAttack1Sneak",
 			"useCondition": "IsStealth",
 			"flags": ["Sneak"],
 			"recommendEffectWhenUsable": 1
@@ -6751,7 +6751,7 @@
 				"buffs": ["SummonGyurelle02BAndC"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SummonTriad1",
+			"abilityEffect": "SummonTriad2",
 			"flags": ["Summon", "StealthWorthy"]
 		},
 		"SummonTriad2": {
@@ -6762,7 +6762,7 @@
 				"buffs": ["SummonGyurelle02AAndC"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SummonTriad1",
+			"abilityEffect": "SummonTriad2",
 			"flags": ["Summon", "StealthWorthy"]
 		},
 		"SummonTriad3": {
@@ -6773,7 +6773,7 @@
 				"buffs": ["SummonGyurelle02AAndB"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SummonTriad1",
+			"abilityEffect": "SummonTriad2",
 			"flags": ["Summon", "StealthWorthy"]
 		},
 		"SummonTriad1AT": {
@@ -6784,7 +6784,7 @@
 				"buffs": ["SummonGyurelle02BAndCAuto"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SummonTriad1",
+			"abilityEffect": "SummonTriad2",
 			"flags": ["Summon", "StealthWorthy"]
 		},
 		"SummonTriad1ATB": {
@@ -6795,7 +6795,7 @@
 				"buffs": ["SummonGyurelle02BAndCAutoB"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SummonTriad1",
+			"abilityEffect": "SummonTriad2",
 			"flags": ["Summon", "StealthWorthy"]
 		},
 		"SummonTriad2AT": {
@@ -6806,7 +6806,7 @@
 				"buffs": ["SummonGyurelle02AAndCAuto"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SummonTriad1",
+			"abilityEffect": "SummonTriad2",
 			"flags": ["Summon", "StealthWorthy"]
 		},
 		"SummonTriad3AT": {
@@ -6817,7 +6817,7 @@
 				"buffs": ["SummonGyurelle02AAndBAuto"]
 			}],
 			"sourceEventType": "Finish",
-			"abilityEffect": "SummonTriad1",
+			"abilityEffect": "SummonTriad2",
 			"flags": ["Summon", "StealthWorthy"]
 		},
 		"DisguiseSelfBoss1": {
@@ -7355,7 +7355,7 @@
 				"buffs": ["Poison"]
 			}],
 			"enemyEventType": "Hit",
-			"abilityEffect": "SmallPoison1",
+			"abilityEffect": "OssiaDarkSyringe2",
 			"flags": ["Poisoner", "NoDamage"]
 		},
 		"TimeStrikeBoss3": {
@@ -14185,7 +14185,7 @@
 			"useCondition": "IsCharged3",
 			"enemyEventType": "Hit",
 			"sourceEventType": "Finish",
-			"abilityEffect": "AnnihilateMiboneEX"
+			"abilityEffect": "OssiaDarkBall1"
 		},
 		"PoisonEaterDoubleAMiboneEX": {
 			"class": "AbilityConfig",
@@ -14198,7 +14198,7 @@
 			"attackScalors": ["GoodVsPoisoned"],
 			"enemyEventType": "Hit",
 			"abilityEffect": "SmallHit1",
-			"conditionedAbilityEffects": ["PoisonEaterSpecial1SSR", "PoisonEaterSpecial1SSR"],
+			"conditionedAbilityEffects": ["OssiaDarkBubble2", "OssiaDarkBubble2"],
 			"flags": ["PoisonEater", "StealthWorthy"]
 		},
 		"AssistedAttackSingleLavaDragon": {
@@ -14255,7 +14255,7 @@
 			}],
 			"enemyEventType": "Hit",
 			"friendlyEventType": "Hit",
-			"abilityEffect": "SmallPoison1",
+			"abilityEffect": "OssiaDarkSyringe2",
 			"flags": ["Poisoner", "NoDamage"]
 		},
 		"VanguardReinforcementsA": {
@@ -23259,6 +23259,576 @@
 			"abilityEffect": "SmallHitRanged1",
 			"conditionedAbilityEffects": ["MechaSisSwimFishslap1"],
 			"flags": ["Slayerbane", "StealthWorthy"]
+		},
+		"SurvivorBoostAttackAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"]
+			}],
+			"attackScalors": ["TimeInCombat300"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "GyurelleAttack1",
+			"conditionedAbilityEffects":["GyurelleAttack1Survivor"],
+			"usesExtraSurvivalScalor": true,
+			"useCondition": "TimeInCombat0",
+			"bombSkillIcon": "IconBrownCountdownClock01",
+			"bombSkillIconDescriptionKey": "SurvivorBoostAttackACountdownKey",
+			"recommendEffectWhenUsable": -2
+		},
+		"EnrageArmorHealAllyAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "oneAllyNotMe",
+			"components": ["ApplyBuff","Heal"],
+			"componentOverrides": [{
+				"buffs": ["AttackPlus50Percent1TurnOnly","Armor"]
+			},{
+				"healthPerAttack": 2,
+				"abilityEffect": "GyurelleAbility1-b"
+			}],
+			"flags": ["Armor","Purify","Healer"],
+			"friendlyEventType": "Finish"
+		},
+		"DoppelBusterAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor"]
+			}],
+			"useCondition": "AtLeast2GyurelleRegularBossAlly",
+			"enemyEventType": "Hit",
+			"flags": ["IsGyurelleRegularBoss02"],
+			"abilityEffect": "GyurelleSpecial11",
+			"recommendEffectWhenUsable": 1
+		},
+		"GiveTurnAllClonesGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"applyConditions": "IsGyurelleRegularBoss",
+				"showMissConditions": "ShowNoMiss"
+			},{
+                "buffs": ["GiveTurnGyurelleBossCooldown300"],
+                "applyToSourceOnly": true,
+                "skipAbilityEffect": true
+            }],
+			"useCondition": "NoGiveTurnGyurelleCooldownAlly",
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "GyurelleAbility2",
+			"flags": ["Purify", "StealthWorthy", "GiveTurn"]
+		},
+		"DisguiseSelfToOssiaGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "oneAllyNotMe",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ChanceToDie"],
+			"componentOverrides": [{
+				"buffs": ["AddOssiaDarkBoss02FakeNext"],
+				"applyToTargetOnly": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["AddOssiaDarkBoss02FakeNext"],
+				"applyToTargetOnly": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["AddOssiaDarkBoss02FakeNext"],
+				"applyToTargetOnly": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["SendToRandomReinforcementsIgnoreImmunity","RemoveBuffs"],
+				"buffAppliedEffects": ["GyurelleFullScreen1"],
+				"applyToTargetOnly": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"chance": 1.0
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Hit",
+			"hideSkillInfoInPopup": true,
+			"recommendEffectWhenUsable":-1,
+			"abilityEffect": "GyurelleAbility3",
+			"killsUser": true,
+			"flags": ["Summon", "NoDamage"]
+		},
+		"HasSleptEaterAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"damageBoosts": ["HasSleptEaterDamageBoost"]
+			}],
+			"attackScalors": ["GoodVsHasSlept"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallHitRanged1",
+			"conditionedAbilityEffects": ["DreamHuntAAliceDawn", "DreamHuntAAliceDawn"],
+			"flags": ["HasSleptEater", "StealthWorthy"]
+		},
+		"LastDrainDoubleAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage", "ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy"
+			},{
+				"applyToTargetOnly": true,
+				"buffs": ["SlightHealStack"],
+				"skipAbilityEffect": true,
+				"buffBackMode": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"attackScalors": ["GoodIfAlone"],
+			"flags": ["StealthWorthy","LastStand","IgnoreStealth"],
+			"recommendEffectWhenUsable": -2,
+			"abilityEffect": "GyurelleAttack1LastStand",
+			"conditionedAbilityEffects": ["GyurelleAttack1LastStand"]
+		},
+		"DoubleTurnAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Ally",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["GiveTurn", "ExtraTurnNextTurnSelfBuff", "OnExtraTurn","JustGivenTurn"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["DoubleTurnCooldown"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "GyurelleAbility2",
+			"useCondition": "GiveTurnCooledDown",
+			"flags": ["StealthWorthy", "GiveTurn", "DoubleTurn"]
+		},
+		"DisguiseSelfToGyurelleABCGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ChanceToDie"],
+			"componentOverrides": [{
+				"buffs": ["AddGyurelleRegularBoss01ANext"]
+			},{
+				"buffs": ["AddGyurelleRegularBoss01BNext"]
+			},{
+				"buffs": ["AddGyurelleRegularBoss01CNext"]
+			},{
+				"chance": 1.0
+			}],
+			"sourceEventType": "Finish",
+			"recommendEffectWhenUsable":-1,
+			"hideSkillInfoInPopup": true,
+			"abilityEffect": "SummonTriad2",
+			"killsUser": true,
+			"flags": ["Summon", "Duration"]
+		},
+		"SummonTriadAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["AddGyurelleRegularBoss01BNext","AddGyurelleRegularBoss01CNext"]
+			}],
+			"sourceEventType": "Finish",
+			"abilityEffect": "SummonTriad2",
+			"flags": ["Summon", "StealthWorthy"]
+		},
+		"SummonTriadBGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["AddGyurelleRegularBoss01CNext","AddGyurelleRegularBoss01ANext"]
+			}],
+			"sourceEventType": "Finish",
+			"abilityEffect": "SummonTriad2",
+			"flags": ["Summon", "StealthWorthy"]
+		},
+		"SummonTriadCGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["AddGyurelleRegularBoss01ANext","AddGyurelleRegularBoss01BNext"]
+			}],
+			"sourceEventType": "Finish",
+			"abilityEffect": "SummonTriad2",
+			"flags": ["Summon", "StealthWorthy"]
+		},
+		"PoisonTouchDoubleAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Poison"]
+			}],
+			"immuneSuggestionCondition": "AnyPoisonImmunity",
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallPoison1",
+			"flags": ["Poisoner", "NoDamage"]
+		},
+		"PoisonEaterDoubleAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"damageBoosts": ["PoisonEaterDamageBoost"]
+			}],
+			"attackScalors": ["GoodVsPoisoned"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallMiss1",
+			"conditionedAbilityEffects": ["GyurelleAttack1Poison", "GyurelleAttack1Poison"],
+			"flags": ["PoisonEater", "StealthWorthy", "PoisonEaterDoubleAlt"]
+		},
+		"StunDouble200AGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Stun200"]
+			}],
+			"immuneSuggestionCondition": "AnyStunImmunity",
+			"flags": ["Stun", "StealthWorthy"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "MidStun1"
+		},
+		"TimeStrikeDoubleAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"damageBoosts": ["TimestrikeDamageBoost"]
+			}],
+			"attackScalors": ["GoodVs130Tu", "GoodVs200Tu"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallMiss1",
+			"conditionedAbilityEffects": ["GyurelleAttack1TimeStrike", "GyurelleAttack1TimeStrike"],
+			"flags": ["Timestrike", "StealthWorthy"]
+		},
+		"SleepDoubleAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Sleep"],
+				"chance": 1.0,
+				"applyConditions": "HasNotSlept"
+			}],
+			"enemyEventType": "Hit",
+			"abilityEffect": "MidSleep1",
+			"flags": ["Sleep", "NoDamage", "StealthWorthy"]
+		},
+		"DreamHuntDoubleAGyurelleBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage", "ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["DreamhuntDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},
+				{
+					"buffs": ["SpiritGainA"],
+					"applyConditions": "IsSleeping",
+					"applyToTargetOnly": true,
+					"buffBackMode": true,
+					"skipAbilityEffect": true,
+					"showMissConditions": "ShowNoMiss"
+				}
+			],
+			"attackScalors": ["GoodVsSleeping"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallHitRanged1",
+			"conditionedAbilityEffects": ["GyurelleAttack1DreamHunt", "GyurelleAttack1DreamHunt"],
+			"flags": ["Dreamhunt", "StealthWorthy", "DreamhuntDouble"]
+		},
+		"GainAttackSingleStealthAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["ActiveStealthJustGained", "Stealth","BurnImmunityTempForRevenge"],
+				"applyToSourceOnly": true,
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true
+			},{
+				"applyToTargetType": "Enemy",
+				"buffs": ["MomentumReady"],
+				"buffBackMode": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "OssiaDarkSyringe1",
+			"flags": ["Stealth"]
+		},
+		"MomentumBusterSingleAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["MomentumDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreArmor"]
+			},{
+				"buffs": ["MomentumJustUsed"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"useCondition": "HasDamagedWithAttack",
+			"flags": ["Momentum"],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"abilityEffect": "OssiaDarkBubble1",
+			"recommendEffectWhenUsable": 1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "MomentumBusterSingleALockLockedKey"
+		},
+		"MomentumBusterSingleBOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["MomentumDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreArmor"]
+			},{
+				"buffs": ["MomentumUsed"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"useCondition": "HasDamagedWithAttack",
+			"flags": ["Momentum"],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"abilityEffect": "OssiaDarkBubble1",
+			"recommendEffectWhenUsable": 1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "MomentumBusterDoubleALockLockedKey"
+		},
+		"SneakAttackDrainSingleAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["SkipRevengeDamage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["SneakAttackDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["Sneak"]
+			},{
+				"buffs": ["HealHalfStack"],
+				"buffBackMode": true,
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"applyToTargetType": "Enemy",
+				"buffs": ["MomentumReady"],
+				"buffBackMode": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"useCondition": "IsStealth",
+			"flags": ["Sneak"],
+			"recommendEffectWhenUsable": 1,
+			"abilityEffect": "OssiaDarkBall1"
+		},
+		"SurvivorSleepAllAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["SleepForced300TU"],
+				"chance": 1.0
+			}],
+			"flags": ["Sleep","NoDamage","Duration","StealthWorthy"],
+			"immuneSuggestionCondition": "IsSleepImmune",
+			"useCondition": "TimeInCombat300",
+			"bombSkillIcon": "IconBrownCountdownClock01",
+			"bombSkillIconDescriptionKey": "SurvivorSleepAllACountdownKey",
+			"enemyEventType": "Hit",
+			"abilityEffect": "OssiaDarkBigShot1",
+			"recommendEffectWhenUsable": 1
+		},
+		"DreamHuntSingleOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage", "ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["DreamhuntDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+					"buffs": ["SpiritGainC"],
+					"applyConditions": "IsSleeping",
+					"applyToTargetOnly": true,
+					"buffBackMode": true,
+					"skipAbilityEffect": true
+			},{
+				"applyToTargetType": "Enemy",
+				"buffs": ["MomentumReady"],
+				"buffBackMode": true,
+				"skipAbilityEffect": true
+			}],
+			"attackScalors": ["GoodVsSleeping"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallHitRanged1",
+			"conditionedAbilityEffects": ["OssiaDarkBall1", "OssiaDarkBall1"],
+			"flags": ["Dreamhunt", "StealthWorthy", "Dreamhunt"]
+		},
+		"PoisonAllAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllFriendsAndEnemies",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Poison"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["UnlockPoisonAll"],
+				"applyToTargetType": "Friendly",
+				"skipAbilityEffect": true
+			},{
+                "buffs": ["PoisonAllCooldown150"],
+                "applyToSourceOnly": true,
+                "skipAbilityEffect": true
+			}],
+			"useCondition": "PoisonAllNotLocked",
+			"enemyEventType": "Hit",
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Hit",
+			"abilityEffect": "OssiaDarkSyringe2",
+			"flags": ["Poisoner","NoDamage"]
+		},
+		"MomentumBusterDoubleAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["MomentumDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreArmor"]
+			},{
+				"buffs": ["MomentumUsed"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"useCondition": "HasDamagedWithAttack",
+			"flags": ["Momentum"],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"abilityEffect": "OssiaDarkBubble1",
+			"recommendEffectWhenUsable": 1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "MomentumBusterDoubleALockLockedKey"
+		},
+		"SneakAttackDrainDoubleAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["SkipRevengeDamage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["SneakAttackDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["Sneak"]
+			},{
+				"buffs": ["SlightHealStack"],
+				"buffBackMode": true,
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"applyToTargetType": "Enemy",
+				"buffs": ["MomentumReady"],
+				"buffBackMode": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"useCondition": "IsStealth",
+			"flags": ["Sneak"],
+			"recommendEffectWhenUsable": 1,
+			"abilityEffect": "OssiaDarkBall1"
+		},
+		"SleepAllAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["SleepForced300TU"],
+				"applyToTargetType": "Enemy",
+				"chance": 1.0
+			},{
+                "buffs": ["SleepAllCooldown300"],
+                "applyToSourceOnly": true,
+                "skipAbilityEffect": true
+			}],
+			"useCondition": "SleepAllNotLocked",
+			"flags": ["Sleep","NoDamage","StealthWorthy"],
+			"immuneSuggestionCondition": "IsSleepImmune",
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "OssiaDarkBigShot1",
+			"recommendEffectWhenUsable": 1
+		},
+		"DreamHuntDoubleOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage", "ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["DreamhuntDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+					"buffs": ["SpiritGainA"],
+					"applyConditions": "IsSleeping",
+					"applyToTargetOnly": true,
+					"buffBackMode": true,
+					"skipAbilityEffect": true
+			},{
+				"applyToTargetType": "Enemy",
+				"buffs": ["MomentumReady"],
+				"buffBackMode": true,
+				"skipAbilityEffect": true
+			}],
+			"attackScalors": ["GoodVsSleeping"],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SmallHitRanged1",
+			"conditionedAbilityEffects": ["OssiaDarkBall1", "OssiaDarkBall1"],
+			"flags": ["Dreamhunt", "StealthWorthy", "DreamhuntDouble"]
+		},
+		"GrantProtectOtherAlliesA": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAllyButMe",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["ProtectSourceWithDamageReduce"]
+			}],
+			"friendlyEventType": "Hit",
+			"abilityEffect": "ProtectAlliesOrcanix1"
+		},
+		"LastStandAllAOssiaDarkBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{},{
+				"applyToTargetType": "Enemy",
+				"buffs": ["MomentumReady"],
+				"buffBackMode": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"useCondition": "IsAlone",
+			"flags": ["StealthWorthy", "LastStand"],
+			"recommendEffectWhenUsable": 1,
+			"abilityEffect": "OssiaDarkBall2"
 		}
 	}
 }

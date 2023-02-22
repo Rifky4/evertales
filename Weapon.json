@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1675316295,
+  "Time": 1676876731,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -10191,7 +10191,7 @@
       "evolvedStars": 6,
       "baseAttack": 433,
       "baseMaxHp": 3210,
-      "bundleNumber": 8,
+      "bundleNumber": 9,
       "weaponPref": "Mace",
       "secure": 1,
       "goldMultiplier": 1,
@@ -10210,7 +10210,7 @@
       "evolvedStars": 6,
       "baseAttack": 517,
       "baseMaxHp": 3915,
-      "bundleNumber": 8,
+      "bundleNumber": 9,
       "weaponPref": "Mace",
       "secure": 1,
       "goldMultiplier": 1,
@@ -10230,12 +10230,70 @@
       "evolvedStars": 6,
       "baseAttack": 574,
       "baseMaxHp": 4130,
-      "bundleNumber": 8,
+      "bundleNumber": 9,
       "weaponPref": "Mace",
       "secure": 1,
       "goldMultiplier": 1,
       "consolationMultiplier": 0,
       "evolveFrom": "RamMace02",
+      "cost": 23
+    },
+    {
+      "name": "PurpleDragonMace01",
+      "family": "PurpleDragonMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUpDamageReduc4TwoMoreEnemy"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 441,
+      "baseMaxHp": 3170,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "superEvolve1": "PurpleDragonMace02",
+      "cost": 11
+    },
+    {
+      "name": "PurpleDragonMace02",
+      "family": "PurpleDragonMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUpDamageReduc5TwoMoreEnemy"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 532,
+      "baseMaxHp": 3840,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "superEvolve1": "PurpleDragonMace03",
+      "evolveFrom": "PurpleDragonMace01",
+      "cost": 17
+    },
+    {
+      "name": "PurpleDragonMace03",
+      "family": "PurpleDragonMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUpDamageReduc6TwoMoreEnemy"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 569,
+      "baseMaxHp": 4155,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "evolveFrom": "PurpleDragonMace02",
       "cost": 23
     }
   ]

@@ -1,24 +1,24 @@
 {
   "unity": {
-    "Monster": 1675316295,
-    "Weapon": 1675316295,
-    "Equipment": 1671729698,
-    "Ability": 1675316295,
-    "Boss": 1670403590,
-    "AIThreat": 1675288158,
+    "Monster": 1676006218,
+    "Weapon": 1676876731,
+    "Equipment": 1676877357,
+    "Ability": 1677042877,
+    "Boss": 1677042085,
+    "AIThreat": 1676006218,
     "AttackScalor": 1659324044,
-    "AbilityConfig": 1675847433,
-    "AbilityEffect": 1675847433,
+    "AbilityConfig": 1677043087,
+    "AbilityEffect": 1677034239,
     "MonsterRanker": 1619009244,
     "BattleConditions": 1619009244,
     "BattleBehavior": 1619009244,
-    "AbilityComponent": 1663644442,
-    "AbilityAISequence": 1643942404,
+    "AbilityComponent": 1676962490,
+    "AbilityAISequence": 1677021905,
     "TargetingData": 1672883749,
-    "MonsterConditions": 1675847433,
-    "AnimationData": 1675289891,
-    "AbilityAI": 1675847433,
-    "Buff": 1675847433
+    "MonsterConditions": 1677038247,
+    "AnimationData": 1677034233,
+    "AbilityAI": 1677036621,
+    "Buff": 1677042258
   },
   "api": {
     "QuestReward": 1658302719,
@@ -26,9 +26,9 @@
     "Package": 1667288694,
     "GCodes": 1562001548,
     "BundleReqs": 1598807035,
-    "ValidShards": 1676338640,
+    "ValidShards": 1676848935,
     "LocalNotifications": 1670462342,
-    "ClientConfig": 1674520760,
+    "ClientConfig": 1676874386,
     "Clusters": 1674460766
   }
 }

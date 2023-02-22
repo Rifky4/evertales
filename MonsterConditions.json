@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1675847433,
+	"Time": 1677038247,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -6227,8 +6227,8 @@
 				"class": "MonsterConditions",
 				"monsterTags": ["StunImmuneIfBurn"],
 				"buffStackNames": ["Burn"]
-				}
 			}
+		}
 	},
 	"StunImmuneIfSpiritLowFireActive": {
 		"class": "MonsterConditions",
@@ -11708,8 +11708,8 @@
 				"class": "MonsterConditions",
 				"buffStackNames": ["BigHealStack"],
 				"buffStackCounts": [2]
-			}
-		}
+	}
+}
 	},
 	"NotBigHeal2Exact": {
 		"class": "MonsterConditions",
@@ -11721,7 +11721,7 @@
 				"class": "MonsterConditions",
 				"buffStackNames": ["BigHealStack"],
 				"buffStackCounts": [3]
-			}
+}
 		}	
 	},
 	"NotBigHeal3": {
@@ -11779,6 +11779,226 @@
 	"HPBelow37point5Percent":{
 		"class": "MonsterConditions",
 		"hpLessThanPercent": 0.3750001
+	},
+	"IsGiveTurnGyurelleCooldown": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["GiveTurnGyurelleCooldown"]
+	},
+	"NoGiveTurnGyurelleCooldownAlly": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded": {
+				"IsGiveTurnGyurelleCooldown": 1
+			}
+		}
+	},
+	"HPAbove50PercentNotRageStealthSpiritReady":{
+		"class": "MonsterConditions",
+		"hpMoreThanPercent": 0.4999999,
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["RageStealthSpiritOK"]
+		}
+	},
+	"HPBelow50PercentRageStealthSpiritReady":{
+		"class": "MonsterConditions",
+		"hpLessThanPercent": 0.5000001,
+		"buffStackNames": ["RageStealthSpiritOK"]
+	},
+	"IsNotHealingCurrentHPBelow50Percent": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Healing"]
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"hpMoreThanPercent": 0.4999999
+			}
+		}
+	},
+	"IsNotSleepingOrBurning":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Sleep"],
+			"or": {
+				"class": "MonsterConditions",
+				"buffStackNames": ["Burn"]
+			}
+		}
+	},
+	"IsNotSleepingOrBurning75PercentChance":{
+		"class": "MonsterConditions",
+		"chance": 0.75,
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Sleep"],
+			"or": {
+				"class": "MonsterConditions",
+				"buffStackNames": ["Burn"]
+			}
+		}
+	},
+	"NoOtherGyurelleBosses":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsOssiaFake": 1
+			},
+			"or":{
+				"class": "MonsterConditions",
+				"myTeamMonsterConditionMatchesNeeded":{
+					"IsAliveGyurelleRegularBoss": 1
+				}
+			}
+		}
+	},
+	"IsOssiaFake": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["OssiaFakeMarked"]
+	},
+	"IsOssiaDarkBoss": {
+		"class": "MonsterConditions",
+		"families": ["OssiaDarkBoss"]
+	},
+	"NoOssiaFakeMarked":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded": {
+				"IsOssiaFake": 3
+			}
+		}
+	},
+	"IsRealOssiaDarkBoss": {
+		"class": "MonsterConditions",
+		"families": ["OssiaDarkBoss"],
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["OssiaFakeMarked"]
+		}
+	},
+	"IsOssiaDarkBossNotReducingTUOnHit":{
+		"class": "MonsterConditions",
+		"families": ["OssiaDarkBoss"],
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["ExcludeSelfFromTUMinus"]
+		}
+	},
+	"IsGyurelleRegularBoss":{
+		"class": "MonsterConditions",
+		"families": ["GyurelleRegularBoss"]
+	},
+	"IsAliveGyurelleRegularBoss":{
+		"class": "MonsterConditions",
+		"families": ["GyurelleRegularBoss"],
+		"hpMoreThanValue": 0
+	},
+	"AtLeast2GyurelleRegularBossAlly": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsGyurelleRegularBoss": 2
+		}
+	},
+	"NotAtLeast2GyurelleRegularBossAlly": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsGyurelleRegularBoss": 2
+			}
+		}
+	},
+	"IsGyurelleRegularBossHPBelow50Percent": {
+		"class": "MonsterConditions",
+		"families": ["GyurelleRegularBoss"],
+		"hpLessThanPercent": 0.5000001
+	},
+	"MomentumJustUsed": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["MomentumJustUsed"]
+	},
+	"HasMomentumReadyInTeam": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"HasDamagedWithAttack": 1
+		}
+	},
+	"ActiveMonsterUsedMomentum": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"MomentumJustUsed": 1
+		}
+	},
+	"PoisonAllNotLocked":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["LockPoisonAll"],
+			"or":{
+				"class": "MonsterConditions",
+				"myTeamMonsterConditionMatchesNeeded":{
+					"PoisonAllCooldown": 1
+				}
+			}
+		}
+	},
+	"PoisonAllCooldown": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["PoisonAllCooldown"]
+	},
+	"SleepAllNotLocked":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"SleepAllCooldown": 1
+			}
+		}
+	},
+	"SleepAllCooldown": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["SleepAllCooldown"]
+	},
+	"IsGyurelleRegularBoss02":{
+		"class": "MonsterConditions",
+		"abilityConfigFlag": "IsGyurelleRegularBoss02"
+	},
+	"NotProtectedGyurelleRegularBoss02InTeam": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsGyurelleRegularBoss02": 1
+		},
+		"not": {
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded": {
+				"IsProtecting": 1
+			}
+		}
+	},
+	"IsGyurelleRegularBossNotProtecting":{
+		"class": "MonsterConditions",
+		"families": ["GyurelleRegularBoss"],
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Protector"]
+		}
+	},
+	"HasGyurelleRegularBossNotProtectingInTeam": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsGyurelleRegularBossNotProtecting": 1
+		}
+	},
+	"TimeInCombat0": {
+		"class": "MonsterConditions",
+		"timeInCombat": 0
 	}
 }
 }

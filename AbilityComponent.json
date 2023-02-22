@@ -1,13 +1,13 @@
 {
 	"Version": 23,
-	"Time": 1663644442,
+	"Time": 1676962490,
 	"AbilityComponent": {
 		"Damage": {
 			"class": "DamageAbilityComponent"
 		},
 		"SkipRevengeDamage": {
 			"class": "DamageAbilityComponent",
-			"revengeEffectsToSkip": ["AddJeanneDarkAngel02Next","AddJeanneDarkAngel01Next","CloneSourceToBackIfNotSummoned","MegaElixirEffect","HasteUp20Percent","Armor","200PercentDamageForRevenge","KeepBurningStuff","SleepAfterDelay","AttackPlus50Percent1TurnOnly","BurnAfterTurn","RemoveBuffsAfterDelay","HealAfterDelay","AddSkeletonToEnd", "SpiritGainBContra", "Stun200Revenge", "Stun150Revenge", "Stun100Revenge", "Stun75Revenge", "TUMinus50", "TUMinus100", "HealHalf", "RemoveBuffs", "SendToFrontOfReinforcements", "SendToBackOfReinforcements", "SpiritGainAContra", "SpiritGainCContra", "SpiritLossD", "SpiritLossC", "MegaPoison", "Poison", "Sleep", "TUMinusRevengeA", "TUMinusRevengeB", "HealFull", "Explosive","TUMinusAfterDelayA", "HealFullAfterDelay","Add1DeathMinionToEndForRevenge","Add1FireMinionToEndForRevenge","Add1EarthMinionToEndForRevenge","Stealth", "StealthAfterDelay"]
+			"revengeEffectsToSkip": ["AddJeanneDarkAngel02Next","AddJeanneDarkAngel01Next","CloneSourceToBackIfNotSummoned","MegaElixirEffect","HasteUp20Percent","Armor","200PercentDamageForRevenge","KeepBurningStuff","SleepAfterDelay","AttackPlus50Percent1TurnOnly","BurnAfterTurn","RemoveBuffsAfterDelay","HealAfterDelay","AddSkeletonToEnd", "SpiritGainBContra", "Stun200Revenge", "Stun150Revenge", "Stun100Revenge", "Stun75Revenge", "TUMinus50", "TUMinus100", "HealHalf", "RemoveBuffs", "SendToFrontOfReinforcements", "SendToBackOfReinforcements", "SpiritGainAContra", "SpiritGainCContra", "SpiritLossD", "SpiritLossC", "MegaPoison", "Poison", "Sleep", "TUMinusRevengeA", "TUMinusRevengeB", "HealFull", "Explosive","TUMinusAfterDelayA", "HealFullAfterDelay","Add1DeathMinionToEndForRevenge","Add1FireMinionToEndForRevenge","Add1EarthMinionToEndForRevenge","Stealth", "StealthAfterDelay","TUMinusRevengeC","TUMinus300"]
 		},
 		"RageUp": {
 			"class": "RageUpAbilityComponent"

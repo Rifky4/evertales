@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1671729698,
+  "Time": 1676877357,
   "Equipment": [
     {
       "name": "Armor01",
@@ -9,9 +9,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 999920,
-      "flatMaxHp": 1899920,
-      "flatSpeed": 994,
+      "flatAttack": 20,
+      "flatMaxHp": 120,
+      "flatSpeed": 4,
       "visible": 1
     },
     {
@@ -21,9 +21,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 999930,
-      "flatMaxHp": 9999980,
-      "flatSpeed": 994,
+      "flatAttack": 30,
+      "flatMaxHp": 80,
+      "flatSpeed": 4,
       "visible": 1
     },
     {
@@ -33,9 +33,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 999950,
-      "flatMaxHp": 9999990,
-      "flatSpeed": 9990,
+      "flatAttack": 50,
+      "flatMaxHp": 0,
+      "flatSpeed": 0,
       "visible": 1
     },
     {
@@ -45,9 +45,9 @@
       "accessoryStars": 1,
       "secure": 1,
       "bundleNumber": 1,
-      "flatAttack": 999940,
-      "flatMaxHp": 9999940,
-      "flatSpeed": 9990,
+      "flatAttack": 40,
+      "flatMaxHp": 40,
+      "flatSpeed": 0,
       "visible": 1
     },
     {
@@ -721,6 +721,7 @@
     },
     {
       "name": "JeanneFlag01",
+      "family": "JeanneFlag01",
       "class": "Equipment",
       "accessoryStars": 6,
       "secure": 1,
@@ -732,6 +733,7 @@
     },
     {
       "name": "ThunderlingHelmet01",
+      "family": "ThunderlingHelmet01",
       "class": "Equipment",
       "accessoryStars": 6,
       "secure": 1,
@@ -739,6 +741,18 @@
       "flatAttack": 1949,
       "flatMaxHp": 10457,
       "flatSpeed": 7,
+      "visible": 1
+    },
+    {
+      "name": "EternalRing01",
+      "family": "EternalRing01",
+      "class": "Equipment",
+      "accessoryStars": 6,
+      "secure": 1,
+      "bundleNumber": 1,
+      "flatAttack": 2116,
+      "flatMaxHp": 9229,
+      "flatSpeed": 24,
       "visible": 1
     }
   ]

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1675847433,
+	"Time": 1677042258,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -35431,6 +35431,593 @@
 			"duration": 0,
 			"effectToShowWhenApplied": "SmallHeal1",
 			"textKeyToShowWhenApplied": "AutoProtectSourcePlusWithHeal3TimesBoostedNameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GiveTurnGyurelleBossCooldown300": {
+			"class": "Buff",
+			"stackName": "GiveTurnGyurelleCooldown",	
+			"duration": 300,	
+			"isHiddenFromPlayers": false,	
+			"showAsTimer": true,	
+			"showAsPermanent": false,	
+			"iconSpriteName": "IconBlueCountdownClock3"	
+		},
+		"RageStealthSpiritPoisonChanceOnHP50Percent": {
+			"class": "Buff",
+			"behaviors": ["BuffWhenMonsterHurt"],
+				"behaviorOverrides": [{
+				"selfBuffs": ["RageStealthSpiritPoisonEnemyIfDropBelow50Percent"],
+				"includeAllDamage": true,
+				"spreadCondition": "HPAbove50Percent"
+			}],
+			"stackName": "RageStealthSpiritPoisonChanceOnHP50Percent",
+			"showAsPermanent": true,
+			"isHiddenFromPlayers": false,
+			"duration": -1
+		},
+		"RageStealthSpiritPoisonEnemyIfDropBelow50Percent": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["CancelBuffIfAbove50PercentHP"],
+				"spreadCondition": "HPAbove50Percent",
+				"activeMonsterConditions": "NotAlwaysMyTurn"
+			},{
+				"selfBuffs": ["SpiritGainA","AttackPlus50Percent1TurnOnly","Stealth","RageStealthSpiritPoisonChanceIfDropBelow50PercentFX"],
+				"activeMonsterConditions": "NotAlwaysMyTurn"
+			},{
+				"enemyBuffs": ["Poison"],
+				"spreadCondition": "IsNotSleepingOrBurning75PercentChance",
+				"activeMonsterConditions": "NotAlwaysMyTurn"
+			}],
+			"duration": 0,
+			"stackName": "50PercentHPCheckBuff",
+			"isHiddenFromPlayers": false
+		},
+		"CancelBuffIfAbove50PercentHP": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "50PercentHPCheckBuff"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"RageStealthSpiritPoisonChanceIfDropBelow50PercentFX": {
+			"class": "Buff",
+			"duration": 0,
+			"effectToShowWhenApplied": "PassiveSpiritRage1",
+			"textKeyToShowWhenApplied": "RageStealthSpiritPoisonChanceOnHP50PercentTriggeredKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SleepForced300TU": {
+			"class": "Buff",
+			"stackName": "Sleep",
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviorOverrides": [{
+				"name": "ActiveStealthJustGained"
+			},
+			{
+				"name": "Armor"
+			},
+			{
+				"name": "Poison"
+			},
+			{
+				"name": "Burn"
+			},
+			{
+				"name": "Stealth"
+			},
+			{
+				"name": "Stance"
+			},
+			{
+				"name": "SpiritLeaking"
+			},
+			{
+				"name": "SpiritLeakReady"
+			},
+			{
+				"name": "Condemn"
+			},
+			{
+				"name": "Slowed"
+			},
+			{
+				"name": "StunSkinStatus"
+			},
+			{
+				"name": "Decay"
+			},
+			{
+				"name": "AutoPurifyAfterTurnNoSleep"
+			},
+			{},
+			{
+				"ignoreIfHurtBySelf": true,
+				"cancelFromDamageFlags": ["DoNotWake"]
+		}
+		],
+			"duration": 300,
+			"showAsTimer": false,
+			"statusEffect": "SleepStatus",
+			"statusEffectOffset": 0.1,
+			"iconSpriteName": "IconWhiteSleepZs01",
+			"noIconShownOnBattleStatus": true,
+			"textKeyToShowWhenApplied": "SleepKey",
+			"canBePurified": true
+		},
+		"OssiaFakeMarked": {
+			"class": "Buff",
+			"stackName": "OssiaFakeMarked",
+			"duration": -1,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"BlockDeathByBuffDamage": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath"],
+			"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Poison","Burn"]
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": true,
+			"iconSpriteName": "IconBlueFightSword01"
+		},
+		"BlockDeathByBuffDamageSummonGyurelleRegularBoss02RevengeHidden": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath","EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Poison","Burn"]
+			},{
+				"selfBuffs": ["SummonGyurelleRegularBoss02Revenge"]
+			},{
+				"selfBuffs": ["LockPoisonAll","OssiaFakeMarked"]
+			},{
+				"selfBuffs": ["MomentumReady"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "HasMomentumReadyInTeam"
+			},{
+				"selfBuffs": ["MomentumUsed"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "ActiveMonsterUsedMomentum"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueFightSword01"
+		},
+		"BlockDeathByBuffDamageSummonOssiaDarkBoss03RevengeHidden": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Poison","Burn"]
+			},{
+				"selfBuffs": ["SummonOssiaDarkBoss03Revenge"]
+			},{
+				"randomAllyBuffs": ["TUMinus30NoText","ExcludeSelfFromTUMinus"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsOssiaDarkBossNotReducingTUOnHit"
+			},{
+				"randomAllyBuffs": ["TUMinus20NoText","ExcludeSelfFromTUMinus"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsOssiaDarkBossNotReducingTUOnHit"
+			},{
+				"randomAllyBuffs": ["TUMinus10NoText","ExcludeSelfFromTUMinus"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsOssiaDarkBossNotReducingTUOnHit"
+			},{
+				"selfBuffs": ["MomentumReady"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "HasMomentumReadyInTeam"
+			},{
+				"selfBuffs": ["MomentumUsed"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "ActiveMonsterUsedMomentum"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueFightSword01"
+		},
+		"BlockDeathByBuffDamageSummonGyurelleRegularBoss03RevengeHidden": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Poison","Burn"]
+			},{
+				"selfBuffs": ["SummonGyurelleRegularBoss03Revenge"]
+			}],
+			"duration": -1,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueFightSword01"
+		},
+		"GetTurnOnEnterBoss": {
+			"class": "Buff",
+			"stackName": "EnterBattlePassive",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfAbilityEffect": "Blank",
+				"selfBuffs": ["GiveTurn"],
+				"spreadCondition": "BattleTimeOver1"
+			}],
+			"duration": 0,
+			"noIconShownOnBattleStatus": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"TUMinus10NoText": {
+			"class": "Buff",
+			"stackName": "TUMinus",
+			"behaviors": ["Stun"],
+			"behaviorOverrides": [{
+				"stunTU": -10
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"TUMinus20NoText": {
+			"class": "Buff",
+			"stackName": "TUMinus",
+			"behaviors": ["Stun"],
+			"behaviorOverrides": [{
+				"stunTU": -20
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"TUMinus30NoText": {
+			"class": "Buff",
+			"stackName": "TUMinus",
+			"behaviors": ["Stun"],
+			"behaviorOverrides": [{
+				"stunTU": -30
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ExcludeSelfFromTUMinus": {
+            "class": "Buff",
+            "stackName": "ExcludeSelfFromTUMinus",
+            "duration": 0,
+            "isHiddenFromPlayers": true,
+            "showAsTimer": false
+        },
+		"InstantDeathEndOfTurnForRevenge": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["InstantDeath"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": -1,
+			"isHiddenFromPlayers": true
+		},
+		"AddOssiaDarkBoss02FakeNext": {
+			"class": "Buff",
+			"stackName": "AddOssiaDarkBoss02FakeNext",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "OssiaDarkBoss02Fake",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true,
+				"isBoss": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SummonOssiaDarkBoss03Revenge": {
+			"class": "Buff",
+			"stackName": "SummonOssiaDarkBoss03Revenge",
+			"behaviors": ["Revenge"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["InstantDeathEndOfTurnForRevenge"],
+				"numRandomToBuff": 3,
+				"randomTargetingExcludeCondition": "IsRealOssiaDarkBoss",
+				"spreadCondition": "IsOssiaDarkBoss",
+				"selfBuffs": ["AddOssiaDarkBoss03Next"],
+				"effectName": "Summon1"
+			}],
+			"duration": -1,
+			"tags": ["OtherRevenge"],
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddOssiaDarkBoss03Next": {
+			"class": "Buff",
+			"stackName": "AddOssiaDarkBoss03Next",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "OssiaDarkBoss03",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true,
+				"isBoss": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SummonGyurelleRegularBoss02Revenge": {
+			"class": "Buff",
+			"stackName": "SummonGyurelleRegularBoss02Revenge",
+			"behaviors": ["Revenge"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["AddGyurelleRegularBoss02Next"],
+				"effectName": "Summon1"
+			}],
+			"duration": -1,
+			"tags": ["OtherRevenge"],
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddGyurelleRegularBoss02Next": {
+			"class": "Buff",
+			"stackName": "AddGyurelleRegularBoss02Next",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "GyurelleRegularBoss02",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true,
+				"isBoss": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SummonGyurelleRegularBoss03Revenge": {
+			"class": "Buff",
+			"stackName": "SummonGyurelleRegularBoss03Revenge",
+			"behaviors": ["Revenge"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["AddGyurelleRegularBoss03Next"],
+				"spreadCondition": "NoOtherGyurelleBosses"
+			}],
+			"duration": -1,
+			"tags": ["OtherRevenge"],
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddGyurelleRegularBoss03Next": {
+			"class": "Buff",
+			"stackName": "AddGyurelleRegularBoss03Next",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "GyurelleRegularBoss03",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true,
+				"isBoss": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"applyConditions": "NoOtherGyurelleBosses",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddGyurelleRegularBoss01ANext": {
+			"class": "Buff",
+			"stackName": "AddGyurelleRegularBoss01ANext",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "GyurelleRegularBoss01A",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true,
+				"isBoss": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddGyurelleRegularBoss01BNext": {
+			"class": "Buff",
+			"stackName": "AddGyurelleRegularBoss01BNext",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "GyurelleRegularBoss01B",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true,
+				"isBoss": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddGyurelleRegularBoss01CNext": {
+			"class": "Buff",
+			"stackName": "AddGyurelleRegularBoss01CNext",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "GyurelleRegularBoss01C",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true,
+				"isBoss": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"TUMinusRevengeC": {
+			"class": "Buff",
+			"behaviors": ["Revenge"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["TUMinus300"],
+				"numRandomToBuff": 1,
+				"randomTargetingMonsterRanker": "ActingLatest"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"tags": ["Revenge"],
+			"showAsPermanent": true,
+			"iconSpriteName": "IconWhiteSkullWaitRevenge01"
+		},
+		"TUMinus300": {
+			"class": "Buff",
+			"stackName": "TUMinus",
+			"behaviors": ["Stun"],
+			"behaviorOverrides": [{
+				"stunTU": -300
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"textKeyToShowWhenApplied": "TUMinusKey"
+		},
+		"AutoLifeFlipClonesOnMyTurnGyurelleBoss": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["LifeFlip"],
+				"spreadCondition": "HPBelow50Percent"
+			},{
+				"randomAllyBuffs": ["LifeFlip"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsGyurelleRegularBossHPBelow50Percent"
+			}],
+			"duration": -1,
+			"showAsPermanent": true,
+			"showAsTimer": true,
+			"iconSpriteName": "IconMixedLifeFlipHeart01"
+		},
+		"AutoLifeFlipClonesOnMyTurnGyurelleBossB": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["LifeFlip"],
+				"spreadCondition": "HPBelow50Percent"
+			},{
+				"randomAllyBuffs": ["LifeFlip"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsGyurelleRegularBossHPBelow50Percent"
+			}],
+			"duration": -1,
+			"showAsPermanent": true,
+			"showAsTimer": true,
+			"iconSpriteName": "IconMixedLifeFlipHeart01"
+		},
+		"MomentumJustUsed": {
+			"class": "Buff",
+			"stackName": "MomentumJustUsed",
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"LockPoisonAll": {
+            "class": "Buff",
+            "stackName": "LockPoisonAll",
+            "duration": -1,
+            "showAsTimer": false,
+            "isHiddenFromPlayers": true
+        },
+        "UnlockPoisonAll": {
+            "class": "Buff",
+            "stackName": "UnlockPoisonAll",
+            "behaviors": ["RemoveBuffs"],
+            "behaviorOverrides": [{
+                "name": "LockPoisonAll"
+            }],
+            "duration": 0,
+            "showAsTimer": false,
+            "isHiddenFromPlayers": true
+        },
+		"PoisonAllCooldown150": {
+			"class": "Buff",
+			"stackName": "PoisonAllCooldown",	
+			"duration": 150,	
+			"showAsTimer": false,
+            "isHiddenFromPlayers": true
+		},
+		"SleepAllCooldown300": {
+			"class": "Buff",
+			"stackName": "SleepAllCooldown",	
+			"duration": 300,	
+			"isHiddenFromPlayers": false,	
+			"showAsTimer": true,	
+			"showAsPermanent": false,	
+			"iconSpriteName": "IconBlueCountdownClock3"	
+		},
+		"DoubleTurnCooldown": {
+			"class": "Buff",
+			"stackName": "GiveTurnCooldown",
+			"duration": 200,
+			"showAsTimer": true,	
+			"showAsPermanent": false,	
+			"iconSpriteName": "IconBlueCountdownClock3"	
+		},
+		"SendToRandomReinforcementsIgnoreImmunity": {
+			"class": "Buff",
+			"stackName": "KnockRandomIgnoreImmunity",
+			"behaviors": ["SendToReinforcements"],
+			"behaviorOverrides": [{
+				"randomLocation": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ProtectSourceWithDamageReduce": {
+			"class": "Buff",
+			"behaviors": ["ManipulateTargeting","RemoveOnSourceDeath","ModifyDamage"],
+			"behaviorOverrides": [{
+				"redirectToMe": true,
+				"redirectAlways": true,
+				"chanceToBlock": 1.0,
+				"consumeRedirectCountEvenOnSelf": true,
+				"failOnAllSkills": true,
+				"failIfParentIsTarget": true,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage"]
+			},{},{
+				"percent": 0.5,
+				"cancelFromDamageTypes": ["BuffDamage","Poison","Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"stackName": "Protector",
+			"duration": -1,
+			"showAsTimer": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDefenseShield01"
+		},
+		"SlightHealStack": {
+			"class": "Buff",
+			"stackName": "Healing",
+			"behaviors": ["AdjustHp"],
+			"behaviorOverrides": [{
+				"percent": 0.1,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			}],
+			"applyConditions": "IsNotHealing",
+			"duration": 0,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true
 		}

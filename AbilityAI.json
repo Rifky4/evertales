@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1675847433,
+  "Time": 1677036621,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -16386,7 +16386,7 @@
 	        "AllySpirit0AndNoRegenerateAllSpiritGain": 0.2,
 		"AllySpirit0IsLimitBreakerAndNoRegenerateAllSpiritGain": 5,
 		"IsProtectorBlockDeathUntilNextTurn": 0
-        }
+	}
 	},
   "GiveTurnInstantAMechSisSwim_AI": {
 	    "class": "AbilityAI","baseAITargetingWeight": 8,
@@ -16422,7 +16422,7 @@
 	        "AllySpirit0AndNoRegenerateAllSpiritGain": 0.2,
 		"AllySpirit0IsLimitBreakerAndNoRegenerateAllSpiritGain": 5,
 		"IsProtectorBlockDeathUntilNextTurn": 0
-        }
+}
 	},
 	"LifeFlipAttackA_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 0.3,
@@ -16430,7 +16430,7 @@
 		"aiTargetingSourceMonsterConditions": {
 			"HPBelow37point5Percent": 6.0,
 			"HPBelow25Percent": 5.0
-		}
+}
 	},
 	"LifeFlipAttackAMechSisSwim_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 0.3,
@@ -16498,6 +16498,341 @@
 			"LessHPThanActiveMonsterAttack": 0.1,
 			"HasProtectorNoKills": 0.0
 		}
+	},
+"SurvivorBoostAttackAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 0.7,
+	"globalScalorsToIgnore": ["HPAbove1Percent","HPBelow5Percent"],
+	"aiTargetingSourceMonsterConditions":{
+		"TimeInCombat300": 1.5
+	},
+	"aiTargetingMonsterConditions": {
+		"HPBelow10Percent": 2,
+		"HPBelow50Percent": 1.1,
+		"HasArmor": 1.05
 	}
+},
+"EnrageArmorHealAllyAGyurelleBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 0.8,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","IsSleeping","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingMonsterConditions": {
+		"IsPoisonedNotDetox": 3.5,
+		"IsSleeping": 3.55,
+		"IsBurningNotSilent": 3.25,
+		"IsBadFriend": 0.4,
+		"IsSleepingBadFriend": 20,
+		"RarityGreaterThan3": 1.1,
+		"RarityGreaterThan4": 1.1,
+		"RarityGreaterThan5": 1.1,
+		"IsBurnBlasterAndBurning": 0,
+		"HasArmor": 0.75,
+		"IsEnraged":0.75,
+		"IsOverwatch": 0.1,
+		"IsSneakAttackerAndStealth": 0.1,
+		"HPBelow50Percent": 1.2,
+		"HPFull": 0.75
+	}
+},
+"DoppelBusterAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1
+},
+"GiveTurnAllClonesGyurelleBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 0.2,
+	"aiTargetingSourceMonsterConditions":{
+		"AtLeast2GyurelleRegularBossAlly": 100
+	}
+},
+"DisguiseSelfToOssiaGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 500,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"]
+},
+"HasSleptEaterAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.24,
+	"aiTargetingSourceMonsterConditions":{
+		"IsAlone": 0.1
+	},
+	"aiTargetingMonsterConditions": {
+		"HasProtectorNotGoodForHasSleptEater": 0.1
+	}
+},
+"LastDrainDoubleAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.2,
+	"aiTargetingSourceMonsterConditions":{
+		"HPBelow50Percent": 1.25
+	}
+},
+"DoubleTurnAGyurelleBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 100,
+	"aiTargetingSourceMonsterConditions":{
+		"IsOssiaDarkBoss": 2
+	}
+},
+"DisguiseSelfToGyurelleABCGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 500,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"]
+},
+"SummonTriadAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 0.2,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingSourceMonsterConditions": {
+		"NotAtLeast2GyurelleRegularBossAlly": 1000
+	}
+},
+"SummonTriadBGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 0.2,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingSourceMonsterConditions": {
+		"NotAtLeast2GyurelleRegularBossAlly": 1000
+	}
+},
+"SummonTriadCGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 0.2,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","IsActiveStun","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingSourceMonsterConditions": {
+		"NotAtLeast2GyurelleRegularBossAlly": 1000
+	}
+},
+"PoisonTouchDoubleAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.0,
+	"globalScalorsToIgnore": ["ElementWeakness","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingSourceMonsterConditions": {
+		"TeamHasPoisonEater": 1.25,
+		"DoublePoisonEaterInTeam": 1.25,
+		"CannotAddNewPoison": 0.1
+	},
+	"aiTargetingMonsterConditions": {
+		"IsPoisoned": 0.5,
+		"IsPurifier": 1.1,
+		"IsProtecting": 1.2,
+		"IsBurning": 1.05,
+		"HasArmor": 1.05,
+		"IsOverwatch": 1.5,
+		"IsHoldGroundAndNotPoisoned": 1.2,
+		"IsSleeping": 0.01,
+		"IsBadFriend": 0.01,
+		"IsPoisonImmuneFromStealth":0.1,
+		"IsPoisonImmune": 0.1
+	}
+},
+"PoisonEaterDoubleAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.35,
+	"aiTargetingSourceMonsterConditions":{
+		"4EnemiesStealthed": 0.07,
+		"EnemyHasTimestrikerNoProtector": 0.9
+	},
+	"aiTargetingMonsterConditions": {
+		"Has2ProtectorsNoPoisonInTeam": 0.15,
+		"IsPurifier": 1.2,
+		"IsStealth": 0.75,
+		"IsAloneAndStealth": 0,
+		"IsProtectingAloneHasPoisonedAlly": 10
+	}
+},
+"StunDouble200AGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.8,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","ElementWeakness","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","0SpiritDamageReducerAt0Spirit","IsFrozen"],
+	"aiTargetingSourceMonsterConditions": {
+		"TeamHasTimestriker": 2.0,
+		"AllyHasHighSpiritsNoTimeStrike": 0.5,
+		"3EnemyStunImmune": 0.5
+	},
+	"aiTargetingMonsterConditions": {
+		"HasStunAbsorberWith200TUOrMore": 0.25,
+		"CurrentTUGreaterThan200": 0.75,
+		"AnyStunImmunity": 0.25,
+		"IsToken": 0.1,
+		"IsProtectorBlockDeathUntilNextTurn": 0.1
+	}
+},
+"TimeStrikeDoubleAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.0,
+	"globalScalorsToIgnore": ["CurrentTULessThan200"],
+	"aiTargetingSourceMonsterConditions":{
+		"2EnemiesCurrentTUGreaterThan130": 2.0,
+		"4EnemiesStealthed": 0.07,
+		"NoEnemyAbove130TUWithoutStealth": 0.01
+	},
+	"aiTargetingMonsterConditions": {
+		"Has2ProtectorsLessThan130TUInTeam": 0.15,
+		"IsStealth": 0.75,
+		"IsProtecting": 1.1,
+		"IsAloneAndStealth": 0,
+		"IsProtectedCurrentTULessThan130": 0.2
+	}
+},
+"SleepDoubleAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 3.0,
+	"globalScalorsToIgnore": ["ElementWeakness","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingSourceMonsterConditions":{
+		"AllyHasHighSpiritsNoDreamHunt": 0.4,
+		"EnemyHasProtectorHasSleptInTeam": 0.75,
+		"TeamHasDreamhunt": 1.5
+	},
+	"aiTargetingMonsterConditions": {
+		"IsSleeping": 0.1,
+		"IsAlone": 0.25,
+		"HasSlept": 0,
+		"IsPurifier": 1.5,
+		"IsProtectorNotToken": 1.2,
+		"IsTimestriker": 1.1,
+		"IsBadFriend": 0,
+		"IsProtectingNotGoodForSleep": 0.1,
+		"IsSleepImmune": 0.1,
+		"RarityLessThan3": 0.8,
+		"IsFrosted1EnemyFroster": 0.5,
+		"IsFrosted2EnemyFroster": 0.2,
+		"IsFrozen": 0
+	}
+},
+"DreamHuntDoubleAGyurelleBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.55,
+	"globalScalorsToIgnore": ["IsSleeping"],
+	"aiTargetingSourceMonsterConditions":{
+		"4EnemiesStealthed": 0.07
+	},
+	"aiTargetingMonsterConditions": {
+		"Has2ProtectorsNoSleepInTeam": 0,
+		"IsStealth": 0.25,
+		"IsProtecting": 1.1,
+		"IsAloneAndStealth": 0,
+		"IsNotSleeping": 0.1,
+		"IsProtectingAloneHasSleepingAlly": 10
+	}
+},
+"GainAttackSingleStealthAOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1,
+	"globalScalorsToIgnore": ["HPAbove1Percent","HPBelow5Percent"],
+	"aiTargetingMonsterConditions": {
+		"HPBelow10Percent": 2,
+		"HPBelow50Percent": 1.1,
+		"HasArmor": 1.05
+	},
+	"aiTargetingSourceMonsterConditions":{
+		"IsStealth": 0.66,
+		"IsPoisoned": 1.1,
+		"IsBurning": 1.1,
+		"IsBurnBlasterAndBurning": 0.1,
+		"IsOverwatch": 0.1
+	}
+},
+"MomentumBusterSingleAOssiaDarkBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 0.8
+},
+"MomentumBusterSingleBOssiaDarkBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 0.8
+},
+"SneakAttackDrainSingleAOssiaDarkBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 1,
+	"globalScalorsToIgnore": ["0SpiritDamageReducerAt0Spirit","IsFrozen","HasRevenge","HasNastyRevenge","HasSkin"],
+	"aiTargetingMonsterConditions":{
+		"HasNastyRevenge": 2.0,
+		"HasSkin": 1.5,
+		"IsBurning": 1.3
+	},
+	"aiTargetingSourceMonsterConditions": {
+        "HPBelow50Percent": 2.0
+	}
+},
+"SurvivorSleepAllAOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 10,
+	"globalScalorsToIgnore": ["ElementWeakness","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingMonsterConditions": {
+		"IsSleeping": 0.1,
+		"IsAloneEnemySpirit3OrLess": 0.25,
+		"IsAloneEnemyNonDreamhunter": 0.25,
+		"IsPurifier": 1.4,
+		"IsProtectorNotToken": 1.2,
+		"IsTimestriker": 1.1,
+		"IsSleepImmune": 0.1,
+		"RarityLessThan3": 0.8,
+		"IsFrosted1EnemyFroster": 0.5,
+		"IsFrosted2EnemyFroster": 0.2,
+		"IsFrozen": 0.1
+	}
+},
+"DreamHuntSingleOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.55,
+	"globalScalorsToIgnore": ["IsSleeping"],
+	"aiTargetingMonsterConditions": {
+		"HasProtectorNoSleepInTeam": 0.1
+	}
+},
+"PoisonAllAOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 10,
+	"globalScalorsToIgnore": ["CurrentTULessThan200","HPAbove1Percent","ElementWeakness","IsSleeper","ActiveStunAndAllyNoAbsorb","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","HPBelow5Percent","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingSourceMonsterConditions": {
+		"EnemyTeamSleepingAlt": 0,
+		"3EnemiesPoisonedAlt": 0
+	}
+},
+"MomentumBusterDoubleAOssiaDarkBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 1,
+	"aiTargetingMonsterConditions": {
+		"IsStealth": 0.5
+	}
+},
+"SneakAttackDrainDoubleAOssiaDarkBoss_AI":{
+	"class": "AbilityAI","baseAITargetingWeight": 0.7,
+	"globalScalorsToIgnore": ["0SpiritDamageReducerAt0Spirit","IsFrozen","HasRevenge","HasNastyRevenge","HasSkin"],
+	"aiTargetingMonsterConditions":{
+		"HasNastyRevenge": 2.0,
+		"HasSkin": 1.5,
+		"IsBurning": 1.3
+	},
+	"aiTargetingSourceMonsterConditions": {
+        "HPBelow50Percent": 2.0
+	}
+},
+"SleepAllAOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 10,
+	"globalScalorsToIgnore": ["ElementWeakness","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","0SpiritDamageReducerAt0Spirit"],
+	"aiTargetingMonsterConditions": {
+		"IsSleeping": 0.1,
+		"IsAloneEnemySpirit3OrLess": 0.25,
+		"IsAloneEnemyNonDreamhunter": 0.25,
+		"IsPurifier": 1.4,
+		"IsProtectorNotToken": 1.2,
+		"IsTimestriker": 1.1,
+		"IsSleepImmune": 0.1,
+		"RarityLessThan3": 0.8,
+		"IsFrosted1EnemyFroster": 0.5,
+		"IsFrosted2EnemyFroster": 0.2,
+		"IsFrozen": 0.1
+	}
+},
+"DreamHuntDoubleOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 1.55,
+	"globalScalorsToIgnore": ["IsSleeping"],
+	"aiTargetingSourceMonsterConditions":{
+			"4EnemiesStealthed": 0.07
+		},
+	"aiTargetingMonsterConditions": {
+		"Has2ProtectorsNoSleepInTeam": 0,
+			"IsStealth": 0.25,
+			"IsProtecting": 1.1,
+			"IsAloneAndStealth": 0,
+			"IsNotSleeping": 0.1,
+			"IsProtectingAloneHasSleepingAlly": 10
+	}
+},
+"GrantProtectOtherAlliesA_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 10
+},
+"GrantProtectOtherAlliesAOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 0.1,
+	"aiTargetingSourceMonsterConditions":
+	{
+		"NotProtectedGyurelleRegularBoss02InTeam": 1000
+	}
+},
+"GrantProtectOtherAlliesAOssiaDarkBoss01_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 0.1,
+	"aiTargetingSourceMonsterConditions":
+	{
+		"HasGyurelleRegularBossNotProtectingInTeam": 1000
+	}
+},
+"LastStandAllAOssiaDarkBoss_AI": {
+	"class": "AbilityAI","baseAITargetingWeight": 100
+}
 }
 }
